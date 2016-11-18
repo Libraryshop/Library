@@ -86,3 +86,9 @@ body {
 body {
   background: #F5F7F7;
   overflow: hidden; }
+
+@font-face {
+  font-family: 'iconfont';
+  /* project id："184196" */
+  src: url("../../font/iconfont.eot");
+  src: url("../../font/iconfontt9.eot?#iefix") format("embedded-opentype"), url("../../font/iconfont.woff") format("woff"), url("../../font/iconfont.ttf") format("truetype"), url("../../font/iconfont.svg#iconfont") format("svg"); }
