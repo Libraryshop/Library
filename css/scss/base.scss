@@ -1,51 +1,70 @@
 /*去掉标签的默认的样式*/
-body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,form,input,a,textarea,dl,dt,table,td,tr,li,dd{
-margin:0;
-padding:0;
-}
-ul,li,tr,td,ol{
-list-style:none;
-}
-a{text-decoration:none
-}
-body{
-background:#fff;
-}
-*{font-family:"微软雅黑","宋体","sans-serif";
-}
- img{
-border:none;
-}
-
-
-
-$d-list:320px,360px,375px,384px,412px,414px,768px,600px,800px,510px,1600px,1440px,640px;
-html{
-    
-    font-size:100px;
-}
-body{
-    font-size:16px;
-    }
-$design-size:750px;
-
-@each $w in $d-list{
-    
-    @media screen and (min-width:#{$w}){
-    html{
-        font-size:100px * $w / $design-size;
-        
-        
-    }
-}
-}
-*{
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+ol,
+ul,
+form,
+input,
+a,
+textarea,
+dl,
+dt,
+table,
+td,
+tr,
+li,
+dd {
     margin: 0;
-    padding:0;
+    padding: 0;
+}
+ul,
+li,
+tr,
+td,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: #fff;
+}
+* {
+    font-family: "微软雅黑","宋体","sans-serif";
+}
+img {
+    border: none;
+}
+$d-list: 320px,360px,375px,384px,412px,414px,768px,600px,800px,510px,1600px,1440px,640px;
+html {
+    font-size: 100px;
+}
+body {
+    font-size: 16px;
+}
+$design-size: 750px;
+@each $w in $d-list {
+    @media screen and (min-width:#{$w}) {
+        html {
+            font-size: 100px * $w / $design-size;
+        }
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
     box-sizing: border-box;
-    }
- body{     
-    background:#F5F7F7;
+}
+body {
+    background: #F5F7F7;
     overflow: hidden;
- }
+}
