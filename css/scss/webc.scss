@@ -1,0 +1,64 @@
+@import 'base';
+body{
+	background:#fafafa;
+	position:relative;
+}
+.mc-head{
+	width:100%;
+	height:0.88rem;
+	background:#fff;
+}
+.mc-cen{
+	width:100%;
+	height:15rem;
+	.cen-top{
+	    width:2rem;
+	    height:2rem;
+	    background:#000;
+	    @include left-right;
+	    margin-top:0.85rem;
+	    border:0.1rem solid #ededed;
+	    border-radius:50%;
+	}
+	.cen-cen{
+	    width:100%;
+	    height:2rem;
+	    @include left-right;
+	    top:4rem;
+	    h3{
+	        width:100%;
+	        height:1rem;
+            font-size:0.32rem;
+            text-align: center;
+            line-height: 1rem;
+            color:#3a3a3a;
+	    }
+	    span{
+	        display:block;
+	        width:100%;
+	        height:1rem;
+            font-size:0.22rem;
+            text-align: center;
+            color:#3a3a3a;
+	    }
+	}
+	.cen-bom{
+	    width:100%;
+	    height:5rem;
+	    @include left-right;
+	    top:6rem;
+	    ul{
+	       width:90%;
+	       height:auto;
+	       border-radius:0.2rem;
+	       border:0.02px solid #000;
+	       margin-left:5%;
+	       li{
+            width:100%;
+            height:1rem;
+            border-bottom:1px dashed #000;
+            
+	      }
+	    } 
+	}
+}
