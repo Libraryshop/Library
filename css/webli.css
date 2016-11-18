@@ -1,0 +1,12 @@
+.head1 {
+  width: 100%;
+  height: 1.2rem;
+  background: red; }
+  .head1 .headd {
+    width: 2rem;
+    height: 1.2m;
+    background: url(../../image/2/arrow.png); }
+  .head1 .headdz {
+    display: block;
+    width: 1rem;
+    height: 1.2rem; }
