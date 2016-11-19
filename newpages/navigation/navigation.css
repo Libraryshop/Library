@@ -326,7 +326,7 @@ body {
 }
 
 #new-nav .arrow {
-  background-image: url("../image/6/arrow.png");
+  background-image: url("../../image/6/arrow.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -351,7 +351,7 @@ body {
   width: 0.26rem;
   height: 0.38rem;
   background: transparent;
-  background-image: url("../image/6/jiashuqian-daohang.png");
+  background-image: url("../../image/6/jiashuqian-daohang.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -365,7 +365,7 @@ body {
   height: 0.5rem;
   background: transparent;
   float: left;
-  background-image: url("../image/6/xiazai.png");
+  background-image: url("../../image/6/xiazai.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;

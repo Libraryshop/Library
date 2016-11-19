@@ -1,0 +1,189 @@
+/*常用宏及scss样式*/
+* {
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+@mixin center {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*清除浮动带的影响*/
+@mixin clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*背景图片循环*/
+$animal-list: A,arrow,bi,bi-hong,chizi,cuo-xuan,di-shui,jiashuqian-daohang,jindu,jindu条,mulu,rili,shaodeng,shezhi,taiyang,time,top-shui,xiazai,yan-bai,yan-hong,youbai,yuan,yueliang;
+@each $animal in $animal-list {
+    .#{$animal}-icon {
+        background-image: url('../image/6/#{$animal}.png');
+        background-position: no-repeat;
+    }
+}
+$background-list: arrow,add,load;
+$map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../image/6/jiashuqian-daohang.png') no-repeat 0 0 cover, "load":url('../image/6/xiazai.png') no-repeat 0 0 cover );
+@each $v in map_keys($map) {
+    $l: map_get($map,$v);
+    #new-nav .tp.#{$v} {
+        background: nth($l,1);
+        background-repeat: nth($l,2);
+        background-position: nth($l,3);
+        background-size: nth($l,4);
+    }
+}
+/*宽高背景色*/
+@mixin whb($w, $h, $b) {
+    width: $w;
+    height: $h;
+    background: $b;
+}
+/*left-top*/
+@mixin left-top($left, $top) {
+    position: absolute;
+    left: $left;
+    top: $top;
+}
+/*right-top*/
+@mixin right-top($right, $top) {
+    position: absolute;
+    right: $right;
+    top: $top;
+}
+/*背景图片*/
+@mixin background($url, $repeat, $size, $position) {
+    background-image: $url;
+    background-repeat: $repeat;
+    background-size: $size;
+    background-position: $position;
+}
+/*内容*/
+#content-inner {
+    @include whb(100%,13rem,#FFE9B0);
+    overflow: hidden;
+    .inner {
+        h1 {
+            font-size: 20px;
+            margin: 0.26rem 0 0 0.3rem;
+            font-weight: 600;
+        }
+        .inner-info {
+            text-indent: 2em;
+            margin: 0 0.22rem 0 0.32rem;
+            white-space: pre-line;
+            letter-spacing: 0.03rem;
+            font-size: 14px;
+            p {
+                margin-bottom: -0.15rem;
+            }
+        }
+    }
+    .book-label {
+        @include whb(1.21rem,0.8rem,transparent);
+        @include background(url('../../images/6/youbai.png'),no-repeat,cover,0 0);
+        @include center;
+        right: -6.69rem;
+        top: -3rem;
+    }
+    .moon {
+        @include whb(0.59rem,0.63rem,transparent);
+        @include background(url('../../images/6/yueliang.png'),no-repeat,cover,0 0);
+        @include center;
+        left: -6.69rem;
+        bottom: -4.2rem;
+        z-index:10;
+    }
+}
+/*内容   End*/
+/*页脚*/
+#footer {
+    @include whb(100%,3rem,#141C2D);
+    position: absolute;
+    bottom: 0;
+    .foot-info {
+        @include whb(95%,1rem,transparent);
+        margin: 0 auto;
+        &:after {
+            @include clearfix;
+        }
+        li {
+            float: left;
+            text-align: center;
+            a {
+                color: #BCBCBC;
+            }
+        }
+        li:nth-child(1),
+        li:nth-child(3) {
+            @include whb(15%,1rem,transparent);
+            line-height: 1rem;
+            a {
+                text-align: right;
+            }
+        }
+        li:nth-child(2) {
+            @include whb(70%,1rem,transparent);
+            text-align: center;
+            a {
+                display: block;
+                width: 4.67rem;
+                height: 0.24rem;
+                margin-top: 0.38rem;
+                margin-left: 0.15rem;
+                @include background(url('../../images/6/jindu_03.png'),no-repeat,cover,0 0);
+            }
+        }
+    }
+    .status {
+        @include whb(95%,100%,transparent);
+        margin: auto;
+        &:after {
+            @include clearfix;
+        }
+        li {
+            float: left;
+            @include whb(33.3333%,100%,transparent);
+            text-align: center;
+            line-height: 100%;
+            a {
+                color: #e6e6e6;
+                font-weight: 400;
+            }
+        }
+        li:nth-child(1) {}
+        .content {
+            text-align: center;
+            .content-img {
+                @include whb(0.6rem,0.6rem,transparent);
+                @include background(url('../../images/6/status_03.png'),no-repeat,cover,0 0);
+                margin: 0.1rem auto;
+            }
+            .content-inner {
+                text-align: center;
+            }
+        }
+        .set {
+            text-align: center;
+            .set-img {
+                @include whb(0.6rem,0.6rem,transparent);
+                @include background(url('../../images/6/status_05.png'),no-repeat,cover,0 0);
+                margin: 0.1rem auto;
+            }
+        }
+        .light {
+            text-align: center;
+            .light-img {
+                @include whb(0.6rem,0.6rem,transparent);
+                @include background(url('../../images/6/status_07.png'),no-repeat,cover,0 0);
+                margin: 0.1rem auto;
+            }
+        }
+    }
+}
+/*页脚   End*/
