@@ -128,7 +128,8 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
     @include center;
     border: 1px solid transparent;
     border-radius: 0.16rem;
-    top: -1.5rem;
+    top: -2rem;
+    z-index:99;
     &:after {
         @include clearfix;
     }
@@ -156,6 +157,27 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
         position: absolute;
         top: 0.65rem;
         left: 2.15rem;
+    }
+}
+p#direct {
+    @include center;
+    span.top-shui {
+        display: block;
+        @include background(url(../../images/6/top-shui.png),no-repeat,cover,0 0);
+        width: 0.15rem;
+        height: 0.24rem;
+        position: absolute;
+        left: 2.36rem;
+        top: 0.96rem;
+    }
+    span.di-shui {
+        display: block;
+        @include background(url(../../images/6/di-shui.png),no-repeat,cover,0 0);
+        width: 0.15rem;
+        height: 0.24rem;
+        position: absolute;
+        left: 5.1rem;
+        top: 1.8rem;
     }
 }
 /*copy End*/

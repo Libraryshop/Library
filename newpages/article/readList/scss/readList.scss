@@ -1,0 +1,128 @@
+/*常用宏及scss样式*/
+* {
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+@mixin center {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*清除浮动带的影响*/
+@mixin clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*背景图片循环*/
+$animal-list: A,arrow,bi,bi-hong,chizi,cuo-xuan,di-shui,jiashuqian-daohang,jindu,jindu条,mulu,rili,shaodeng,shezhi,taiyang,time,top-shui,xiazai,yan-bai,yan-hong,youbai,yuan,yueliang;
+@each $animal in $animal-list {
+    .#{$animal}-icon {
+        background-image: url('../image/6/#{$animal}.png');
+        background-position: no-repeat;
+    }
+}
+$background-list: arrow,add,load;
+$map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../image/6/jiashuqian-daohang.png') no-repeat 0 0 cover, "load":url('../image/6/xiazai.png') no-repeat 0 0 cover );
+@each $v in map_keys($map) {
+    $l: map_get($map,$v);
+    #new-nav .tp.#{$v} {
+        background: nth($l,1);
+        background-repeat: nth($l,2);
+        background-position: nth($l,3);
+        background-size: nth($l,4);
+    }
+}
+/*宽高背景色*/
+@mixin whb($w, $h, $b) {
+    width: $w;
+    height: $h;
+    background: $b;
+}
+/*left-top*/
+@mixin left-top($left, $top) {
+    position: absolute;
+    left: $left;
+    top: $top;
+}
+/*right-top*/
+@mixin right-top($right, $top) {
+    position: absolute;
+    right: $right;
+    top: $top;
+}
+/*left-bottom*/
+@mixin left-bottom($left, $bottom) {
+    position: absolute;
+    left: $left;
+    bottom: $bottom;
+}
+/*背景图片*/
+@mixin background($url, $repeat, $size, $position) {
+    background-image: $url;
+    background-repeat: $repeat;
+    background-size: $size;
+    background-position: $position;
+}
+/*列表导航*/
+#list-nav {
+    @include whb(6rem,0.8rem,#2C3744);
+    float: left;
+    margin: 0.1rem 0 0 0.9rem;
+    border-radius: 0.5rem;
+    &:after {
+        @include clearfix;
+    }
+    .list {
+        @include whb(100%,100%,transparent);
+        border-radius: 0.5rem;
+        &:after {
+            @include clearfix;
+        }
+        li {
+            float: left;
+            @include whb(29.63%,86%,transparent);
+            border-radius: 0.5rem;
+            margin: 0.05rem 0.06rem;
+            text-align:center;
+        }
+        li.active{
+            background:#2BA6DC;
+            border:0.01rem solid #fff;
+        }
+        li.nav-img{
+            @include background(url(../../images/6/nav_03.png),no-repeat,cover,0 0);
+            width:0.03rem;
+            height:0.59rem;
+            margin-top:0.099rem;
+        }
+        p{
+            font-size:0.12rem;
+            text-align:center;
+            line-height:1;
+        }
+        p.title{
+            color:#fff;
+            margin-top:0.08rem;
+        }
+        p.E-title{
+            color:#e6e6e6;
+            font-variant:all-small-caps;
+        }
+    }
+}
+/*列表导航   End*/
+/*列表*/
+#content-inner {
+    @include whb(100%,13rem,#FFE9B0);
+    overflow: hidden;
+    .inner {}
+}
+/*列表   End*/
+/*页脚*/
+/*页脚   End*/
