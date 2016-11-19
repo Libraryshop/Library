@@ -3,14 +3,14 @@
   letter-spacing: 0.01rem;
 }
 
-.header {
+.Bheader {
   width: 100%;
   height: 1.4rem;
   background: #29a6dc;
   position: relative;
 }
 
-.header .title {
+.Bheader .title {
   width: 100%;
   height: 100%;
   position: relative;
@@ -18,14 +18,14 @@
   text-align: center;
 }
 
-.header .title .title1 {
+.Bheader .title .title1 {
   width: 100%;
   line-height: 1.4rem;
   font-size: 0.4rem;
   float: left;
 }
 
-.header .title .title2 {
+.Bheader .title .title2 {
   width: 100%;
   position: absolute;
   font-size: 0.12rem;
@@ -33,4 +33,55 @@
   text-align: center;
   top: 1rem;
   left: 0;
+}
+
+.Bheader .title span {
+  width: 0.44rem;
+  height: 0.44rem;
+  position: absolute;
+  float: left;
+  z-index: 2;
+  background-image: url("../image/2/search.png");
+  background-size: contain;
+  right: 0.24rem;
+  top: 0.68rem;
+}
+
+.Bbann {
+  width: 100%;
+  padding: 0 0.2rem;
+  position: relative;
+  height: 4.1rem;
+  background: #fafafa;
+}
+
+.Bbann .banner {
+  background-image: url("../image/2/banner.png");
+  background-size: contain;
+  position: absolute;
+  width: 6.66rem;
+  height: 3.21rem;
+  top: 0.4rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.Bbann .btn {
+  width: 0.6rem;
+  height: 0.08rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.2rem;
+}
+
+.Bbann .btn .button {
+  width: 0.06rem;
+  height: 0.06rem;
+  border-radius: 50%;
+  border: 0.01rem solid #29a6dc;
+  float: left;
+  margin-right: 0.12rem;
 }
