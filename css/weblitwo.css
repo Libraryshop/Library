@@ -18,32 +18,12 @@
 
 .logo {
   width: 100%;
-  height: 3.57rem;
+  height: 1.80rem;
   background: #2BA6DC;
   text-align: center;
-  line-height: 3.57rem;
+  line-height: 1.80rem;
   font-size: 22px;
   color: #FFFFFF; }
-
-.zm {
-  width: 100%;
-  height: 3.02rem;
-  background: #F2F2F2; }
-  .zm .zm1 {
-    width: 100%;
-    height: 2.02rem;
-    text-align: center;
-    line-height: 3.02rem;
-    font-size: 0.24rem;
-    color: #3B4786; }
-  .zm .zz {
-    width: 100%;
-    height: 1rem;
-    text-align: right;
-    margin-top: -0.22rem;
-    padding-right: 0.2rem;
-    font-size: 8px;
-    color: #3B4786; }
 
 .qq {
   width: 6.13rem;
@@ -80,6 +60,29 @@
     background: black;
     float: left; }
   .qb input {
+    width: 4rem;
+    height: 0.88rem;
+    float: left;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 0.4rem;
+    color: #DBDBDB; }
+
+.qw {
+  width: 6.13rem;
+  height: 0.88rem;
+  margin: 0 auto;
+  border-radius: 25px;
+  background: #FFFFFF;
+  margin-top: 0.55rem;
+  margin-bottom: 0.32rem; }
+  .qw .qw1 {
+    width: 1.5rem;
+    height: 0.88rem;
+    background: black;
+    float: left; }
+  .qw input {
     width: 4rem;
     height: 0.88rem;
     float: left;
@@ -131,6 +134,46 @@
         color: #DBDBDB;
         text-align: center;
         line-height: 0.22rem; }
+
+.fa {
+  width: 6.13rem;
+  height: 0.88rem;
+  margin: 0 auto;
+  margin-bottom: 0.32rem; }
+  .fa .fa1 {
+    width: 3.85rem;
+    height: 0.88rem;
+    border-radius: 25px;
+    background: #FFFFFF;
+    float: left;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #DBDBDB; }
+    .fa .fa1 span {
+      display: block;
+      width: 3.85rem;
+      height: 0.52rem;
+      margin-top: 0.02rem;
+      text-align: center;
+      line-height: 0.52rem;
+      font-size: 0.44rem;
+      color: #29A6DC; }
+  .fa .fa2 {
+    width: 2.02rem;
+    height: 0.88rem;
+    background: #FFFFFF;
+    float: right;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 0.88rem; }
+    .fa .fa2 input {
+      width: 1.6rem;
+      height: 0.88rem;
+      border-radius: 25px;
+      border: none;
+      outline: none;
+      color: #DBDBDB;
+      font-size: 0.30rem; }
 
 .lj {
   width: 5.62rem;
