@@ -1,10 +1,35 @@
 @charset "UTF-8";
 /*去掉标签的默认的样式*/
-body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, form, input, a, textarea, dl, dt, table, td, tr, li, dd {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+ol,
+ul,
+form,
+input,
+a,
+textarea,
+dl,
+dt,
+table,
+td,
+tr,
+li,
+dd {
   margin: 0;
   padding: 0; }
 
-ul, li, tr, td, ol {
+ul,
+li,
+tr,
+td,
+ol {
   list-style: none; }
 
 a {
@@ -87,6 +112,14 @@ body {
   background: #F5F7F7;
   overflow: hidden; }
 
+/*字体图标*/
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font/iconfont.eot");
+  /* IE9*/
+  src: url("../font/iconfont.eot?#iefix") format("embedded-opentype"), url("../font/iconfont.woff") format("woff"), url("../font/iconfont.ttf") format("truetype"), url("../font/iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
 /*上下左右居中的混合宏*/
 /*上下居中的混合宏*/
 /*左右居中的混合宏*/
@@ -153,3 +186,11 @@ body {
         width: 100%;
         height: 1rem;
         border-bottom: 1px dashed #000; }
+        .mc-cen .cen-bom ul li .cb-left {
+          width: 45%;
+          height: 100%;
+          float: left; }
+        .mc-cen .cen-bom ul li .cb-right {
+          width: 45%;
+          height: 100%;
+          float: right; }
