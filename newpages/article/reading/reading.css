@@ -151,84 +151,93 @@ a {
 /*right-top*/
 /*left-bottom*/
 /*背景图片*/
+/*页头*/
+.con-header {
+  width: 93%;
+  height: auto;
+  background: #FFE9B0;
+  position: absolute;
+  left: 0.3rem;
+  top: 0.3rem;
+  margin: auto;
+  z-index: 33;
+}
+
+.con-header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.con-header div {
+  float: left;
+}
+
+.con-header .l-line {
+  width: 5%;
+  height: 0.05rem;
+  background: #635C4A;
+  margin-top: 0.18rem;
+}
+
+.con-header .info {
+  width: 21%;
+  height: auto;
+  background: transparent;
+  font-size: 14px;
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+}
+
+.con-header .r-line {
+  width: 69%;
+  height: 0.05rem;
+  background: #635C4A;
+  margin-top: 0.18rem;
+}
+
+/*页头  End*/
 /*内容*/
 #content-inner {
   width: 100%;
-  height: 13rem;
+  height: 13.5rem;
   background: #FFE9B0;
   overflow: hidden;
 }
 
 #content-inner .inner h1 {
   font-size: 20px;
-  margin: 0.26rem 0 0 0.3rem;
+  margin: 0.699rem 0 0 0.3rem;
   font-weight: 600;
 }
 
 #content-inner .inner .inner-info {
   text-indent: 2em;
-  margin: 0 0.22rem 0 0.32rem;
+  margin: 0.1rem 0.22rem 0 0.32rem;
   white-space: pre-line;
   letter-spacing: 0.03rem;
   font-size: 14px;
 }
 
 #content-inner .inner .inner-info p {
-  margin-bottom: -0.15rem;
-}
-
-#content-inner .book-label {
-  width: 1.21rem;
-  height: 0.8rem;
-  background: transparent;
-  background-image: url("../../images/6/youbai.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 0;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  right: -6.69rem;
-  top: -3rem;
-}
-
-#content-inner .moon {
-  width: 0.59rem;
-  height: 0.63rem;
-  background: transparent;
-  background-image: url("../../images/6/yueliang.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 0;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  left: -6.69rem;
-  bottom: -4.2rem;
-  z-index: 10;
+  margin-bottom: -0.1rem;
 }
 
 /*内容   End*/
 /*页脚*/
 #footer {
   width: 100%;
-  height: 3rem;
-  background: #141C2D;
-  position: absolute;
+  height: 0.96rem;
+  background: #FFE9B0;
+  position: fixed;
   bottom: 0;
 }
 
 #footer .foot-info {
-  width: 100%;
-  height: 0.8rem;
+  width: 90rem;
+  height: 1.2rem;
   background: transparent;
-  margin: 0.3rem auto;
+  margin: auto;
 }
 
 #footer .foot-info:after {
@@ -238,176 +247,27 @@ a {
 }
 
 #footer .foot-info li {
+  font-weight: 400;
   float: left;
-  text-align: center;
+  line-height: 3;
 }
 
 #footer .foot-info li a {
-  color: #BCBCBC;
+  color: #393229;
+  font-weight: 500;
 }
 
-#footer .foot-info li:nth-child(1),
-#footer .foot-info li:nth-child(4) {
-  width: 10%;
-  height: 0.8rem;
+#footer .foot-info .progress {
+  width: 6.5%;
+  height: 100%;
   background: transparent;
-  line-height: 0.8rem;
-  margin-left: 0.1rem;
+  line-height: 3;
+  padding-left: 0.26rem;
 }
 
-#footer .foot-info li:nth-child(1) a,
-#footer .foot-info li:nth-child(4) a {
+#footer .foot-info .number {
   text-align: right;
-}
-
-#footer .foot-info li:nth-child(2) {
-  width: 5rem;
-  height: 0.8rem;
-  background: transparent;
-  text-align: center;
-}
-
-#footer .foot-info li:nth-child(2) div.line {
-  display: block;
-  width: 4.67rem;
-  height: 0.12rem;
-  margin-top: 0.33rem;
-  margin-left: 0.05rem;
-  background-image: url("../../images/6/jd_03.png");
-  background-repeat: no-repeat;
-  background-size: 4.67rem 0.12rem;
-  background-position: 0 0;
-}
-
-#footer .foot-info li:nth-child(2) a {
-  display: block;
-  width: 0.18rem;
-  height: 0.18rem;
-  margin-top: 0.33rem;
-  margin-left: 0.06rem;
-  background-image: url("../../images/6/yuan.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 0;
-  position: absolute;
-  left: 1.4rem;
-  bottom: 0.3rem;
-}
-
-#footer .foot-info li:nth-child(3) {
-  width: 0.3rem;
-  height: 0.8rem;
-  background: transparent;
-  text-align: center;
-  margin-left: -0.18rem;
-}
-
-#footer .foot-info li:nth-child(3) a {
-  display: block;
-  width: 0.3rem;
-  height: 0.21rem;
-  margin-top: 0.19rem;
-  margin-left: 0.05rem;
-}
-
-#footer .foot-info li:nth-child(4) {
-  width: 15%;
-  padding: 0.1rem;
-  text-align: center;
-  line-height: 1.9;
-  border: 0.01rem solid #e6e6e6;
-  border-radius: 0.15rem;
   margin-left: 0.2rem;
-}
-
-#footer .status {
-  width: 95%;
-  height: 100%;
-  background: transparent;
-  margin: auto;
-  overflow: hidden;
-}
-
-#footer .status a {
-  color: #e6e6e6;
-}
-
-#footer .status:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-#footer .status li {
-  float: left;
-  line-height: 1.2;
-  width: 50%;
-  height: 100%;
-  background: transparent;
-}
-
-#footer .status li:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-#footer .status li div {
-  float: left;
-}
-
-#footer .status .circle {
-  border-radius: 50%;
-  margin: 0.2rem;
-}
-
-#footer .status .x-circle {
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-#footer .status .info {
-  margin: 0.2rem 0 0 0.1rem;
-  line-height: 1.2;
-  font-size: 0.39rem;
-}
-
-#footer .status .eye .circle {
-  width: 0.5rem;
-  height: 0.5rem;
-  background: #fff;
-}
-
-#footer .status .eye .circle .x-circle {
-  width: 0.25rem;
-  height: 0.25rem;
-  background: #7D7D7D;
-}
-
-#footer .status .screen {
-  text-align: right;
-}
-
-#footer .status .screen .circle {
-  margin-left: 1.1rem;
-  width: 0.5rem;
-  height: 0.5rem;
-  background: #fff;
-}
-
-#footer .status .screen .circle .x-circle {
-  width: 0.25rem;
-  height: 0.25rem;
-  background: #FFD238;
-}
-
-#footer .status .screen .info {
-  text-align: right;
 }
 
 /*页脚   End*/

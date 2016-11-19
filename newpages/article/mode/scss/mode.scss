@@ -109,12 +109,12 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 /*内容   End*/
 /*页脚*/
 #footer {
-    @include whb(100%,3.8rem,#141C2D);
+    @include whb(100%,3rem,#141C2D);
     position: absolute;
     bottom: 0;
     .foot-info {
-        @include whb(95%,0.8rem,transparent);
-        margin: 0 auto;
+        @include whb(100%,0.8rem,transparent);
+        margin: 0.3rem auto;
         &:after {
             @include clearfix;
         }
@@ -127,35 +127,22 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
         }
         li:nth-child(1),
         li:nth-child(4) {
-            @include whb(15%,0.8rem,transparent);
+            @include whb(10%,0.8rem,transparent);
             line-height: 0.8rem;
+            margin-left: 0.1rem;
             a {
                 text-align: right;
             }
         }
         li:nth-child(2) {
-            @include whb(0.3rem,0.8rem,transparent);
-            text-align: center;
-            margin-left: -0.05rem;
-            a {
-                display: block;
-                width: 0.3rem;
-                height: 0.21rem;
-                margin-top: 0.29rem;
-                margin-left: 0.10rem;
-                @include background(url('../../images/6/A.png'),no-repeat,cover,0 0);
-            }
-        }
-        li:nth-child(3) {
             @include whb(5.0rem,0.8rem,transparent);
             text-align: center;
-            margin-left: 0.086rem;
             div.line {
                 display: block;
                 width: 4.67rem;
                 height: 0.12rem;
                 margin-top: 0.33rem;
-                margin-left: 0.12rem;
+                margin-left: 0.05rem;
                 @include background(url('../../images/6/jd_03.png'),no-repeat,4.67rem 0.12rem,0 0);
             }
             a {
@@ -163,49 +150,31 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
                 width: 0.18rem;
                 height: 0.18rem;
                 margin-top: 0.33rem;
-                margin-left: 0.12rem;
+                margin-left: 0.06rem;
                 @include background(url('../../images/6/yuan.png'),no-repeat,cover,0 0);
                 @include left-bottom(1.4rem,0.3rem);
             }
         }
-        li:nth-child(4) {
-            width: 10%;
-        }
-    }
-    ul:nth-child(2) {
-        li:nth-child(2) {
+        li:nth-child(3) {
             @include whb(0.3rem,0.8rem,transparent);
             text-align: center;
-            margin-left: -0.05rem;
+            margin-left: -0.18rem;
             a {
-                margin-top: 0.26rem;
-                margin-left: 0.10rem;
+                display: block;
                 width: 0.3rem;
-                height: 0.28rem;
-                @include background(url('../../images/6/chizi.png'),no-repeat,cover,0 0);
+                height: 0.21rem;
+                margin-top: 0.19rem;
+                margin-left: 0.05rem;
             }
         }
-        li:nth-child(3) {
-            @include whb(5.0rem,0.8rem,transparent);
+        li:nth-child(4) {
+            width: 15%;
+            padding: 0.1rem;
             text-align: center;
-            margin-left: 0.086rem;
-            div.line {
-                display: block;
-                width: 4.67rem;
-                height: 0.12rem;
-                margin-top: 0.36rem;
-                margin-left: 0.12rem;
-                @include background(url('../../images/6/jd.png'),no-repeat,4.67rem 0.12rem,0 0);
-            }
-            a {
-                display: block;
-                width: 0.18rem;
-                height: 0.18rem;
-                margin-top: 0.36rem;
-                margin-left: 0.12rem;
-                @include background(url('../../images/6/yuan.png'),no-repeat,cover,0 0);
-                @include left-bottom(0.88rem,0.3rem);
-            }
+            line-height: 1.9;
+            border: 0.01rem solid #e6e6e6;
+            border-radius: 0.15rem;
+            margin-left: 0.2rem;
         }
     }
     .status {
@@ -218,77 +187,49 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
         &:after {
             @include clearfix;
         }
-        dt {
+        li {
             float: left;
-            @include whb(10%,100%,transparent);
-            margin-left: 0.199rem;
-            margin-top: 0.1rem;
-        }
-        dd {
-            float: left;
-            @include whb(87.2%,100%,transparent);
-            ul {
-                @include whb(100%,100%,transparent);
-                &:after {
-                    @include clearfix;
-                }
+            line-height: 1.2;
+            @include whb(50%,100%,transparent);
+            &:after {
+                @include clearfix;
             }
-            li {
+            div {
                 float: left;
-                @include whb(12.5%,100%,transparent);
-                .bj {
-                    @include center;
-                    top: -3rem;
-                }
-                a {
-                    font-size: 0.12rem;
-                    color: #E6E6E6;
-                    white-space: nowrap;
-                    display: block;
-                    position: absolute;
-                    top: 0.8rem;
+            }
+        }
+        .circle {
+            border-radius: 50%;
+            margin: 0.2rem;
+        }
+        .x-circle {
+            border-radius: 50%;
+            @include center;
+        }
+        .info {
+            margin: 0.2rem 0 0 0.1rem;
+            line-height: 1.2;
+            font-size: 0.39rem;
+        }
+        .eye {
+            .circle {
+                @include whb(0.5rem,0.5rem,#fff);
+                .x-circle {
+                    @include whb(0.25rem,0.25rem,#7D7D7D);
                 }
             }
-            li:nth-child(1) {
-                .bj {
-                    @include whb(60%,12%,#FCF3DB);
+        }
+        .screen {
+            text-align:right;
+            .circle {
+                margin-left:1.1rem;
+                @include whb(0.5rem,0.5rem,#fff);
+                .x-circle {
+                    @include whb(0.25rem,0.25rem,#FFD238);
                 }
             }
-            li:nth-child(2) {
-                .bj {
-                    @include whb(60%,12%,#FFE9B0);
-                }
-            }
-            li:nth-child(3) {
-                .bj {
-                    @include whb(60%,12%,#D8A764);
-                }
-            }
-            li:nth-child(4) {
-                .bj {
-                    @include whb(60%,12%,#3B76AC);
-                }
-            }
-            li:nth-child(5) {
-                .bj {
-                    @include whb(60%,12%,#21858E);
-                }
-            }
-            li:nth-child(6) {
-                .bj {
-                    @include whb(60%,12%,#F4C5D4);
-                }
-            }
-            li:nth-child(7) {
-                .bj {
-                    @include whb(60%,12%,#79D146);
-                }
-            }
-            li:nth-child(8) {
-                .bj {
-                    text-align: center;
-                    @include whb(60%,12%,#FFFFFF);
-                }
+            .info{
+                text-align:right;
             }
         }
     }
