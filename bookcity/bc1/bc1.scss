@@ -1,0 +1,296 @@
+body{
+    width:100%;
+    height: 100%;
+    overflow: auto;
+}
+
+$image:'../image';
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+#top{
+    width:100%;
+    height:1.4rem;
+    background:#29a6dc;
+    position:relative;
+    .baolist{
+        width:5.72rem;
+        height:0.8rem;
+        background:#2a3441;
+        margin:auto;
+        position:absolute;
+        left:0;
+        right:0;
+        top:0.48rem;
+        border-radius: 0.4rem;
+        li{
+            width:33.3333%;
+            height:100%;
+            float:left;
+//          background: red;
+            position:relative;
+            color:#fff;
+//          line-height:0.6rem;
+            text-align: center;
+            font-size:14px;
+//          border-radius: 0.4rem;
+          .bk{
+             width:1.66rem;
+             height: 0.66rem;
+//           background:blue;
+             border-radius: 0.4rem;
+             position:absolute;
+             top:0;
+             left:0;
+             bottom:0;
+             right:0;
+             margin:auto; 
+            
+             span:nth-of-type(1){
+                 display:block;
+                 font-size:0.24rem;
+             }
+             span:nth-of-type(2){
+                 font-size:0.14rem;
+                 opacity:0.7;
+                 display: block;
+                 margin-top:-0.04rem;
+                 color:#fff;
+                 
+             } 
+             
+          }
+          .bian{
+              width:0.05rem;
+              height:0.59rem;
+              position: absolute;
+//            background: red;
+              right:-0.04rem;
+              top:0.13rem;
+              .topyuan{
+                  width:0.06rem;
+                  height:0.06rem;
+                  background: #fff;
+                  position: absolute;
+                  top:0;
+                  left:-0.02rem;
+                  border-radius: 50%;
+              }
+              .middle{
+                  width:0.02rem;
+                  height:0.53rem;
+                  background: #fff;
+                  position:absolute;
+                  top:0.02rem;
+                  left:0rem;
+              }
+              .bottomyuan{
+                  width:0.06rem;
+                  height:0.06rem;
+                  background: #fff;
+                  position: absolute;
+                  left:-0.02rem;
+                  border-radius: 50%;
+                  bottom:0;
+              }
+              
+          }
+          .blue{
+              background:#29a6dc;
+              border:0.02rem solid #fff;
+              .yuan{
+                 width:0.03rem;
+                 height:0.03rem;
+                 position: absolute;
+                 top:0.2rem;
+                 
+                 background: #fff;
+             }
+             .yuan:nth-of-type(1){
+                 left:0.32rem;
+             }
+             .yuan:nth-of-type(2){
+                 right:0.32rem;
+             }
+             .yuan:nth-of-type(3){
+                 right:0.26rem;
+             }
+          }
+        }
+    }
+}
+//top
+//banner
+#banner{
+    width:100%;
+    height:5.07rem;
+    position:relative;
+    #banner-tu{
+        width:100%;
+        height:4.84rem;
+        background: url($image+'/3/banner.png');
+        background-size:cover;
+        box-shadow: 0px 1px 0.2rem rgba(0,0,0,0.5);
+    }
+    #hua-yuan{
+        width:0.5rem;
+        height:0.1rem;
+
+        position:absolute;
+        bottom:0;
+        left:0;
+        bottom:0;
+        right:0;
+        margin:auto;
+        margin-top:0.14rem;
+        li{
+            width:0.08rem;
+            height:0.08rem;
+            border:0.01rem solid #29A6DC;
+            float:left;
+            margin-right:0.1rem;
+            border-radius: 50%;
+        }
+        .selected{
+            background: #29A6DC;
+        }
+        li:nth-of-type(3){
+            margin-right:0;
+        }
+    }
+}
+//cn
+.cn{
+    width:100%;
+    height:8.32rem;
+    padding-left:0.24rem;
+//  background:red;
+    .top{
+        padding-top:0.01rem;
+       width:100%;
+       height:0.94rem;
+       padding-left:0.14rem;
+       color:#000;
+//     background: red;
+       .top-span{
+           width:100%;
+           height:0.4rem;
+           overflow: auto;
+           .sj{
+               display: inline-block;
+               float:left;
+               font-size: 0.3rem;
+               margin-right: 0.1rem;
+//             margin-top:0.06rem;
+           }
+           .yuan{
+               width:0.06rem;
+               height:0.06rem;
+               border-radius: 50%;
+               float:left;
+               margin-top:0.3rem;
+               margin-right:0.04rem;
+           }
+           .yuan:nth-of-type(1){
+               background: #fe58aa;
+           }
+           .yuan:nth-of-type(2){
+               background: #58fedd;
+           }
+           .yuan:nth-of-type(3){
+               background: #f7db97;
+           }
+           .icon{
+               float:left;
+               margin-top:0.1rem;
+               margin-right:0.1rem;
+               display: inline-block;
+               width:0.32rem;
+               height:0.32rem;
+               background:url($image+'/2/sj.png');
+               background-size: cover;
+           }
+       }
+       .new{
+           opacity: 0.7;
+           font-size: 0.22rem;
+           margin-left:0.33rem;
+       } 
+    }
+    .di,.bali{
+        width:100%;
+        height:3.54rem;
+        padding-left:0.2rem;
+        margin-bottom:0.4rem;
+//      background: red;
+        .tu-list{
+             width:1.8rem;
+             height:100%;
+             float: left;
+             margin-right:0.62rem;
+            .tu{
+                width:1.8rem;
+                height: 2.55rem;
+                background: url($image+'/3/diyu.png'); 
+                background-size: cover; 
+            }
+            .name{
+                font-size: 0.2rem;
+                opacity: 0.7;
+            }
+            .author{
+                font-size:0.18rem;
+                color:#aaa;
+            }
+        }
+        .tu-list:nth-of-type(3){
+            margin-right: 0;
+        }
+    }
+    .bali{
+        .tu-list{
+           .tu{
+          background: url($image+'/3/bali.png');  
+        } 
+        }
+        
+    }
+}
+//footer
+#footer{
+    width:100%;
+    height: 1rem;
+    background: #151c2b;
+    position: fixed;
+    bottom:0;
+    .list-icon{
+        width:33.333333%;
+        height:100%;
+        float:left;
+//      background: red;
+        text-align: center;
+        position: relative;
+        color:#646567;
+        .iconfont{
+            font-family: 'iconfont'!important;
+            font-size:0.4rem;
+            display: block;
+            margin:auto;
+            margin-top:0.1rem;
+        }
+        .zi{ 
+            font-size:0.24rem;
+        }
+    }
+    .list-icon:hover{
+        color:#fff;
+    }
+}
+
+
