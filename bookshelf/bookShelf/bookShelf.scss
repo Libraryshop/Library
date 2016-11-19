@@ -1,14 +1,35 @@
 $color:#29a6dc;             //头部像素
 $padding:0.2rem;            //内宽
-$image:"../images";
+$image:"../images/";
 @mixin yuan($v){
     width: $v;
     height: $v;
     border-radius:50% ;
 }
+/*上下居中的混合宏*/
+@mixin tb-center{
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+/*左右居中的混合宏*/
+@mixin lr-center{
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
 *{
     box-sizing: border-box;
     letter-spacing: 0.01rem;
+}
+body,html{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .B1header{
     width: 100%;
@@ -42,7 +63,7 @@ $image:"../images";
             position: absolute;
             float: left;
             z-index: 2;
-            background-image:url($image+"/search.png");
+            background-image:url($image+"search.png");
             background-size: contain;
             right: 0.24rem;
             top:0.68rem;
@@ -58,7 +79,7 @@ $image:"../images";
     height: 4.1rem;
     background: #fafafa;
     .banner{
-        background-image:url($image+"/banner.png");
+        background-image:url($image+"banner.png");
         background-size: contain;
         position: absolute;
         width:6.66rem ;
@@ -91,4 +112,199 @@ $image:"../images";
     height: 4.8rem;
     position: relative;
     background: #fafafa;
+    .brand{
+        position: relative;
+        top:0;
+        left:0.3rem ;
+        width: 2.3rem;
+        height: 0.8rem;
+        background-image: url($image+"shangjia.png");
+        background-size:contain ;
+    }
+    .box{
+        width: 100%;
+        height:4rem;
+        position: relative;
+        overflow: hidden;
+       
+        .book{
+            box-shadow: 0 0 5px 0px #ddd;
+            position: absolute;
+            width: 2.5rem;
+            height: 3.6rem;
+            left: $padding;
+            top:0.13rem;
+            background-image:url($image+"bookbg.png");
+            background-size: cover;
+            text-align: center;
+            img{
+                width: 2.12rem;
+                height: auto;
+                @include lr-center;
+                top:-0.13rem;
+            }
+            .author{
+                width: auto;
+                height: auto;
+               @include lr-center;
+                bottom: 0.5rem;
+                font-size: 0.24rem;
+                letter-spacing: 0.01rem;
+                color: #333333;
+            }
+            .name{
+                width: auto;
+                height: auto;
+                @include lr-center;
+                bottom:0.2rem ;
+                color: #666666;
+                 letter-spacing: 0.01rem;
+                font-size: 0.22rem;
+            }
+        }
+        .book:nth-of-type(2){
+            left:2.65rem+$padding;
+        }
+        .book:nth-of-type(3){
+            left: 5.3rem+$padding;
+        }
+    }
+}
+//最新上架
+
+.B1read{
+    width: 100%;
+    height: 5.5rem;
+    position: relative;
+    background: #FAFAFA;
+    .brand{
+        width: 2.3rem;
+        height:0.8rem ;
+        position: relative;
+        top:0;
+        left: 0.3rem;
+        background-image:url($image+"read.png");
+        background-size:contain;
+    }
+    .label{
+        width: 7rem;
+        height: 2.2rem;
+        position: relative;
+        margin-left: 0.22rem;
+        box-shadow: 0 0 6px 0 #eee;
+        background: #fff;
+        margin-bottom: 0.15rem;
+        .left{
+            width: 1.7rem;
+            height: 100%;
+            position: relative;
+            float: left;
+            img{
+                width: 1.4rem;
+                height: auto;
+               @include lr-center;
+               @include tb-center;   
+            }
+        }
+        .right{
+            width: 5.3rem;
+            height: 100%;
+            position: relative;
+            float: left;
+            .yuan{
+                position: absolute;
+                font-size: 0.24rem;
+                color:#333;
+                left: 0;
+                top:0.02rem;
+            }
+            .some{
+                font-size:0.12rem;
+                color:#999;
+                left: 0;
+                position: absolute;
+                top:0.4rem;
+            }
+            .du{
+                position: absolute;
+                color: #666;
+                font-size: 0.18rem;
+                top:0.8rem;
+                left: 0;
+            }
+            .yuan2{
+                position: absolute;
+                color:#666666;
+                font-size: 0.12rem;
+                left: 0;
+                top:1.07rem;
+            }
+            .reader{
+                position: absolute;
+                bottom: 0.1rem;
+                left: 0;
+                font-size:0.10rem;
+                color:#999999
+            }
+            .process{
+                width: 1.7rem;
+                height: 0.05rem;
+                position: absolute;
+                left: 1.2rem;
+                bottom: 0.22rem;
+                background: #d4d4d4;
+                border-radius: 5px;
+            }
+            .process1{
+                width: 0.7rem;
+                height: 0.05rem;
+                position: absolute;
+                left: 1.2rem;
+                z-index: 10;
+                bottom: 0.22rem;
+                background: #94d1e6;
+                border-radius: 5px;
+            }
+            .biaozhi{
+                width:1.51rem;
+                height: 0.44rem;
+                background-image:url($image+"jixu.png");
+                background-size:contain ;
+                position: absolute;
+                right: 0.1rem;
+                bottom: 0.1rem;
+            }
+        }
+    }
+}
+//最新阅读
+.B1footer{
+    width: 100%;
+    height: 1.05rem;
+    position: relative;
+    background: #151c2b;
+    .option{
+        float: left;
+        width: 33.33%;
+        height: 100%;
+        position: relative;
+        border-right:1px solid #717171;
+        box-sizing: border-box;
+        .icon{
+//          font-family: "iconfont";
+            font-size: 0.5rem;
+            color:#5f6063;
+            @include lr-center;
+            bottom: 0.45rem;
+            text-align: center;
+        }
+        .word{
+            font-size: 0.24rem;
+            color:#5f6063;
+            @include lr-center;
+            bottom: 0.1rem;
+            text-align: center;
+        }
+    }
+    
 }
