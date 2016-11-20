@@ -20,6 +20,14 @@ $image:"../../bookshelf/images/";
     right:0;
     margin:auto;
 }
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
 body,html{
     width: 100%;
     height: auto;
@@ -105,7 +113,7 @@ body,html{
            height: 0.59rem; 
            background-image:url($image+"c5hx2.png");
            background-size:contain ;
-           z-index: 1000;
+           z-index: 1100;
            @include tb-center;
            left: 66.67%;
         }
@@ -266,3 +274,35 @@ body,html{
         }
     }
 }
+//footer
+#footer{
+    width:100%;
+    height: 1rem;
+    background: #151c2b;
+    position: fixed;
+    bottom:0;
+    .list-icon{
+        width:33.333333%;
+        height:100%;
+        float:left;
+//      background: red;
+        text-align: center;
+        position: relative;
+        color:#646567;
+        .iconfont{
+            font-family: 'iconfont'!important;
+            font-size:0.4rem;
+            display: block;
+            margin:auto;
+            margin-top:0.1rem;
+        }
+        .zi{ 
+            font-size:0.24rem;
+        }
+    }
+    .selected-di{
+         color:#fff;
+    }
+    
+}
+
