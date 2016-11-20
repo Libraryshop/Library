@@ -1,0 +1,382 @@
+@charset "UTF-8";
+/*上下居中的混合宏*/
+/*左右居中的混合宏*/
+html {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #f2f2f2;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: #f2f2f2;
+}
+
+.B4header {
+  width: 100%;
+  height: 1.4rem;
+  position: relative;
+  background: #29a6dc;
+}
+
+.B4header .return {
+  width: 0.52rem;
+  height: 0.51rem;
+  position: absolute;
+  background-image: url("../images/arrow.png");
+  background-size: cover;
+  bottom: 0.2rem;
+  left: 0.25rem;
+}
+
+.B4header .yuyin {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-image: url("../images/loudou.png");
+  background-size: contain;
+  position: absolute;
+  right: 0.38rem;
+  bottom: 0.2rem;
+}
+
+.B4header .search {
+  width: 5.45rem;
+  height: 0.55rem;
+  position: absolute;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.2rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  padding-left: 0.75rem;
+  box-sizing: border-box;
+  font-size: 0.22rem;
+  color: #c4c4c4;
+  line-height: 0.55rem;
+  background-image: url("../images/fdj.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.B4main {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #fafafa;
+  overflow: hidden;
+}
+
+.B4main .box {
+  width: 100%;
+  height: 3.7rem;
+  margin-top: 0.15rem;
+  background: #fff;
+  float: left;
+  box-shadow: 0 0 20px 0 #efefef;
+  position: relative;
+}
+
+.B4main .box .left {
+  width: 3.05rem;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.B4main .box .left img {
+  width: 2.45rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: auto;
+}
+
+.B4main .box .right {
+  width: 4.45rem;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.B4main .box .right .bookname {
+  float: left;
+  font-size: 0.28rem;
+  color: #333;
+  margin-top: 0.2rem;
+}
+
+.B4main .box .right .english {
+  float: left;
+  width: 100%;
+  font-size: 0.16rem;
+  color: #999;
+  transform: scale(0.8);
+  text-align: left;
+  margin-left: -0.25rem;
+  margin-top: 0.05rem;
+}
+
+.B4main .box .right .intro {
+  float: left;
+  width: 100%;
+  font-size: 0.24rem;
+  color: #666;
+  transform: scale(0.8);
+  margin-left: -0.25rem;
+  line-height: 0.35rem;
+}
+
+.B4main .box .right .author {
+  float: left;
+  width: 100%;
+  font-size: 0.18rem;
+  color: #999;
+  transform: scale(0.8);
+  margin-left: -0.25rem;
+}
+
+.B4main .box .right .word {
+  float: left;
+  width: 100%;
+  font-size: 0.18rem;
+  color: #999;
+  transform: scale(0.8);
+  margin-left: -0.25rem;
+}
+
+.B4main .box .right .tuxing {
+  width: 1.5rem;
+  height: 0.25rem;
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+}
+
+.B4main .box .right .tuxing .star {
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-right: 0.05rem;
+  float: left;
+  background-image: url("../images/xing-huang.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.B4main .box .right .tuxing .star1 {
+  background-image: url("../images/xing-hei.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.B4main .box .right .look {
+  width: 1.84rem;
+  height: 0.57rem;
+  position: absolute;
+  background: url("../images/look.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  bottom: 0.35rem;
+  right: 0.35rem;
+}
+
+.B4main .shadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.B4main .shadow .top {
+  width: 100%;
+  height: 1.2rem;
+  float: left;
+  position: relative;
+  background: #fff;
+}
+
+.B4main .shadow .top .box1 {
+  width: 5.71rem;
+  height: 0.84rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../images/B4bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.B4main .shadow .top .box1 .theme {
+  width: 2.4rem;
+  height: 0.68rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../images/b4box.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 0.1rem;
+}
+
+.B4main .shadow .top .box1 .theme p:nth-of-type(1) {
+  color: #fff;
+  float: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 0.18rem;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  top: 0.1rem;
+  letter-spacing: 0.01rem;
+}
+
+.B4main .shadow .top .box1 .theme p:nth-of-type(2) {
+  color: #bddbe8;
+  float: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 0.14rem;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  top: 0.35rem;
+  letter-spacing: 0.01rem;
+  transform: scale(0.6);
+  letter-spacing: 0rem;
+  width: 100%;
+  white-space: nowrap;
+  margin-left: -0.1rem;
+}
+
+.B4main .shadow .top .box1 .theme1 {
+  width: 2.4rem;
+  height: 0.68rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 0.1rem;
+}
+
+.B4main .shadow .top .box1 .theme1 p:nth-of-type(1) {
+  color: #fff;
+  float: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 0.18rem;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  top: 0.1rem;
+  letter-spacing: 0.01rem;
+}
+
+.B4main .shadow .top .box1 .theme1 p:nth-of-type(2) {
+  color: #bddbe8;
+  float: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 0.14rem;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  top: 0.35rem;
+  letter-spacing: 0.01rem;
+  transform: scale(0.6);
+  letter-spacing: 0rem;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.B4main .shadow .top .box1 .shuxian {
+  width: 0.03rem;
+  height: 0.59rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../images/shuxian.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 100;
+}
+
+.B4main .shadow .bottom {
+  width: 100%;
+  height: 3rem;
+  position: relative;
+  float: left;
+  background: #fefefe;
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  padding-left: 0.55rem;
+  padding-top: 0.2rem;
+  box-sizing: border-box;
+}
+
+.B4main .shadow .bottom .select {
+  width: 6.9rem;
+  height: 0.45rem;
+  float: left;
+  margin-bottom: 0.35rem;
+}
+
+.B4main .shadow .bottom .select .button {
+  width: 1.75rem;
+  height: 100%;
+  margin-right: 0.55rem;
+  border-radius: 1rem;
+  border: 0.02rem solid #2a3441;
+  box-sizing: border-box;
+  float: left;
+  font-size: 0.18rem;
+  text-align: center;
+  color: #2a3441;
+  line-height: 0.45rem;
+  letter-spacing: 0.01rem;
+}
+
+.B4main .shadow .bottom .select .button1 {
+  background: #29a6dc;
+  border-color: #29a6dc;
+  color: #fff;
+}

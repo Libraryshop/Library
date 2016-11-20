@@ -1,0 +1,193 @@
+/*常用宏及scss样式*/
+* {
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+@mixin center {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*清除浮动带的影响*/
+@mixin clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*背景图片循环*/
+$animal-list: A,arrow,bi,bi-hong,chizi,cuo-xuan,di-shui,jiashuqian-daohang,jindu,jindu条,mulu,rili,shaodeng,shezhi,taiyang,time,top-shui,xiazai,yan-bai,yan-hong,youbai,yuan,yueliang;
+@each $animal in $animal-list {
+    .#{$animal}-icon {
+        background-image: url('../image/6/#{$animal}.png');
+        background-position: no-repeat;
+    }
+}
+$background-list: arrow,add,load;
+$map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../image/6/jiashuqian-daohang.png') no-repeat 0 0 cover, "load":url('../image/6/xiazai.png') no-repeat 0 0 cover );
+@each $v in map_keys($map) {
+    $l: map_get($map,$v);
+    #new-nav .tp.#{$v} {
+        background: nth($l,1);
+        background-repeat: nth($l,2);
+        background-position: nth($l,3);
+        background-size: nth($l,4);
+    }
+}
+/*宽高背景色*/
+@mixin whb($w, $h, $b) {
+    width: $w;
+    height: $h;
+    background: $b;
+}
+/*left-top*/
+@mixin left-top($left, $top) {
+    position: absolute;
+    left: $left;
+    top: $top;
+}
+/*right-top*/
+@mixin right-top($right, $top) {
+    position: absolute;
+    right: $right;
+    top: $top;
+}
+/*left-bottom*/
+@mixin left-bottom($left, $bottom) {
+    position: absolute;
+    left: $left;
+    bottom: $bottom;
+}
+/*背景图片*/
+@mixin background($url, $repeat, $size, $position) {
+    background-image: $url;
+    background-repeat: $repeat;
+    background-size: $size;
+    background-position: $position;
+}
+/*页头*/
+.con-header {
+    @include whb(93%,auto,#FFE9B0);
+    position: absolute;
+    left: 0.3rem;
+    top: 0.3rem;
+    margin: auto;
+    z-index: 33;
+    &:after {
+        @include clearfix;
+    }
+    div {
+        float: left;
+    }
+    .l-line {
+        @include whb(5%,0.05rem,#635C4A);
+        margin-top: 0.18rem;
+    }
+    .info {
+        @include whb(21%,auto,transparent);
+        font-size: 14px;
+        margin-left: 0.15rem;
+        margin-right: 0.15rem;
+    }
+    .r-line {
+        @include whb(69%,0.05rem,#635C4A);
+        margin-top: 0.18rem;
+    }
+}
+/*页头  End*/
+/*内容*/
+#content-inner {
+    @include whb(100%,13.5rem,#FFE9B0);
+    overflow: hidden;
+    .inner {
+        h1 {
+            font-size: 20px;
+            margin: 0.699rem 0 0 0.3rem;
+            font-weight: 600;
+        }
+        .inner-info {
+            text-indent: 2em;
+            margin: 0.1rem 0.22rem 0 0.32rem;
+            white-space: pre-line;
+            letter-spacing: 0.03rem;
+            font-size: 14px;
+            p {
+                margin-bottom: -0.1rem;
+            }
+        }
+    }
+}
+/*内容   End*/
+/*copy*/
+#copy {
+    @include whb(5.00rem,0.69rem,#282828);
+    @include center;
+    border: 1px solid transparent;
+    border-radius: 0.16rem;
+    top: -1.5rem;
+    &:after {
+        @include clearfix;
+    }
+    div {
+        float: left;
+        @include whb(20%,100%,#282828);
+        line-height: 0.62rem;
+        text-align: center;
+        border-right: 1px solid #202020;
+        a {
+            color: #F3F3F3;
+            font-size: 14px;
+        }
+    }
+    div.dictionary {
+        border-right: none;
+    }
+    span.delta {
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 0.28rem solid transparent;
+        border-right: 0.28rem solid transparent;
+        border-top: 0.28rem solid #282828;
+        position: absolute;
+        top: 0.65rem;
+        left: 2.15rem;
+    }
+}
+/*copy End*/
+/*页脚*/
+#footer {
+    @include whb(100%,0.96rem,#FFE9B0);
+    position: fixed;
+    bottom: 0;
+    .foot-info {
+        @include whb(90rem,1.2rem,transparent);
+        margin: auto;
+        &:after {
+            @include clearfix;
+        }
+        li {
+            font-weight: 400;
+            float: left;
+            line-height: 3;
+            a {
+                color: #393229;
+                font-weight: 500;
+            }
+        }
+        .progress {
+            @include whb(6.5%,100%,transparent);
+            line-height: 3;
+            padding-left: 0.26rem;
+        }
+        .number {
+            text-align: right;
+            margin-left: 0.2rem;
+        }
+    }
+}
+/*页脚   End*/

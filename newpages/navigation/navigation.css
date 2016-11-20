@@ -1,0 +1,373 @@
+@charset "UTF-8";
+/*去掉标签的默认的样式*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+ol,
+ul,
+form,
+input,
+a,
+textarea,
+dl,
+dt,
+table,
+td,
+tr,
+li,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+tr,
+td,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+
+* {
+  font-family: "微软雅黑","宋体","sans-serif";
+}
+
+img {
+  border: none;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 102.4px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 106.66667px;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  html {
+    font-size: 68px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 213.33333px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 192px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 85.33333px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F5F7F7;
+  overflow: hidden;
+}
+
+/*字体图标*/
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font/iconfont.eot");
+  /* IE9*/
+  src: url("../font/iconfont.eot?#iefix") format("embedded-opentype"), url("../font/iconfont.woff") format("woff"), url("../font/iconfont.ttf") format("truetype"), url("../font/iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+
+/*常用宏及scss样式*/
+* {
+  position: relative;
+}
+
+/*清除浮动带的影响*/
+/*背景图片循环*/
+.A-icon {
+  background-image: url("../image/6/A.png");
+  background-position: no-repeat;
+}
+
+.arrow-icon {
+  background-image: url("../image/6/arrow.png");
+  background-position: no-repeat;
+}
+
+.bi-icon {
+  background-image: url("../image/6/bi.png");
+  background-position: no-repeat;
+}
+
+.bi-hong-icon {
+  background-image: url("../image/6/bi-hong.png");
+  background-position: no-repeat;
+}
+
+.chizi-icon {
+  background-image: url("../image/6/chizi.png");
+  background-position: no-repeat;
+}
+
+.cuo-xuan-icon {
+  background-image: url("../image/6/cuo-xuan.png");
+  background-position: no-repeat;
+}
+
+.di-shui-icon {
+  background-image: url("../image/6/di-shui.png");
+  background-position: no-repeat;
+}
+
+.jiashuqian-daohang-icon {
+  background-image: url("../image/6/jiashuqian-daohang.png");
+  background-position: no-repeat;
+}
+
+.jindu-icon {
+  background-image: url("../image/6/jindu.png");
+  background-position: no-repeat;
+}
+
+.jindu条-icon {
+  background-image: url("../image/6/jindu条.png");
+  background-position: no-repeat;
+}
+
+.mulu-icon {
+  background-image: url("../image/6/mulu.png");
+  background-position: no-repeat;
+}
+
+.rili-icon {
+  background-image: url("../image/6/rili.png");
+  background-position: no-repeat;
+}
+
+.shaodeng-icon {
+  background-image: url("../image/6/shaodeng.png");
+  background-position: no-repeat;
+}
+
+.shezhi-icon {
+  background-image: url("../image/6/shezhi.png");
+  background-position: no-repeat;
+}
+
+.taiyang-icon {
+  background-image: url("../image/6/taiyang.png");
+  background-position: no-repeat;
+}
+
+.time-icon {
+  background-image: url("../image/6/time.png");
+  background-position: no-repeat;
+}
+
+.top-shui-icon {
+  background-image: url("../image/6/top-shui.png");
+  background-position: no-repeat;
+}
+
+.xiazai-icon {
+  background-image: url("../image/6/xiazai.png");
+  background-position: no-repeat;
+}
+
+.yan-bai-icon {
+  background-image: url("../image/6/yan-bai.png");
+  background-position: no-repeat;
+}
+
+.yan-hong-icon {
+  background-image: url("../image/6/yan-hong.png");
+  background-position: no-repeat;
+}
+
+.youbai-icon {
+  background-image: url("../image/6/youbai.png");
+  background-position: no-repeat;
+}
+
+.yuan-icon {
+  background-image: url("../image/6/yuan.png");
+  background-position: no-repeat;
+}
+
+.yueliang-icon {
+  background-image: url("../image/6/yueliang.png");
+  background-position: no-repeat;
+}
+
+#new-nav .tp.arrow {
+  background: url("../image/6/arrow.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 0;
+}
+
+#new-nav .tp.add {
+  background: url("../image/6/jiashuqian-daohang.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 0;
+}
+
+#new-nav .tp.load {
+  background: url("../image/6/xiazai.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 0;
+}
+
+/*宽高背景色*/
+/*left-top*/
+/*right-top*/
+/*新闻头部*/
+#new-nav {
+  width: 100%;
+  height: 1rem;
+  background: #29A6DC;
+}
+
+#new-nav:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#new-nav .back {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: transparent;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.25rem;
+}
+
+#new-nav .arrow {
+  background-image: url("../../image/6/arrow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+#new-nav .download {
+  width: 1.5rem;
+  height: 0.5rem;
+  background: transparent;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.25rem;
+}
+
+#new-nav .download:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#new-nav .download .follow {
+  width: 0.26rem;
+  height: 0.38rem;
+  background: transparent;
+  background-image: url("../../image/6/jiashuqian-daohang.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  margin-top: 0.06rem;
+  margin-left: 0.34rem;
+  float: left;
+}
+
+#new-nav .download .d-load {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: transparent;
+  float: left;
+  background-image: url("../../image/6/xiazai.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  margin-left: 0.39rem;
+}
