@@ -1,0 +1,204 @@
+.head1 {
+  width: 100%;
+  height: 1.2rem;
+  background: #2BA6DC; }
+  .head1 .headd {
+    width: 2rem;
+    height: 1.2rem;
+    background: black;
+    float: left; }
+  .head1 .headdz {
+    width: 5.5rem;
+    height: 1.2rem;
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 18px;
+    color: #FFFFFF;
+    font: left; }
+
+.logo {
+  width: 100%;
+  height: 1.80rem;
+  background: #2BA6DC;
+  text-align: center;
+  line-height: 1.80rem;
+  font-size: 22px;
+  color: #FFFFFF; }
+
+.qq {
+  width: 6.13rem;
+  height: 0.88rem;
+  margin: 0 auto;
+  border-radius: 25px;
+  background: #FFFFFF;
+  margin-bottom: 0.32rem; }
+  .qq .qq1 {
+    width: 1.5rem;
+    height: 0.88rem;
+    background: black;
+    float: left; }
+  .qq input {
+    width: 4rem;
+    height: 0.88rem;
+    float: left;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 0.4rem;
+    color: #DBDBDB; }
+
+.qb {
+  width: 6.13rem;
+  height: 0.88rem;
+  margin: 0 auto;
+  border-radius: 25px;
+  background: #FFFFFF;
+  margin-bottom: 0.32rem; }
+  .qb .qb1 {
+    width: 1.5rem;
+    height: 0.88rem;
+    background: black;
+    float: left; }
+  .qb input {
+    width: 4rem;
+    height: 0.88rem;
+    float: left;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 0.4rem;
+    color: #DBDBDB; }
+
+.qw {
+  width: 6.13rem;
+  height: 0.88rem;
+  margin: 0 auto;
+  border-radius: 25px;
+  background: #FFFFFF;
+  margin-top: 0.55rem;
+  margin-bottom: 0.32rem; }
+  .qw .qw1 {
+    width: 1.5rem;
+    height: 0.88rem;
+    background: black;
+    float: left; }
+  .qw input {
+    width: 4rem;
+    height: 0.88rem;
+    float: left;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 0.4rem;
+    color: #DBDBDB; }
+
+.zw {
+  width: 100%;
+  height: 0.22rem;
+  margin-bottom: 0.95rem; }
+  .zw .zwz {
+    width: 5.18rem;
+    height: 0.22rem;
+    margin: 0 auto; }
+    .zw .zwz .zwzl {
+      width: 1.44rem;
+      height: 0.22rem;
+      float: left; }
+      .zw .zwz .zwzl .zwzlt {
+        width: 0.25rem;
+        height: 0.22rem;
+        background: yellow;
+        float: left;
+        margin-right: 0.2rem; }
+      .zw .zwz .zwzl .zwzlz {
+        width: 1.6rem;
+        height: 0.22rem;
+        font-size: 0.14rem;
+        color: #DBDBDB;
+        text-align: center;
+        line-height: 0.22rem; }
+    .zw .zwz .zwzr {
+      width: 1.44rem;
+      height: 0.22rem;
+      float: right; }
+      .zw .zwz .zwzr .zwzrt {
+        width: 0.25rem;
+        height: 0.22rem;
+        background: yellow;
+        float: left;
+        margin-right: 0.2rem; }
+      .zw .zwz .zwzr .zwzrz {
+        width: 1.6rem;
+        height: 0.22rem;
+        font-size: 0.14rem;
+        color: #DBDBDB;
+        text-align: center;
+        line-height: 0.22rem; }
+
+.fa {
+  width: 6.13rem;
+  height: 0.88rem;
+  margin: 0 auto;
+  margin-bottom: 0.32rem; }
+  .fa .fa1 {
+    width: 3.85rem;
+    height: 0.88rem;
+    border-radius: 25px;
+    background: #FFFFFF;
+    float: left;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #DBDBDB; }
+    .fa .fa1 span {
+      display: block;
+      width: 3.85rem;
+      height: 0.52rem;
+      margin-top: 0.02rem;
+      text-align: center;
+      line-height: 0.52rem;
+      font-size: 0.44rem;
+      color: #29A6DC; }
+  .fa .fa2 {
+    width: 2.02rem;
+    height: 0.88rem;
+    background: #FFFFFF;
+    float: right;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 0.88rem; }
+    .fa .fa2 input {
+      width: 1.6rem;
+      height: 0.88rem;
+      border-radius: 25px;
+      border: none;
+      outline: none;
+      color: #DBDBDB;
+      font-size: 0.30rem; }
+
+.lj {
+  width: 5.62rem;
+  height: 0.8rem;
+  background: red;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding-top: 0.35rem;
+  background: #3DBFFD; }
+  .lj .lj1 {
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #F5F7F7;
+    margin-left: 0.3rem;
+    float: left; }
+  .lj .lj2 {
+    width: 4.52rem;
+    height: 0.4rem;
+    float: left;
+    text-align: center;
+    line-height: 0.4;
+    color: #F5F7F7; }
+  .lj .lj3 {
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #F5F7F7;
+    margin-right: 0.3rem;
+    float: right; }
