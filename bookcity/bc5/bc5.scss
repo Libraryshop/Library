@@ -1,0 +1,250 @@
+$color:#29a6dc;
+$padding:0.2rem;
+$image:"../../bookshelf/images/";
+@mixin yuan($v){
+    width: $v;
+    height: $v;
+    border-radius:50% ;
+}
+/*上下居中的混合宏*/
+@mixin tb-center{
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+/*左右居中的混合宏*/
+@mixin lr-center{
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+}
+body,html{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #f2f2f2;
+}
+.C5header{
+    width:100%;
+    height:1.4rem;
+    position: relative;
+    background:$color;
+    .return{
+        width: 0.52rem;
+        height: 0.51rem;
+        position: absolute;
+        background-image:url($image+"arrow.png");
+        background-size:cover ;
+        bottom: 0.2rem;
+        left: 0.25rem;
+    }
+    .yuyin{
+        width: 0.5rem;
+        height: 0.5rem;
+        background-image:url($image+"loudou.png");
+        background-size:contain ;
+        position: absolute;
+        right: 0.38rem;
+        bottom: 0.2rem;
+    }
+    .tip{
+        position: absolute;
+        @include lr-center;
+        color:#fff;
+        font-size: 0.36rem;
+        text-align: center;
+        @include tb-center;
+        p:nth-of-type(1){
+            margin-top: 0.5rem;
+        }
+        .hx{
+            width: 0.34rem;
+            height: 0.03rem;
+            background-image:url($image+"c5hx1.png");
+            background-size:contain ;
+             @include lr-center;
+             margin-top: 0.02rem;
+        }
+         p:nth-of-type(3){
+            margin-top:0.06rem;
+            font-size:0.18rem;
+            color: #a3e3ff;
+            
+        }
+    }
+}
+
+//头部
+.C5nav{
+    width: 100%;
+    height: 1.1rem;
+    position: relative;
+    background: #f2f2f2;
+    .navIn{
+        width: 5.71rem;
+        height: 0.84rem;
+        @include lr-center;
+        @include tb-center;
+        background-image:url($image+"c5bg.png");
+        background-size:contain ;
+        margin-top: 0.25rem;
+        .list{
+            width: 33.33%;
+            height: 100%;
+            float: left;
+            position: relative;
+            .boxbg{
+                width: 1.65rem;
+                height: 0.7rem;
+                @include lr-center;
+                @include tb-center;
+              
+                background-size:contain ;
+                p:nth-of-type(1){
+                     @include lr-center;
+                     font-size: 0.24rem;
+                     color:#fff;
+                     
+                      text-align: center;
+                      margin-top: 0.13rem;
+                }
+                 p:nth-of-type(2){
+                     width: 100%;
+                     @include lr-center;
+                     font-size: 0.12rem;
+                     color:#bddbe8;
+                     @include lr-center;
+                     text-align: center;
+                     white-space: nowrap;
+                     margin-top: 0.4rem;
+                     transform: scale(0.6);
+                     
+                }
+            }
+            
+        }
+        .list:nth-child(2){
+            .boxbg{
+                  background-image:url($image+"c5box.png");
+                 p:nth-of-type(2){
+                     margin-left: -0.2rem;
+                 }
+                 
+            }
+        }
+    }
+}
+//nav
+.C5main{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #f2f2f2;
+    overflow: hidden;
+    .box{
+        width: 100%;
+        height: 3.7rem;
+        margin-top: 0.15rem;
+        background:#fff;
+        float: left;
+        box-shadow: 0 0 20px 0 #efefef;
+        position: relative;
+        .left{
+            width: 3.05rem;
+            height: 100%;
+            float: left;
+            position: relative;
+            img{
+                width: 2.45rem;
+                @include lr-center;
+                @include tb-center;
+                height: auto;
+            }
+        }
+        .right{
+            width: 4.45rem;
+            height: 100%;
+            float: left;
+            position: relative;
+            .bookname{
+                float: left;
+                font-size:0.28rem;
+                color:#333;
+                margin-top: 0.2rem;
+            }
+            .english{
+                float: left;
+                width: 100%;
+                font-size: 0.16rem;
+                color:#999;
+                transform: scale(0.8);
+                text-align: left;
+                margin-left: -0.25rem;
+                margin-top: 0.05rem;
+            }
+            .intro{
+                float: left;
+                width: 100%;
+                font-size: 0.24rem;
+                color:#666;
+                transform: scale(0.8);
+                margin-left: -0.25rem;
+                line-height: 0.35rem;
+            }
+            .author{
+                float: left;
+                width: 100%;
+                font-size: 0.18rem;
+                color:#999;
+                transform: scale(0.8);
+                margin-left: -0.25rem;
+            }
+            .word{
+                float: left;
+                width: 100%;
+                font-size: 0.18rem;
+                color:#999;
+                transform: scale(0.8);
+                margin-left: -0.25rem;
+            }
+            .tuxing{
+                width:1.5rem;
+                height: 0.25rem;
+                float: left;
+                margin-top: 0.2rem;
+                margin-left: 0.2rem;  
+                .star{
+                    width: 0.25rem;
+                    height: 0.25rem;
+                    margin-right:0.05rem ;
+                    float: left;
+                    background-image: url($image+"xing-huang.png");
+                    background-repeat:no-repeat ;
+                    background-position: center center;
+                    background-size:contain ;
+                    
+                }
+                .star1{
+                     background-image: url($image+"xing-hei.png");
+                     background-repeat:no-repeat ;
+                    background-position: center center;
+                    background-size:contain ;
+                }
+            }
+            .look{
+                width: 1.84rem;
+                height:0.57rem;
+                position: absolute;
+                background: url($image+"look.png");
+                background-repeat:no-repeat ;
+                background-position: center center;
+                background-size:contain ;
+                bottom: 0.35rem;
+                right: 0.35rem;
+            }
+        }
+    }
+}

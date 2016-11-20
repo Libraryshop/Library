@@ -132,6 +132,9 @@ body,html{
                 margin-top: 0.05rem;
                 line-height: 0.35rem;
                 float: left;
+//              letter-spacing: 0.02rem;
+//              transform: scale(0.8);
+               
             }
             .public{
                 font-size: 0.12rem;
@@ -140,6 +143,7 @@ body,html{
                 padding-left: 0.23rem;
                 position: relative;
                 margin-top: 0.04rem;
+             
                 i{
                     width: 0.18rem;
                     height: 0.24rem;
@@ -149,6 +153,7 @@ body,html{
                     background-image:url($image+"hanzi-xia1.png") ;
                     background-size: contain;
                     @include tb-center;
+                    
                 }
             }
             .pos{
