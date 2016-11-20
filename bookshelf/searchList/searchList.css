@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+}
+
 /*上下居中的混合宏*/
 /*左右居中的混合宏*/
 body, html {
@@ -186,4 +192,52 @@ body, html {
   background-size: contain;
   bottom: 0.35rem;
   right: 0.35rem;
+}
+
+.B3footer {
+  width: 100%;
+  height: 1.05rem;
+  position: fixed;
+  background: #151c2b;
+  bottom: 0;
+}
+
+.B3footer .option {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  position: relative;
+  border-right: 1px solid #717171;
+  box-sizing: border-box;
+}
+
+.B3footer .option .icon {
+  font-family: "iconfont";
+  font-size: 0.5rem;
+  color: #5f6063;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.45rem;
+  text-align: center;
+}
+
+.B3footer .option .word {
+  font-size: 0.24rem;
+  color: #5f6063;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.1rem;
+  text-align: center;
+}
+
+.B3footer .option:first-of-type .icon {
+  color: #fff;
+}
+
+.B3footer .option:first-of-type .word {
+  color: #fff;
 }
