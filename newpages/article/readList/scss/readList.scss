@@ -88,7 +88,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
             float: left;
             @include whb(29.63%,86%,transparent);
             border-radius: 0.5rem;
-            margin: 0.06rem 0.06rem;
+            margin: 0.06rem;
             text-align: center;
         }
         li.active {
@@ -114,7 +114,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
             color: #e6e6e6;
             font-variant: all-small-caps;
         }
-        .z-circle{
+        .z-circle {
             left: 0.199rem;
             top: 0.26rem;
         }
@@ -137,9 +137,9 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
                 border-radius: 50%;
             }
         }
-        .y-circle{
-            top:0.26rem;
-            right:0.16rem;
+        .y-circle {
+            top: 0.26rem;
+            right: 0.16rem;
         }
     }
 }
