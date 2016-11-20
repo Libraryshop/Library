@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+}
+
 /*上下居中的混合宏*/
 /*左右居中的混合宏*/
 html {
@@ -378,5 +384,53 @@ body {
 .B4main .shadow .bottom .select .button1 {
   background: #29a6dc;
   border-color: #29a6dc;
+  color: #fff;
+}
+
+.B4footer {
+  width: 100%;
+  height: 1.05rem;
+  position: fixed;
+  background: #151c2b;
+  bottom: 0;
+}
+
+.B4footer .option {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  position: relative;
+  border-right: 1px solid #717171;
+  box-sizing: border-box;
+}
+
+.B4footer .option .icon {
+  font-family: "iconfont";
+  font-size: 0.5rem;
+  color: #5f6063;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.45rem;
+  text-align: center;
+}
+
+.B4footer .option .word {
+  font-size: 0.24rem;
+  color: #5f6063;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.1rem;
+  text-align: center;
+}
+
+.B4footer .option:first-of-type .icon {
+  color: #fff;
+}
+
+.B4footer .option:first-of-type .word {
   color: #fff;
 }

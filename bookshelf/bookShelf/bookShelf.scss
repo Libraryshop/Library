@@ -316,5 +316,12 @@ body,html{
             text-align: center;
         }
     }
-    
+   .option:first-of-type{
+        .icon{
+            color:#fff;
+        }
+        .word{
+            color: #fff;
+        }
+    }
 }

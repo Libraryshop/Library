@@ -2,347 +2,281 @@
 @font-face {
   font-family: 'iconfont';
   src: url("iconfont.eot");
-  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
-}
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg"); }
 
 /*上下居中的混合宏*/
 /*左右居中的混合宏*/
 * {
   box-sizing: border-box;
-  letter-spacing: 0.01rem;
-}
+  letter-spacing: 0.01rem; }
 
 body, html {
   width: 100%;
   height: auto;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #fafafa;
-}
+  background: #fafafa; }
 
 .B1header {
   width: 100%;
   height: 1.4rem;
   background: #29a6dc;
-  position: relative;
-}
-
-.B1header .title {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  color: #FFF;
-  text-align: center;
-}
-
-.B1header .title .title1 {
-  width: 100%;
-  line-height: 1.4rem;
-  font-size: 0.4rem;
-  float: left;
-}
-
-.B1header .title .title2 {
-  width: 100%;
-  position: absolute;
-  font-size: 0.12rem;
-  color: rgba(255, 255, 255, 0.7);
-  text-align: center;
-  top: 1rem;
-  left: 0;
-}
-
-.B1header .title span {
-  width: 0.44rem;
-  height: 0.44rem;
-  position: absolute;
-  float: left;
-  z-index: 2;
-  background-image: url("../images/search.png");
-  background-size: contain;
-  right: 0.24rem;
-  top: 0.68rem;
-}
+  position: relative; }
+  .B1header .title {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #FFF;
+    text-align: center; }
+    .B1header .title .title1 {
+      width: 100%;
+      line-height: 1.4rem;
+      font-size: 0.4rem;
+      float: left; }
+    .B1header .title .title2 {
+      width: 100%;
+      position: absolute;
+      font-size: 0.12rem;
+      color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+      top: 1rem;
+      left: 0; }
+    .B1header .title span {
+      width: 0.44rem;
+      height: 0.44rem;
+      position: absolute;
+      float: left;
+      z-index: 2;
+      background-image: url("../images/search.png");
+      background-size: contain;
+      right: 0.24rem;
+      top: 0.68rem; }
 
 .B1bann {
   width: 100%;
   padding: 0 0.2rem;
   position: relative;
   height: 4.1rem;
-  background: #fafafa;
-}
-
-.B1bann .banner {
-  background-image: url("../images/banner.png");
-  background-size: contain;
-  position: absolute;
-  width: 6.66rem;
-  height: 3.21rem;
-  top: 0.4rem;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-.B1bann .btn {
-  width: 0.6rem;
-  height: 0.08rem;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0.2rem;
-}
-
-.B1bann .btn .button {
-  width: 0.06rem;
-  height: 0.06rem;
-  border-radius: 50%;
-  border: 0.01rem solid #29a6dc;
-  float: left;
-  margin-right: 0.12rem;
-}
+  background: #fafafa; }
+  .B1bann .banner {
+    background-image: url("../images/banner.png");
+    background-size: contain;
+    position: absolute;
+    width: 6.66rem;
+    height: 3.21rem;
+    top: 0.4rem;
+    left: 0;
+    right: 0;
+    margin: auto; }
+  .B1bann .btn {
+    width: 0.6rem;
+    height: 0.08rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0.2rem; }
+    .B1bann .btn .button {
+      width: 0.06rem;
+      height: 0.06rem;
+      border-radius: 50%;
+      border: 0.01rem solid #29a6dc;
+      float: left;
+      margin-right: 0.12rem; }
 
 .B1releases {
   width: 100%;
   height: 4.8rem;
   position: relative;
-  background: #fafafa;
-}
-
-.B1releases .brand {
-  position: relative;
-  top: 0;
-  left: 0.3rem;
-  width: 2.3rem;
-  height: 0.8rem;
-  background-image: url("../images/shangjia.png");
-  background-size: contain;
-}
-
-.B1releases .box {
-  width: 100%;
-  height: 4rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.B1releases .box .book {
-  box-shadow: 0 0 5px 0px #ddd;
-  position: absolute;
-  width: 2.5rem;
-  height: 3.6rem;
-  left: 0.2rem;
-  top: 0.13rem;
-  background-image: url("../images/bookbg.png");
-  background-size: cover;
-  text-align: center;
-}
-
-.B1releases .box .book img {
-  width: 2.12rem;
-  height: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: -0.13rem;
-}
-
-.B1releases .box .book .author {
-  width: auto;
-  height: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0.5rem;
-  font-size: 0.24rem;
-  letter-spacing: 0.01rem;
-  color: #333333;
-}
-
-.B1releases .box .book .name {
-  width: auto;
-  height: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0.2rem;
-  color: #666666;
-  letter-spacing: 0.01rem;
-  font-size: 0.22rem;
-}
-
-.B1releases .box .book:nth-of-type(2) {
-  left: 2.85rem;
-}
-
-.B1releases .box .book:nth-of-type(3) {
-  left: 5.5rem;
-}
+  background: #fafafa; }
+  .B1releases .brand {
+    position: relative;
+    top: 0;
+    left: 0.3rem;
+    width: 2.3rem;
+    height: 0.8rem;
+    background-image: url("../images/shangjia.png");
+    background-size: contain; }
+  .B1releases .box {
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    overflow: hidden; }
+    .B1releases .box .book {
+      box-shadow: 0 0 5px 0px #ddd;
+      position: absolute;
+      width: 2.5rem;
+      height: 3.6rem;
+      left: 0.2rem;
+      top: 0.13rem;
+      background-image: url("../images/bookbg.png");
+      background-size: cover;
+      text-align: center; }
+      .B1releases .box .book img {
+        width: 2.12rem;
+        height: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -0.13rem; }
+      .B1releases .box .book .author {
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0.5rem;
+        font-size: 0.24rem;
+        letter-spacing: 0.01rem;
+        color: #333333; }
+      .B1releases .box .book .name {
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0.2rem;
+        color: #666666;
+        letter-spacing: 0.01rem;
+        font-size: 0.22rem; }
+    .B1releases .box .book:nth-of-type(2) {
+      left: 2.85rem; }
+    .B1releases .box .book:nth-of-type(3) {
+      left: 5.5rem; }
 
 .B1read {
   width: 100%;
   height: 5.5rem;
   position: relative;
-  background: #FAFAFA;
-}
-
-.B1read .brand {
-  width: 2.3rem;
-  height: 0.8rem;
-  position: relative;
-  top: 0;
-  left: 0.3rem;
-  background-image: url("../images/read.png");
-  background-size: contain;
-}
-
-.B1read .label {
-  width: 7rem;
-  height: 2.2rem;
-  position: relative;
-  margin-left: 0.22rem;
-  box-shadow: 0 0 6px 0 #eee;
-  background: #fff;
-  margin-bottom: 0.15rem;
-}
-
-.B1read .label .left {
-  width: 1.7rem;
-  height: 100%;
-  position: relative;
-  float: left;
-}
-
-.B1read .label .left img {
-  width: 1.4rem;
-  height: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-.B1read .label .right {
-  width: 5.3rem;
-  height: 100%;
-  position: relative;
-  float: left;
-}
-
-.B1read .label .right .yuan {
-  position: absolute;
-  font-size: 0.24rem;
-  color: #333;
-  left: 0;
-  top: 0.02rem;
-}
-
-.B1read .label .right .some {
-  font-size: 0.12rem;
-  color: #999;
-  left: 0;
-  position: absolute;
-  top: 0.4rem;
-}
-
-.B1read .label .right .du {
-  position: absolute;
-  color: #666;
-  font-size: 0.18rem;
-  top: 0.8rem;
-  left: 0;
-}
-
-.B1read .label .right .yuan2 {
-  position: absolute;
-  color: #666666;
-  font-size: 0.12rem;
-  left: 0;
-  top: 1.07rem;
-}
-
-.B1read .label .right .reader {
-  position: absolute;
-  bottom: 0.1rem;
-  left: 0;
-  font-size: 0.10rem;
-  color: #999999;
-}
-
-.B1read .label .right .process {
-  width: 1.7rem;
-  height: 0.05rem;
-  position: absolute;
-  left: 1.2rem;
-  bottom: 0.22rem;
-  background: #d4d4d4;
-  border-radius: 5px;
-}
-
-.B1read .label .right .process1 {
-  width: 0.7rem;
-  height: 0.05rem;
-  position: absolute;
-  left: 1.2rem;
-  z-index: 10;
-  bottom: 0.22rem;
-  background: #94d1e6;
-  border-radius: 5px;
-}
-
-.B1read .label .right .biaozhi {
-  width: 1.51rem;
-  height: 0.44rem;
-  background-image: url("../images/jixu.png");
-  background-size: contain;
-  position: absolute;
-  right: 0.1rem;
-  bottom: 0.1rem;
-}
+  background: #FAFAFA; }
+  .B1read .brand {
+    width: 2.3rem;
+    height: 0.8rem;
+    position: relative;
+    top: 0;
+    left: 0.3rem;
+    background-image: url("../images/read.png");
+    background-size: contain; }
+  .B1read .label {
+    width: 7rem;
+    height: 2.2rem;
+    position: relative;
+    margin-left: 0.22rem;
+    box-shadow: 0 0 6px 0 #eee;
+    background: #fff;
+    margin-bottom: 0.15rem; }
+    .B1read .label .left {
+      width: 1.7rem;
+      height: 100%;
+      position: relative;
+      float: left; }
+      .B1read .label .left img {
+        width: 1.4rem;
+        height: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+    .B1read .label .right {
+      width: 5.3rem;
+      height: 100%;
+      position: relative;
+      float: left; }
+      .B1read .label .right .yuan {
+        position: absolute;
+        font-size: 0.24rem;
+        color: #333;
+        left: 0;
+        top: 0.02rem; }
+      .B1read .label .right .some {
+        font-size: 0.12rem;
+        color: #999;
+        left: 0;
+        position: absolute;
+        top: 0.4rem; }
+      .B1read .label .right .du {
+        position: absolute;
+        color: #666;
+        font-size: 0.18rem;
+        top: 0.8rem;
+        left: 0; }
+      .B1read .label .right .yuan2 {
+        position: absolute;
+        color: #666666;
+        font-size: 0.12rem;
+        left: 0;
+        top: 1.07rem; }
+      .B1read .label .right .reader {
+        position: absolute;
+        bottom: 0.1rem;
+        left: 0;
+        font-size: 0.10rem;
+        color: #999999; }
+      .B1read .label .right .process {
+        width: 1.7rem;
+        height: 0.05rem;
+        position: absolute;
+        left: 1.2rem;
+        bottom: 0.22rem;
+        background: #d4d4d4;
+        border-radius: 5px; }
+      .B1read .label .right .process1 {
+        width: 0.7rem;
+        height: 0.05rem;
+        position: absolute;
+        left: 1.2rem;
+        z-index: 10;
+        bottom: 0.22rem;
+        background: #94d1e6;
+        border-radius: 5px; }
+      .B1read .label .right .biaozhi {
+        width: 1.51rem;
+        height: 0.44rem;
+        background-image: url("../images/jixu.png");
+        background-size: contain;
+        position: absolute;
+        right: 0.1rem;
+        bottom: 0.1rem; }
 
 .B1footer {
   width: 100%;
   height: 1.05rem;
   position: relative;
-  background: #151c2b;
-}
-
-.B1footer .option {
-  float: left;
-  width: 33.33%;
-  height: 100%;
-  position: relative;
-  border-right: 1px solid #717171;
-  box-sizing: border-box;
-}
-
-.B1footer .option .icon {
-  font-family: "iconfont";
-  font-size: 0.5rem;
-  color: #5f6063;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0.45rem;
-  text-align: center;
-}
-
-.B1footer .option .word {
-  font-size: 0.24rem;
-  color: #5f6063;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0.1rem;
-  text-align: center;
-}
+  background: #151c2b; }
+  .B1footer .option {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+    border-right: 1px solid #717171;
+    box-sizing: border-box; }
+    .B1footer .option .icon {
+      font-family: "iconfont";
+      font-size: 0.5rem;
+      color: #5f6063;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 0.45rem;
+      text-align: center; }
+    .B1footer .option .word {
+      font-size: 0.24rem;
+      color: #5f6063;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 0.1rem;
+      text-align: center; }
+  .B1footer .option:first-of-type .icon {
+    color: #fff; }
+  .B1footer .option:first-of-type .word {
+    color: #fff; }

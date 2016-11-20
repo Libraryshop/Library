@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg"); }
+
 /*上下居中的混合宏*/
 /*左右居中的混合宏*/
 body, html {
@@ -6,58 +11,50 @@ body, html {
   height: auto;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #f2f2f2;
-}
+  background: #f2f2f2; }
 
 .B2header {
   width: 100%;
   height: 1.4rem;
   position: relative;
-  background: #29a6dc;
-}
-
-.B2header .return {
-  width: 0.52rem;
-  height: 0.51rem;
-  position: absolute;
-  background-image: url("../images/arrow.png");
-  background-size: cover;
-  bottom: 0.2rem;
-  left: 0.25rem;
-}
-
-.B2header .yuyin {
-  width: 0.55rem;
-  height: 0.5rem;
-  background-image: url("../images/yuyin.png");
-  background-size: contain;
-  position: absolute;
-  right: 0.38rem;
-  bottom: 0.2rem;
-}
-
-.B2header .search {
-  width: 5.45rem;
-  height: 0.55rem;
-  position: absolute;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0.2rem;
-  box-sizing: border-box;
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
-  padding-left: 0.75rem;
-  box-sizing: border-box;
-  font-size: 0.22rem;
-  color: #c4c4c4;
-  line-height: 0.55rem;
-  background-image: url("../images/fdj.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+  background: #29a6dc; }
+  .B2header .return {
+    width: 0.52rem;
+    height: 0.51rem;
+    position: absolute;
+    background-image: url("../images/arrow.png");
+    background-size: cover;
+    bottom: 0.2rem;
+    left: 0.25rem; }
+  .B2header .yuyin {
+    width: 0.55rem;
+    height: 0.5rem;
+    background-image: url("../images/yuyin.png");
+    background-size: contain;
+    position: absolute;
+    right: 0.38rem;
+    bottom: 0.2rem; }
+  .B2header .search {
+    width: 5.45rem;
+    height: 0.55rem;
+    position: absolute;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0.2rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    padding-left: 0.75rem;
+    box-sizing: border-box;
+    font-size: 0.22rem;
+    color: #c4c4c4;
+    line-height: 0.55rem;
+    background-image: url("../images/fdj.png");
+    background-size: contain;
+    background-repeat: no-repeat; }
 
 .B2title {
   width: 100%;
@@ -66,108 +63,125 @@ body, html {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #f2f2f2;
-  margin-left: 0.25rem;
-}
+  margin-left: 0.25rem; }
 
 .B2main {
   width: 100%;
   height: auto;
   overflow: hidden;
   padding: 0 0.2rem;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+  .B2main .box {
+    width: 7rem;
+    height: 1.7rem;
+    background: #fff;
+    margin-left: 0.05rem;
+    box-shadow: 0 0 5px 0 #eee;
+    margin-bottom: 0.15rem;
+    position: relative;
+    border-radius: 0.1rem; }
+    .B2main .box .left {
+      width: 2.48rem;
+      height: 1.5rem;
+      margin-left: 0.1rem;
+      background-image: url("../images/hanzi-tu.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-right: 0.02rem dotted  #c7c7c7;
+      float: left;
+      position: relative;
+      box-sizing: border-box;
+      margin-top: 0.1rem; }
+    .B2main .box .right {
+      width: 4.4rem;
+      height: 100%;
+      float: left;
+      position: relative;
+      padding-left: 0.15rem;
+      box-sizing: border-box;
+      position: relative; }
+      .B2main .box .right .bookname {
+        font-size: 0.28rem;
+        color: #333;
+        float: left;
+        margin-top: 0.15rem; }
+      .B2main .box .right .bookintro {
+        font-size: 0.22rem;
+        color: #666;
+        margin-top: 0.05rem;
+        line-height: 0.35rem;
+        float: left; }
+      .B2main .box .right .public {
+        font-size: 0.12rem;
+        color: #999;
+        float: left;
+        padding-left: 0.23rem;
+        position: relative;
+        margin-top: 0.04rem; }
+        .B2main .box .right .public i {
+          width: 0.18rem;
+          height: 0.24rem;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-image: url("../images/hanzi-xia1.png");
+          background-size: contain;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto; }
+      .B2main .box .right .pos {
+        position: absolute;
+        font-size: 0.12rem;
+        color: #999;
+        padding-left: 0.2rem;
+        bottom: 0.08rem;
+        right: 0.1rem; }
+        .B2main .box .right .pos i {
+          width: 0.18rem;
+          height: 0.24rem;
+          background-image: url("../images/hanzi-xia2.png");
+          background-size: contain;
+          position: absolute;
+          left: -0.02rem;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto; }
 
-.B2main .box {
-  width: 7rem;
-  height: 1.7rem;
-  background: #fff;
-  margin-left: 0.05rem;
-  box-shadow: 0 0 5px 0 #eee;
-  margin-bottom: 0.15rem;
-  position: relative;
-  border-radius: 0.1rem;
-}
-
-.B2main .box .left {
-  width: 2.48rem;
-  height: 1.5rem;
-  margin-left: 0.1rem;
-  background-image: url("../images/hanzi-tu.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-right: 0.02rem dotted  #c7c7c7;
-  float: left;
-  position: relative;
-  box-sizing: border-box;
-  margin-top: 0.1rem;
-}
-
-.B2main .box .right {
-  width: 4.4rem;
-  height: 100%;
-  float: left;
-  position: relative;
-  padding-left: 0.15rem;
-  box-sizing: border-box;
-  position: relative;
-}
-
-.B2main .box .right .bookname {
-  font-size: 0.28rem;
-  color: #333;
-  float: left;
-  margin-top: 0.15rem;
-}
-
-.B2main .box .right .bookintro {
-  font-size: 0.22rem;
-  color: #666;
-  margin-top: 0.05rem;
-  line-height: 0.35rem;
-  float: left;
-}
-
-.B2main .box .right .public {
-  font-size: 0.12rem;
-  color: #999;
-  float: left;
-  padding-left: 0.23rem;
-  position: relative;
-  margin-top: 0.04rem;
-}
-
-.B2main .box .right .public i {
-  width: 0.18rem;
-  height: 0.24rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-image: url("../images/hanzi-xia1.png");
-  background-size: contain;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-.B2main .box .right .pos {
-  position: absolute;
-  font-size: 0.12rem;
-  color: #999;
-  padding-left: 0.2rem;
-  bottom: 0.08rem;
-  right: 0.1rem;
-}
-
-.B2main .box .right .pos i {
-  width: 0.18rem;
-  height: 0.24rem;
-  background-image: url("../images/hanzi-xia2.png");
-  background-size: contain;
-  position: absolute;
-  left: -0.02rem;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
+.B2footer {
+  width: 100%;
+  height: 1.05rem;
+  position: fixed;
+  background: #151c2b;
+  bottom: 0; }
+  .B2footer .option {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+    border-right: 1px solid #717171;
+    box-sizing: border-box; }
+    .B2footer .option .icon {
+      font-family: "iconfont";
+      font-size: 0.5rem;
+      color: #5f6063;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 0.45rem;
+      text-align: center; }
+    .B2footer .option .word {
+      font-size: 0.24rem;
+      color: #5f6063;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 0.1rem;
+      text-align: center; }
+  .B2footer .option:first-of-type .icon {
+    color: #fff; }
+  .B2footer .option:first-of-type .word {
+    color: #fff; }
