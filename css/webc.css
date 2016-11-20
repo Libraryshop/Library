@@ -244,9 +244,12 @@ body {
           .mc-cen .cen-bom ul li .cb-right a {
             display: block;
             position: absolute;
-            top: 0.33rem;
-            right: 0.33rem;
-            color: #6cc2e7; }
+            top: 0.2rem;
+            right: 0rem;
+            color: #6cc2e7;
+            border: 0; }
+          .mc-cen .cen-bom ul li .cb-right .ce-a {
+            color: #666; }
           .mc-cen .cen-bom ul li .cb-right .cb-r {
             position: absolute;
             top: 0.33rem;
@@ -277,6 +280,140 @@ body {
         border-bottom: 0px dashed #000; }
   .mc-cen .cen-bom1 {
     top: 1.2rem; }
+  .mc-cen .cen-bom2 {
+    top: 0.5rem;
+    display: none; }
+    .mc-cen .cen-bom2 ul {
+      height: 5.5rem; }
+  .mc-cen .cen-bom4 {
+    top: -1rem; }
+    .mc-cen .cen-bom4 ul {
+      height: 4rem; }
+    .mc-cen .cen-bom4 ul li .cb-left {
+      width: 100%; }
+      .mc-cen .cen-bom4 ul li .cb-left .cb-img11 {
+        background: url(../image/me/12.png) no-repeat;
+        background-size: cover;
+        top: 0.2rem; }
+      .mc-cen .cen-bom4 ul li .cb-left .cb-zi {
+        width: 100%; }
+        .mc-cen .cen-bom4 ul li .cb-left .cb-zi span {
+          font-size: 0.28rem; }
+    .mc-cen .cen-bom4 ul li input {
+      border: 0;
+      outline: none;
+      background: none; }
+  .mc-cen .cen-bom6 {
+    top: -1rem; }
+    .mc-cen .cen-bom6 ul li .cb-left .cb-imgs {
+      background: url(../image/me/z1.png) no-repeat;
+      background-size: cover; }
+    .mc-cen .cen-bom6 ul li .cb-left .cb-imgs1 {
+      background: url(../image/me/z2.png) no-repeat;
+      background-size: cover; }
+    .mc-cen .cen-bom6 ul li .cb-left .cb-imgs2 {
+      background: url(../image/me/z3.png) no-repeat;
+      background-size: cover; }
+    .mc-cen .cen-bom6 ul li .cb-left .cb-imgs3 {
+      background: url(../image/me/z4.png) no-repeat;
+      background-size: cover; }
+    .mc-cen .cen-bom6 .web-ce {
+      margin-top: 0.16rem; }
+      .mc-cen .cen-bom6 .web-ce .cb-left .cb-imgs4 {
+        background: url(../image/me/z5.png) no-repeat;
+        background-size: cover; }
+      .mc-cen .cen-bom6 .web-ce .cb-left .cb-imgs5 {
+        background: url(../image/me/z6.png) no-repeat;
+        background-size: cover; }
+  .mc-cen .cen-bom5 {
+    top: -1rem; }
+    .mc-cen .cen-bom5 ul {
+      height: 7rem; }
+      .mc-cen .cen-bom5 ul li {
+        margin-top: 0.5rem; }
+        .mc-cen .cen-bom5 ul li .cb-left {
+          width: 100%; }
+          .mc-cen .cen-bom5 ul li .cb-left .cb-zi {
+            width: 100%;
+            left: 0; }
+            .mc-cen .cen-bom5 ul li .cb-left .cb-zi span {
+              display: block;
+              text-align: center;
+              font-size: 0.3rem; }
+            .mc-cen .cen-bom5 ul li .cb-left .cb-zi p {
+              text-align: center; }
+            .mc-cen .cen-bom5 ul li .cb-left .cb-zi .ce-p {
+              width: 80%;
+              margin-left: 10%;
+              margin-top: 0.5rem;
+              font-size: 0.22rem;
+              text-align: left;
+              color: #666; }
+  .mc-cen .cen-bom3 {
+    top: 0.5rem; }
+    .mc-cen .cen-bom3 ul {
+      height: 5.5rem; }
+      .mc-cen .cen-bom3 ul li {
+        height: 1.3rem; }
+        .mc-cen .cen-bom3 ul li .cb-left {
+          width: 70%; }
+          .mc-cen .cen-bom3 ul li .cb-left .cb-img10 {
+            width: 0.7rem;
+            height: 0.7rem;
+            background: url(../image/me/10.png) no-repeat;
+            background-size: cover;
+            left: 0.1rem; }
+          .mc-cen .cen-bom3 ul li .cb-left .cb-zi {
+            width: 4rem; }
+            .mc-cen .cen-bom3 ul li .cb-left .cb-zi p {
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden; }
+        .mc-cen .cen-bom3 ul li .cb-right {
+          width: 30%; }
+          .mc-cen .cen-bom3 ul li .cb-right span {
+            font-size: 0.16rem;
+            right: 0.1rem;
+            padding-left: 0.4rem;
+            background: url(../image/me/11.png) left no-repeat;
+            background-size: 0.2rem 0.2rem; }
+  .mc-cen ul {
+    width: 95%;
+    height: 8rem;
+    margin-top: 2rem; }
+    .mc-cen ul li {
+      width: 100%;
+      height: 1rem; }
+      .mc-cen ul li a {
+        display: block;
+        height: 0.7rem;
+        padding: 0 0.3rem;
+        border: 0.02rem solid #000;
+        border-radius: 0.5rem;
+        float: left;
+        text-align: center;
+        line-height: 0.7rem;
+        margin-left: 0.2rem;
+        color: #000; }
+      .mc-cen ul li .cbg {
+        background: #29a6dc;
+        border: 0; }
+      .mc-cen ul li .zuy {
+        margin-left: 2rem; }
+      .mc-cen ul li .zuy1 {
+        margin-left: 0.7rem; }
+      .mc-cen ul li .zuy2 {
+        margin-left: 1.5rem; }
+      .mc-cen ul li .cbg1 {
+        padding: 0 0.2rem; }
+      .mc-cen ul li .cbg2 {
+        background: #29a6dc;
+        border: 0;
+        margin-left: 1.5rem; }
+      .mc-cen ul li .cbg3 {
+        background: #29a6dc;
+        border: 0;
+        margin-left: 1.5rem; }
 
 .mc-foot {
   width: 100%;
@@ -378,6 +515,9 @@ body {
     right: 0.5rem; }
   .cb-f .cb-y1 {
     left: -4rem; }
+
+.cb-f3 {
+  top: 5.7rem; }
 
 .box {
   width: 100%;
@@ -488,3 +628,108 @@ body {
           right: 0.12rem; }
         .box .cen-tan .tan-bom .cb-f2 .cb-y1 {
           left: -1.5rem; }
+
+#top {
+  width: 100%;
+  height: 1.4rem;
+  background: #29a6dc;
+  position: relative; }
+
+#top .baolist {
+  width: 5.72rem;
+  height: 0.8rem;
+  background: #2a3441;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.48rem;
+  border-radius: 0.4rem; }
+
+#top .baolist li {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 14px; }
+
+#top .baolist li .bk {
+  width: 1.66rem;
+  height: 0.66rem;
+  border-radius: 0.4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto; }
+
+#top .baolist li .bk span:nth-of-type(1) {
+  display: block;
+  font-size: 0.24rem; }
+
+#top .baolist li .bk span:nth-of-type(2) {
+  font-size: 0.14rem;
+  opacity: 0.7;
+  display: block;
+  margin-top: -0.04rem;
+  color: #fff; }
+
+#top .baolist li .web-ct {
+  width: 2.65rem;
+  margin-left: 0.1rem; }
+
+#top .baolist li .bian {
+  width: 0.05rem;
+  height: 0.59rem;
+  position: absolute;
+  right: -0.04rem;
+  top: 0.13rem; }
+
+#top .baolist li .bian .topyuan {
+  width: 0.06rem;
+  height: 0.06rem;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: -0.02rem;
+  border-radius: 50%; }
+
+#top .baolist li .bian .middle {
+  width: 0.02rem;
+  height: 0.53rem;
+  background: #fff;
+  position: absolute;
+  top: 0.02rem;
+  left: 0rem; }
+
+#top .baolist li .bian .bottomyuan {
+  width: 0.06rem;
+  height: 0.06rem;
+  background: #fff;
+  position: absolute;
+  left: -0.02rem;
+  border-radius: 50%;
+  bottom: 0; }
+
+#top .baolist li .blue {
+  background: #29a6dc;
+  border: 0.02rem solid #fff; }
+
+#top .baolist li .blue .yuan {
+  width: 0.03rem;
+  height: 0.03rem;
+  position: absolute;
+  top: 0.2rem;
+  background: #fff; }
+
+#top .baolist li .blue .yuan:nth-of-type(1) {
+  left: 0.32rem; }
+
+#top .baolist li .blue .yuan:nth-of-type(2) {
+  right: 0.32rem; }
+
+#top .baolist li .blue .yuan:nth-of-type(3) {
+  right: 0.26rem; }
