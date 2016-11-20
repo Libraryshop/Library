@@ -1,6 +1,14 @@
 $color:#29a6dc;
 $padding:0.2rem;
 $image:"../images/";
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
 @mixin yuan($v){
     width: $v;
     height: $v;
@@ -132,6 +140,9 @@ body,html{
                 margin-top: 0.05rem;
                 line-height: 0.35rem;
                 float: left;
+//              letter-spacing: 0.02rem;
+//              transform: scale(0.8);
+               
             }
             .public{
                 font-size: 0.12rem;
@@ -140,6 +151,7 @@ body,html{
                 padding-left: 0.23rem;
                 position: relative;
                 margin-top: 0.04rem;
+             
                 i{
                     width: 0.18rem;
                     height: 0.24rem;
@@ -149,6 +161,7 @@ body,html{
                     background-image:url($image+"hanzi-xia1.png") ;
                     background-size: contain;
                     @include tb-center;
+                    
                 }
             }
             .pos{
@@ -168,6 +181,45 @@ body,html{
                      @include tb-center;
                 }
             }
+        }
+    }
+}
+//footer
+.B2footer{
+    width: 100%;
+    height: 1.05rem;
+    position: fixed;
+    background: #151c2b;
+    bottom: 0;
+    .option{
+        float: left;
+        width: 33.33%;
+        height: 100%;
+        position: relative;
+        border-right:1px solid #717171;
+        box-sizing: border-box;
+        .icon{
+            font-family: "iconfont";
+            font-size: 0.5rem;
+            color:#5f6063;
+            @include lr-center;
+            bottom: 0.45rem;
+            text-align: center;
+        }
+        .word{
+            font-size: 0.24rem;
+            color:#5f6063;
+            @include lr-center;
+            bottom: 0.1rem;
+            text-align: center;
+        }
+    }
+     .option:first-of-type{
+        .icon{
+            color:#fff;
+        }
+        .word{
+            color: #fff;
         }
     }
 }

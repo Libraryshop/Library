@@ -1,0 +1,255 @@
+@charset "UTF-8";
+* {
+  position: relative;
+}
+
+/*清除浮动带的影响*/
+/*背景图片循环*/
+.A-icon {
+  background-image: url("../image/6/A.png");
+  background-position: no-repeat;
+}
+
+.arrow-icon {
+  background-image: url("../image/6/arrow.png");
+  background-position: no-repeat;
+}
+
+.bi-icon {
+  background-image: url("../image/6/bi.png");
+  background-position: no-repeat;
+}
+
+.bi-hong-icon {
+  background-image: url("../image/6/bi-hong.png");
+  background-position: no-repeat;
+}
+
+.chizi-icon {
+  background-image: url("../image/6/chizi.png");
+  background-position: no-repeat;
+}
+
+.cuo-xuan-icon {
+  background-image: url("../image/6/cuo-xuan.png");
+  background-position: no-repeat;
+}
+
+.di-shui-icon {
+  background-image: url("../image/6/di-shui.png");
+  background-position: no-repeat;
+}
+
+.jiashuqian-daohang-icon {
+  background-image: url("../image/6/jiashuqian-daohang.png");
+  background-position: no-repeat;
+}
+
+.jindu-icon {
+  background-image: url("../image/6/jindu.png");
+  background-position: no-repeat;
+}
+
+.jindu条-icon {
+  background-image: url("../image/6/jindu条.png");
+  background-position: no-repeat;
+}
+
+.mulu-icon {
+  background-image: url("../image/6/mulu.png");
+  background-position: no-repeat;
+}
+
+.rili-icon {
+  background-image: url("../image/6/rili.png");
+  background-position: no-repeat;
+}
+
+.shaodeng-icon {
+  background-image: url("../image/6/shaodeng.png");
+  background-position: no-repeat;
+}
+
+.shezhi-icon {
+  background-image: url("../image/6/shezhi.png");
+  background-position: no-repeat;
+}
+
+.taiyang-icon {
+  background-image: url("../image/6/taiyang.png");
+  background-position: no-repeat;
+}
+
+.time-icon {
+  background-image: url("../image/6/time.png");
+  background-position: no-repeat;
+}
+
+.top-shui-icon {
+  background-image: url("../image/6/top-shui.png");
+  background-position: no-repeat;
+}
+
+.xiazai-icon {
+  background-image: url("../image/6/xiazai.png");
+  background-position: no-repeat;
+}
+
+.yan-bai-icon {
+  background-image: url("../image/6/yan-bai.png");
+  background-position: no-repeat;
+}
+
+.yan-hong-icon {
+  background-image: url("../image/6/yan-hong.png");
+  background-position: no-repeat;
+}
+
+.youbai-icon {
+  background-image: url("../image/6/youbai.png");
+  background-position: no-repeat;
+}
+
+.yuan-icon {
+  background-image: url("../image/6/yuan.png");
+  background-position: no-repeat;
+}
+
+.yueliang-icon {
+  background-image: url("../image/6/yueliang.png");
+  background-position: no-repeat;
+}
+
+#new-nav .tp.arrow {
+  background: url("../image/6/arrow.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 0;
+}
+
+#new-nav .tp.add {
+  background: url("../image/6/jiashuqian-daohang.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 0;
+}
+
+#new-nav .tp.load {
+  background: url("../image/6/xiazai.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 0;
+}
+
+/*宽高背景色*/
+/*left-top*/
+/*right-top*/
+#new-nav {
+  width: 100%;
+  height: 1.4rem;
+  background: #29A6DC;
+  position: relative;
+}
+
+#new-nav:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#new-nav .back {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: transparent;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.25rem;
+}
+
+#new-nav .arrow {
+  background-image: url("../image/6/arrow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+#new-nav .title {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #FFF;
+  text-align: center;
+}
+
+#new-nav .title .title1 {
+  width: 100%;
+  line-height: 1.4rem;
+  font-size: 0.4rem;
+  float: left;
+}
+
+#new-nav .title .title2 {
+  width: 100%;
+  position: absolute;
+  font-size: 0.12rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  top: 1rem;
+  left: 0;
+}
+
+.plnr {
+  width: 94%;
+  height: 1.9rem;
+  margin-top: -1.2rem;
+  margin-bottom: 0.5rem;
+  margin-left: 3%;
+  border-radius: 6px;
+}
+
+.plnr img {
+  width: 0.8rem;
+  margin: 0.3rem 0.3rem 0 0.2rem;
+  float: left;
+}
+
+.grpl {
+  float: left;
+  font-size: 14px;
+  padding-top: 0.3rem;
+  position: relative;
+}
+
+.plrq {
+  width: 3rem;
+  background-image: url(../image/3/shijian.png);
+  background-repeat: no-repeat;
+  background-position: -5px -8px;
+  padding-left: 0.5rem;
+}
+
+.zan {
+  width: 3rem;
+  background-image: url(../image/3/shijian.png);
+  background-repeat: no-repeat;
+  background-position: -5px -8px;
+  padding-left: 0.5rem;
+  position: absolute;
+  right: -1.5rem;
+  bottom: 0;
+}
+
+.plnr2 {
+  width: 94%;
+  height: 1.9rem;
+  margin-top: -0.2rem;
+  margin-bottom: 0.2rem;
+  margin-left: 3%;
+  border-radius: 6px;
+}
+
+.plnr2 img {
+  width: 0.8rem;
+  margin: 0.3rem 0.3rem 0 0.2rem;
+  float: left;
+}

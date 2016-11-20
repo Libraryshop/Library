@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/*上下居中的混合宏*/
+/*左右居中的混合宏*/
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+}
+
+body, html {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #f2f2f2;
+}
+
+.C5header {
+  width: 100%;
+  height: 1.4rem;
+  position: relative;
+  background: #29a6dc;
+}
+
+.C5header .return {
+  width: 0.52rem;
+  height: 0.51rem;
+  position: absolute;
+  background-image: url("../../bookshelf/images/arrow.png");
+  background-size: cover;
+  bottom: 0.2rem;
+  left: 0.25rem;
+}
+
+.C5header .yuyin {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-image: url("../../bookshelf/images/loudou.png");
+  background-size: contain;
+  position: absolute;
+  right: 0.38rem;
+  bottom: 0.2rem;
+}
+
+.C5header .tip {
+  position: absolute;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #fff;
+  font-size: 0.36rem;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.C5header .tip p:nth-of-type(1) {
+  margin-top: 0.5rem;
+}
+
+.C5header .tip .hx {
+  width: 0.34rem;
+  height: 0.03rem;
+  background-image: url("../../bookshelf/images/c5hx1.png");
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 0.02rem;
+}
+
+.C5header .tip p:nth-of-type(3) {
+  margin-top: 0.06rem;
+  font-size: 0.18rem;
+  color: #a3e3ff;
+}
+
+.C5nav {
+  width: 100%;
+  height: 1.1rem;
+  position: relative;
+  background: #f2f2f2;
+}
+
+.C5nav .navIn {
+  width: 5.71rem;
+  height: 0.84rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../../bookshelf/images/c5bg.png");
+  background-size: contain;
+  margin-top: 0.25rem;
+}
+
+.C5nav .navIn .sx1 {
+  width: 0.03rem;
+  height: 0.59rem;
+  background-image: url("../../bookshelf/images/c5hx2.png");
+  background-size: contain;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 33.34%;
+}
+
+.C5nav .navIn .sx2 {
+  width: 0.03rem;
+  height: 0.59rem;
+  background-image: url("../../bookshelf/images/c5hx2.png");
+  background-size: contain;
+  z-index: 1100;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 66.67%;
+}
+
+.C5nav .navIn .list {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.C5nav .navIn .list .boxbg {
+  width: 1.65rem;
+  height: 0.7rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-size: contain;
+}
+
+.C5nav .navIn .list .boxbg p:nth-of-type(1) {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 0.24rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 0.13rem;
+}
+
+.C5nav .navIn .list .boxbg p:nth-of-type(2) {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 0.12rem;
+  color: #bddbe8;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 0.4rem;
+  transform: scale(0.6);
+}
+
+.C5nav .navIn .list:nth-child(2) .boxbg {
+  background-image: url("../../bookshelf/images/c5box.png");
+}
+
+.C5nav .navIn .list:nth-child(2) .boxbg p:nth-of-type(2) {
+  margin-left: -0.2rem;
+}
+
+.C5main {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+
+.C5main .box {
+  width: 100%;
+  height: 3.7rem;
+  margin-top: 0.15rem;
+  background: #fff;
+  float: left;
+  box-shadow: 0 0 20px 0 #efefef;
+  position: relative;
+}
+
+.C5main .box .left {
+  width: 3.05rem;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.C5main .box .left img {
+  width: 2.45rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: auto;
+}
+
+.C5main .box .right {
+  width: 4.45rem;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.C5main .box .right .bookname {
+  float: left;
+  font-size: 0.28rem;
+  color: #333;
+  margin-top: 0.2rem;
+}
+
+.C5main .box .right .english {
+  float: left;
+  width: 100%;
+  font-size: 0.16rem;
+  color: #999;
+  transform: scale(0.8);
+  text-align: left;
+  margin-left: -0.25rem;
+  margin-top: 0.05rem;
+}
+
+.C5main .box .right .intro {
+  float: left;
+  width: 100%;
+  font-size: 0.24rem;
+  color: #666;
+  transform: scale(0.8);
+  margin-left: -0.25rem;
+  line-height: 0.35rem;
+}
+
+.C5main .box .right .author {
+  float: left;
+  width: 100%;
+  font-size: 0.18rem;
+  color: #999;
+  transform: scale(0.8);
+  margin-left: -0.25rem;
+}
+
+.C5main .box .right .word {
+  float: left;
+  width: 100%;
+  font-size: 0.18rem;
+  color: #999;
+  transform: scale(0.8);
+  margin-left: -0.25rem;
+}
+
+.C5main .box .right .tuxing {
+  width: 1.5rem;
+  height: 0.25rem;
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+}
+
+.C5main .box .right .tuxing .star {
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-right: 0.05rem;
+  float: left;
+  background-image: url("../../bookshelf/images/xing-huang.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.C5main .box .right .tuxing .star1 {
+  background-image: url("../../bookshelf/images/xing-hei.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.C5main .box .right .look {
+  width: 1.84rem;
+  height: 0.57rem;
+  position: absolute;
+  background: url("../../bookshelf/images/look.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  bottom: 0.35rem;
+  right: 0.35rem;
+}
+
+#footer {
+  width: 100%;
+  height: 1rem;
+  background: #151c2b;
+  position: fixed;
+  bottom: 0;
+}
+
+#footer .list-icon {
+  width: 33.333333%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  position: relative;
+  color: #646567;
+}
+
+#footer .list-icon .iconfont {
+  font-family: "iconfont" !important;
+  font-size: 0.4rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.1rem;
+}
+
+#footer .list-icon .zi {
+  font-size: 0.24rem;
+}
+
+#footer .selected-di {
+  color: #fff;
+}

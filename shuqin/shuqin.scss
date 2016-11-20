@@ -1,0 +1,176 @@
+* {
+    position: relative;
+}
+@mixin center {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*清除浮动带的影响*/
+@mixin clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*背景图片循环*/
+$animal-list: A,arrow,bi,bi-hong,chizi,cuo-xuan,di-shui,jiashuqian-daohang,jindu,jindu条,mulu,rili,shaodeng,shezhi,taiyang,time,top-shui,xiazai,yan-bai,yan-hong,youbai,yuan,yueliang;
+
+@each $animal in $animal-list {
+    .#{$animal}-icon {
+        background-image: url('../image/6/#{$animal}.png');
+        background-position: no-repeat;
+    }
+}
+
+$background-list:arrow,add,load;
+$map:(
+"arrow":url('../image/6/arrow.png') no-repeat 0 0 cover,
+"add":url('../image/6/jiashuqian-daohang.png') no-repeat 0 0 cover,
+"load":url('../image/6/xiazai.png') no-repeat 0 0 cover
+);
+
+@each $v in map_keys($map){
+    $l:map_get($map,$v);
+    #new-nav .tp.#{$v}{
+        background:nth($l,1);
+        background-repeat:nth($l,2);
+        background-position:nth($l,3);
+        background-size:nth($l,4);
+    }
+}
+/*宽高背景色*/
+@mixin whb($w, $h, $b) {
+    width: $w;
+    height: $h;
+    background: $b;
+}
+/*left-top*/
+@mixin left-top($left, $top) {
+    position: absolute;
+    left: $left;
+    top: $top;
+}
+/*right-top*/
+@mixin right-top($right, $top) {
+    position: absolute;
+    right: $right;
+    top: $top;
+}
+#new-nav {
+    width: 100%;
+    height: 1.4rem;
+    background: #29A6DC;
+    position: relative;
+    &:after {
+        @include clearfix;
+    }
+    .back {
+        @include whb(0.5rem,0.5rem,transparent);
+        @include left-top(0.2rem,0.25rem);
+    }
+    .arrow {
+        background-image: url('../image/6/arrow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0;
+    }
+    .title{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        color:#FFF;
+        text-align: center;
+        .title1{
+            width: 100%;
+            line-height: 1.4rem;
+            font-size: 0.4rem;
+            float: left;
+        }
+        .title2{
+            width: 100%;
+            position: absolute;
+            font-size: 0.12rem;
+            color:rgba(255,255,255,0.7);
+            text-align: center;
+            top:1rem;
+            left: 0;
+        }
+    }
+
+}
+.plnr{
+    width:94%;
+    height:1.9rem;
+    margin-top:-1.2rem;
+    margin-bottom:0.5rem;
+    margin-left:3%;
+    border-radius:6px;
+//  box-shadow:0px 0px 4px #64c1e9 ;
+}
+.plnr img{
+    width:0.8rem;
+    margin:0.3rem 0.3rem 0 0.2rem;
+    float:left;
+}
+.grpl{
+    float:left;
+    font-size:14px;
+    padding-top:0.3rem;
+    position: relative;
+}
+.plrq{
+    width:3rem;
+    background-image:url(../image/3/shijian.png);
+    background-repeat:no-repeat;
+    background-position:-5px -8px ;
+    padding-left:0.5rem; 
+
+}
+.zan{
+    width:3rem;
+    background-image:url(../image/3/shijian.png);
+    background-repeat:no-repeat;
+    background-position:-5px -8px ;
+    padding-left:0.5rem;
+    position: absolute;
+    right:-1.5rem;
+    bottom:0;   
+}
+.plnr2{
+    width:94%;
+    height:1.9rem;
+    margin-top:-0.2rem;
+    margin-bottom:0.2rem;
+    margin-left:3%;
+    border-radius:6px;
+//  box-shadow:0px 0px 4px #64c1e9 ;
+}
+.plnr2 img{
+    width:0.8rem;
+    margin:0.3rem 0.3rem 0 0.2rem;
+    float:left;
+}
+//#Ffooter{
+//  width:100%;
+//  height: 1rem;
+//  background: #151c2b;
+//  position: fixed;
+//  bottom:0;
+//  .all{
+//      width:20%;
+//      height:0.5rem;
+//      background: #f4f4f4;
+//      border-radius: 0.4rem;
+//      position: absolute;
+//      left:40%;
+//      top:0.25rem;
+//      font-size: 0.24rem;
+//      line-height: 0.5rem;
+//      text-align: center;
+//      color: #ffffff;
+//      
+//  }
+//}

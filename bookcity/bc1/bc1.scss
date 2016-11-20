@@ -3,7 +3,6 @@ body{
     height: 100%;
     overflow: auto;
 }
-
 $image:'../image';
 
 @font-face {
@@ -288,9 +287,10 @@ $image:'../image';
             font-size:0.24rem;
         }
     }
-    .list-icon:hover{
-        color:#fff;
+    .selected-di{
+         color:#fff;
     }
+    
 }
 
 

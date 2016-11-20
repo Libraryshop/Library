@@ -1,0 +1,306 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #f2f2f2;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+}
+
+#top {
+  width: 100%;
+  height: 1.4rem;
+  background: #29a6dc;
+  position: relative;
+}
+
+#top .baolist {
+  width: 5.72rem;
+  height: 0.8rem;
+  background: #2a3441;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.48rem;
+  border-radius: 0.4rem;
+}
+
+#top .baolist li {
+  width: 33.3333%;
+  height: 100%;
+  float: left;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+#top .baolist li .bk {
+  width: 1.66rem;
+  height: 0.66rem;
+  border-radius: 0.4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+#top .baolist li .bk span:nth-of-type(1) {
+  display: block;
+  font-size: 0.24rem;
+}
+
+#top .baolist li .bk span:nth-of-type(2) {
+  font-size: 0.14rem;
+  opacity: 0.7;
+  display: block;
+  margin-top: -0.04rem;
+  color: #fff;
+}
+
+#top .baolist li .bian {
+  width: 0.05rem;
+  height: 0.59rem;
+  position: absolute;
+  right: -0.04rem;
+  top: 0.13rem;
+}
+
+#top .baolist li .bian .topyuan {
+  width: 0.06rem;
+  height: 0.06rem;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: -0.02rem;
+  border-radius: 50%;
+}
+
+#top .baolist li .bian .middle {
+  width: 0.02rem;
+  height: 0.53rem;
+  background: #fff;
+  position: absolute;
+  top: 0.02rem;
+  left: 0rem;
+}
+
+#top .baolist li .bian .bottomyuan {
+  width: 0.06rem;
+  height: 0.06rem;
+  background: #fff;
+  position: absolute;
+  left: -0.02rem;
+  border-radius: 50%;
+  bottom: 0;
+}
+
+#top .baolist li .blue {
+  background: #29a6dc;
+  border: 0.02rem solid #fff;
+}
+
+#top .baolist li .blue .yuan {
+  width: 0.03rem;
+  height: 0.03rem;
+  position: absolute;
+  top: 0.2rem;
+  background: #fff;
+}
+
+#top .baolist li .blue .yuan:nth-of-type(1) {
+  left: 0.32rem;
+}
+
+#top .baolist li .blue .yuan:nth-of-type(2) {
+  right: 0.32rem;
+}
+
+#top .baolist li .blue .yuan:nth-of-type(3) {
+  right: 0.26rem;
+}
+
+.con {
+  width: 100%;
+  height: 100%;
+}
+
+.con .con1 {
+  width: 100%;
+  height: 100%;
+}
+
+.con .con1 .con1-top {
+  padding-top: 0.12rem;
+  width: 100%;
+  height: 0.62rem;
+  background: #ace1f8;
+  box-shadow: 0 1px 0.15rem rgba(0, 0, 0, 0.5);
+  padding-left: 0.35rem;
+  margin-bottom: 0.3rem;
+}
+
+.con .con1 .con1-top .sj {
+  width: 0.37rem;
+  height: 0.37rem;
+  display: inline-block;
+  float: left;
+  background: url("../image/3/wenxueicon.png");
+  background-size: cover;
+  margin-right: 0.1rem;
+}
+
+.con .con1 .con1-top .wlwx {
+  fong-size: 0.2rem;
+  float: left;
+  opacity: 0.7;
+}
+
+.con .con1 .nv, .con .con1 .nan, .con .con1 .wen {
+  width: 100%;
+  height: 100%;
+  padding-left: 0.4rem;
+}
+
+.con .con1 .nv h2, .con .con1 .nan h2, .con .con1 .wen h2 {
+  font-size: 0.28rem;
+  font-weight: 400;
+  color: #8ecce7;
+}
+
+.con .con1 .nv pre, .con .con1 .nan pre, .con .con1 .wen pre {
+  padding-left: 0.3rem;
+  opacity: 0.2;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.con .con1 .nv .bao-kuai, .con .con1 .nan .bao-kuai, .con .con1 .wen .bao-kuai {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.con .con1 .nv .bao-kuai .item, .con .con1 .nan .bao-kuai .item, .con .con1 .wen .bao-kuai .item {
+  width: 2.05rem;
+  height: 0.9rem;
+  background: url("../image/3/shense.png");
+  background-size: cover;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.24rem;
+  color: #fff;
+  float: left;
+  margin-right: 0.26rem;
+  overflow: auto;
+}
+
+.con .con1 .nv .bao-kuai .item:nth-of-type(2), .con .con1 .nan .bao-kuai .item:nth-of-type(2), .con .con1 .wen .bao-kuai .item:nth-of-type(2) {
+  background: url("../image/3/qianse.png");
+  background-size: cover;
+}
+
+.con .con1 .nv .bao-kuai .item:nth-of-type(3), .con .con1 .nan .bao-kuai .item:nth-of-type(3), .con .con1 .wen .bao-kuai .item:nth-of-type(3) {
+  margin-right: 0;
+}
+
+.con .con1 .zhao {
+  width: 100%;
+  height: 1.36rem;
+  background-image: url("../image/3/bj.png");
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  padding-left: 0.35rem;
+}
+
+.con .con1 .zhao .item {
+  width: 2.05rem;
+  height: 0.9rem;
+  background: url("../image/3/qianse.png");
+  background-size: cover;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.24rem;
+  color: #fff;
+  float: left;
+  margin-right: 0.26rem;
+  overflow: auto;
+  margin-top: 0.46rem;
+}
+
+.con .con1 .zhao .item:nth-of-type(2) {
+  background: url("../image/3/shense.png");
+  background-size: cover;
+}
+
+.con .con1 .zhao .item:nth-of-type(3) {
+  margin-right: 0;
+}
+
+.con .con1 .nan, .con .con1 .wen {
+  width: 100%;
+  height: 2.3rem;
+  background: url("../image/3/bj2.png");
+  margin-top: -0.02rem;
+  overflow: auto;
+  padding-top: 0.4rem;
+}
+
+.con .con1 .nan .item, .con .con1 .wen .item {
+  width: 2rem;
+  height: 0.9rem;
+  background: url("../image/3/shense.png");
+  background-size: cover;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.24rem;
+  color: #fff;
+  float: left;
+  margin-right: 0.26rem;
+  overflow: auto;
+}
+
+.con .con1 .nan .item:nth-of-type(2), .con .con1 .wen .item:nth-of-type(2) {
+  background: url("../image/3/qianse.png");
+  background-size: cover;
+}
+
+#footer {
+  width: 100%;
+  height: 1rem;
+  background: #151c2b;
+  position: fixed;
+  bottom: 0;
+}
+
+#footer .list-icon {
+  width: 33.333333%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  position: relative;
+  color: #646567;
+}
+
+#footer .list-icon .iconfont {
+  font-family: "iconfont" !important;
+  font-size: 0.4rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.1rem;
+}
+
+#footer .list-icon .zi {
+  font-size: 0.24rem;
+}
+
+#footer .selected-di {
+  color: #fff;
+}

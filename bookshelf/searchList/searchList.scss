@@ -1,6 +1,14 @@
 $color:#29a6dc;
 $padding:0.2rem;
 $image:"../images/";
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
 @mixin yuan($v){
     width: $v;
     height: $v;
@@ -181,6 +189,45 @@ body,html{
                 bottom: 0.35rem;
                 right: 0.35rem;
             }
+        }
+    }
+}
+//footer
+.B3footer{
+    width: 100%;
+    height: 1.05rem;
+    position: fixed;
+    background: #151c2b;
+    bottom: 0;
+    .option{
+        float: left;
+        width: 33.33%;
+        height: 100%;
+        position: relative;
+        border-right:1px solid #717171;
+        box-sizing: border-box;
+        .icon{
+            font-family: "iconfont";
+            font-size: 0.5rem;
+            color:#5f6063;
+            @include lr-center;
+            bottom: 0.45rem;
+            text-align: center;
+        }
+        .word{
+            font-size: 0.24rem;
+            color:#5f6063;
+            @include lr-center;
+            bottom: 0.1rem;
+            text-align: center;
+        }
+    }
+    .option:first-of-type{
+        .icon{
+            color:#fff;
+        }
+        .word{
+            color: #fff;
         }
     }
 }
