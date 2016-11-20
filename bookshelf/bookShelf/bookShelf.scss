@@ -1,6 +1,15 @@
 $color:#29a6dc;             //头部像素
 $padding:0.2rem;            //内宽
 $image:"../images/";
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
 @mixin yuan($v){
     width: $v;
     height: $v;
@@ -292,7 +301,7 @@ body,html{
         border-right:1px solid #717171;
         box-sizing: border-box;
         .icon{
-//          font-family: "iconfont";
+            font-family: "iconfont";
             font-size: 0.5rem;
             color:#5f6063;
             @include lr-center;
