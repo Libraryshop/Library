@@ -89,40 +89,83 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
             @include whb(29.63%,86%,transparent);
             border-radius: 0.5rem;
             margin: 0.05rem 0.06rem;
-            text-align:center;
+            text-align: center;
         }
-        li.active{
-            background:#2BA6DC;
-            border:0.01rem solid #fff;
+        li.active {
+            background: #2BA6DC;
+            border: 0.01rem solid #fff;
         }
-        li.nav-img{
+        li.nav-img {
             @include background(url(../../images/6/nav_03.png),no-repeat,cover,0 0);
-            width:0.03rem;
-            height:0.59rem;
-            margin-top:0.099rem;
+            width: 0.03rem;
+            height: 0.59rem;
+            margin-top: 0.099rem;
         }
-        p{
-            font-size:0.12rem;
-            text-align:center;
-            line-height:1;
+        p {
+            font-size: 0.12rem;
+            text-align: center;
+            line-height: 1;
         }
-        p.title{
-            color:#fff;
-            margin-top:0.08rem;
+        p.title {
+            color: #fff;
+            margin-top: 0.08rem;
         }
-        p.E-title{
-            color:#e6e6e6;
-            font-variant:all-small-caps;
+        p.E-title {
+            color: #e6e6e6;
+            font-variant: all-small-caps;
         }
     }
 }
 /*列表导航   End*/
 /*列表*/
-#content-inner {
-    @include whb(100%,13rem,#FFE9B0);
+#list-inner {
+    @include whb(100%,13rem,#fff);
     overflow: hidden;
-    .inner {}
+    .list {
+        @include whb(100%,13rem,transparent);
+        &:after {
+            @include clearfix;
+        }
+        li {
+            float: left;
+            @include whb(100%,auto,transparent);
+            border-bottom: 0.02rem dotted #9A9A9A;
+            &:after {
+                @include clearfix;
+            }
+        }
+    }
+    div {
+        float: left;
+        padding: 0.239rem;
+        a{
+            color:#282828;
+        }
+    }
+    li.first div{
+        a{
+            color:#2BA6DC;
+       }
+    }
+    .main {
+        margin-left: 0.3rem;
+    }
+    .already-load{
+        position:absolute;
+        right:0.3rem;
+        a{
+            color:#989898;
+        }
+    }
+    li.first .already-load{
+        a{
+            color:#282828;
+       }
+    }
+    li.second .already-load{
+        a{
+            color:#282828;
+        }
+    }
 }
 /*列表   End*/
-/*页脚*/
-/*页脚   End*/
