@@ -96,6 +96,32 @@ body, html {
   margin-top: 0.25rem;
 }
 
+.C5nav .navIn .sx1 {
+  width: 0.03rem;
+  height: 0.59rem;
+  background-image: url("../../bookshelf/images/c5hx2.png");
+  background-size: contain;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 33.34%;
+}
+
+.C5nav .navIn .sx2 {
+  width: 0.03rem;
+  height: 0.59rem;
+  background-image: url("../../bookshelf/images/c5hx2.png");
+  background-size: contain;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 66.67%;
+}
+
 .C5nav .navIn .list {
   width: 33.33%;
   height: 100%;

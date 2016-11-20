@@ -91,6 +91,24 @@ body,html{
         background-image:url($image+"c5bg.png");
         background-size:contain ;
         margin-top: 0.25rem;
+        .sx1{
+           width: 0.03rem;
+           height: 0.59rem; 
+           background-image:url($image+"c5hx2.png");
+           background-size:contain ;
+           z-index: 1000;
+           @include tb-center;
+           left: 33.34%;
+        }
+        .sx2{
+           width: 0.03rem;
+           height: 0.59rem; 
+           background-image:url($image+"c5hx2.png");
+           background-size:contain ;
+           z-index: 1000;
+           @include tb-center;
+           left: 66.67%;
+        }
         .list{
             width: 33.33%;
             height: 100%;
