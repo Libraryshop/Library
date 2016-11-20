@@ -325,3 +325,28 @@ body{
 	height:0.7rem;
 	float:left;
 }
+/*我的笔记*/
+.bjnr{
+	width:90%;
+	height:auto;
+	margin-left:5%;
+	margin-top:0.8rem;
+	border-radius:6px;
+	box-shadow:0px 0px 4px #64c1e9 ;
+	padding:0.2rem 0.2rem 0.2rem 0.8rem;
+	background-image: url(../image/images/ld.jpg);
+	background-repeat: no-repeat;
+	background-position: 0.1rem 0.05rem;
+}
+.bjnr2{
+	width:90%;
+	height:auto;
+	margin-left:5%;
+	margin-top:0.2rem;
+	border-radius:6px;
+	box-shadow:0px 0px 4px #64c1e9 ;
+	padding:0.2rem 0.2rem 0.2rem 0.8rem;
+	background-image: url(../image/images/ld.jpg);
+	background-repeat: no-repeat;
+	background-position: 0.1rem 0.05rem;
+}
