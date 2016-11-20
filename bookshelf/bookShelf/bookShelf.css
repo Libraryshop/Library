@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+}
+
 /*上下居中的混合宏*/
 /*左右居中的混合宏*/
 * {
@@ -11,6 +17,7 @@ body, html {
   height: auto;
   overflow-x: hidden;
   overflow-y: auto;
+  background: #fafafa;
 }
 
 .B1header {
@@ -318,6 +325,7 @@ body, html {
 }
 
 .B1footer .option .icon {
+  font-family: "iconfont";
   font-size: 0.5rem;
   color: #5f6063;
   position: absolute;
