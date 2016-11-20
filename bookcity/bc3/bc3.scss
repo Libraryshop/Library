@@ -2,6 +2,7 @@ body{
     width:100%;
     height: 100%;
     overflow: auto;
+    background: #f2f2f2;
 }
 
 $image:'../image';
@@ -126,139 +127,136 @@ $image:'../image';
     }
 }
 //top
-//banner
-#banner{
+//con
+.con{
     width:100%;
-    height:5.07rem;
-    position:relative;
-    #banner-tu{
+    height:100%;
+    .con1{
         width:100%;
-        height:4.84rem;
-        background: url($image+'/3/banner.png');
-        background-size:cover;
-        box-shadow: 0px 1px 0.2rem rgba(0,0,0,0.5);
-    }
-    #hua-yuan{
-        width:0.5rem;
-        height:0.1rem;
-
-        position:absolute;
-        bottom:0;
-        left:0;
-        bottom:0;
-        right:0;
-        margin:auto;
-        margin-top:0.14rem;
-        li{
-            width:0.08rem;
-            height:0.08rem;
-            border:0.01rem solid #29A6DC;
-            float:left;
-            margin-right:0.1rem;
-            border-radius: 50%;
-        }
-        .selected{
-            background: #29A6DC;
-        }
-        li:nth-of-type(3){
-            margin-right:0;
-        }
-    }
-}
-//cn
-.cn{
-    width:100%;
-    height:8.32rem;
-    padding-left:0.24rem;
-//  background:red;
-    .top{
-        padding-top:0.01rem;
-       width:100%;
-       height:0.94rem;
-       padding-left:0.14rem;
-       color:#000;
-//     background: red;
-       .top-span{
-           width:100%;
-           height:0.4rem;
-           overflow: auto;
-           .sj{
-               display: inline-block;
+        height:100%;
+        .con1-top{
+            padding-top:0.12rem;
+            width:100%;
+            height:0.62rem;
+            background:#ace1f8;
+            box-shadow: 0 1px 0.15rem rgba(0,0,0,.5);
+            padding-left:0.35rem;
+            margin-bottom: 0.3rem;
+            .sj{
+               width:0.37rem;
+               height:0.37rem;
+               display:inline-block;
                float:left;
-               font-size: 0.3rem;
-               margin-right: 0.1rem;
-//             margin-top:0.06rem;
-           }
-           .yuan{
-               width:0.06rem;
-               height:0.06rem;
-               border-radius: 50%;
-               float:left;
-               margin-top:0.3rem;
-               margin-right:0.04rem;
-           }
-           .yuan:nth-of-type(1){
-               background: #fe58aa;
-           }
-           .yuan:nth-of-type(2){
-               background: #58fedd;
-           }
-           .yuan:nth-of-type(3){
-               background: #f7db97;
-           }
-           .icon{
-               float:left;
-               margin-top:0.1rem;
+               background: url($image+'/3/wenxueicon.png'); 
+               background-size:cover;
                margin-right:0.1rem;
-               display: inline-block;
-               width:0.32rem;
-               height:0.32rem;
-               background:url($image+'/2/sj.png');
-               background-size: cover;
-           }
-       }
-       .new{
-           opacity: 0.7;
-           font-size: 0.22rem;
-           margin-left:0.33rem;
-       } 
-    }
-    .di,.bali{
-        width:100%;
-        height:3.54rem;
-        padding-left:0.2rem;
-        margin-bottom:0.4rem;
-//      background: red;
-        .tu-list{
-             width:1.8rem;
-             height:100%;
-             float: left;
-             margin-right:0.62rem;
-            .tu{
-                width:1.8rem;
-                height: 2.55rem;
-                background: url($image+'/3/diyu.png'); 
-                background-size: cover; 
             }
-            .name{
-                font-size: 0.2rem;
-                opacity: 0.7;
-            }
-            .author{
-                font-size:0.18rem;
-                color:#aaa;
+            .wlwx{
+                fong-size:0.2rem;
+                float:left;
+                opacity:0.7;
             }
         }
-        .tu-list:nth-of-type(3){
-            margin-right: 0;
+        .nv,.nan,.wen{
+            width:100%;
+            height:100%;
+            padding-left:0.4rem;
+            h2{
+                font-size:0.28rem;
+                font-weight: 400;
+                color:#8ecce7;
+            }
+            pre{
+                padding-left:0.3rem;
+                opacity: 0.2;
+                display:block;
+                margin-bottom:0.2rem;
+            }
+            .bao-kuai{
+            width:100%;
+            height:100%;
+            overflow: auto;
+            .item{
+                width:2.05rem;
+                height:0.9rem;
+                background: url($image+'/3/shense.png');
+                background-size: cover;
+                text-align: center;
+                line-height: 0.8rem;
+                font-size:0.24rem;
+                color:#fff;
+                float:left;
+                margin-right:0.26rem;
+                overflow: auto;
+            }
+            .item:nth-of-type(2){
+             background: url($image+'/3/qianse.png');
+             background-size:cover;  
+            }
+            .item:nth-of-type(3){
+                margin-right:0;
+            }
+            
         }
-    }
-    .bali{
-        .tu-list{
-           .tu{
-          background: url($image+'/3/bali.png');  
-        } 
         }
+        .zhao{
+                width:100%;
+                height:1.36rem;
+                background-image: url($image+'/3/bj.png');
+                background-repeat: repeat-x;
+                background-position: 0 0;
+                padding-left:0.35rem;
+                .item{  
+                width:2.05rem;
+                height:0.9rem;
+                background: url($image+'/3/qianse.png');
+                background-size: cover;
+                text-align: center;
+                line-height: 0.8rem;
+                font-size:0.24rem;
+                color:#fff;
+                float:left;
+                margin-right:0.26rem;
+                overflow: auto;
+                margin-top:0.46rem;
+            }
+            .item:nth-of-type(2){
+                background:url($image+'/3/shense.png');
+                background-size:cover;
+            }
+            .item:nth-of-type(3){
+                margin-right:0;
+            }
+            }
+            .nan,.wen{
+                width:100%;
+                height:2.3rem;
+                background:url($image+'/3/bj2.png');
+                margin-top:-0.02rem;
+                overflow: auto;
+                padding-top:0.4rem;
+                h2{
+//                  margin-top:0.6rem;
+                }
+                .item{
+                    width:2rem;
+                    height:0.9rem;
+                    background: url($image+'/3/shense.png');
+                    background-size: cover;
+                    text-align: center;
+                    line-height: 0.8rem;
+                    font-size:0.24rem;
+                    color:#fff;
+                    float:left;
+                    margin-right:0.26rem;
+                    overflow: auto;
+//                  margin-top:0.46rem;  
+                }
+                .item:nth-of-type(2){
+                 background: url($image+'/3/qianse.png');
+                 background-size: cover; 
+                }
+            }
         
     }
 }
@@ -289,9 +287,7 @@ $image:'../image';
         }
     }
     .selected-di{
-         color:#fff;
+        color:#fff;
     }
     
 }
-
-

@@ -302,6 +302,6 @@ body {
   font-size: 0.24rem;
 }
 
-#footer .list-icon:hover {
+#footer .selected-di {
   color: #fff;
 }
