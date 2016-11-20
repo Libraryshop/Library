@@ -1,0 +1,265 @@
+body{
+    width:100%;
+    height: 100%;
+    overflow: auto;
+}
+
+$image:'../image';
+
+#top{
+    width:100%;
+    height:1.4rem;
+    background:#29a6dc;
+    position:relative;
+    .baolist{
+        width:5.72rem;
+        height:0.8rem;
+        background:#2a3441;
+        margin:auto;
+        position:absolute;
+        left:0;
+        right:0;
+        top:0.48rem;
+        border-radius: 0.4rem;
+        li{
+            width:33.3333%;
+            height:100%;
+            float:left;
+//          background: red;
+            position:relative;
+            color:#fff;
+//          line-height:0.6rem;
+            text-align: center;
+            font-size:14px;
+//          border-radius: 0.4rem;
+          .bk{
+             width:1.66rem;
+             height: 0.66rem;
+//           background:blue;
+             border-radius: 0.4rem;
+             position:absolute;
+             top:0;
+             left:0;
+             bottom:0;
+             right:0;
+             margin:auto; 
+            
+             span:nth-of-type(1){
+                 display:block;
+                 font-size:0.24rem;
+             }
+             span:nth-of-type(2){
+                 font-size:0.14rem;
+                 opacity:0.7;
+                 display: block;
+                 margin-top:-0.04rem;
+                 color:#fff;
+                 
+             } 
+             .yuan{
+                 width:0.03rem;
+                 height:0.03rem;
+                 position: absolute;
+                 top:0.2rem;
+                 
+                 background: #fff;
+             }
+             .yuan:nth-of-type(1){
+                 left:0.32rem;
+             }
+             .yuan:nth-of-type(2){
+                 right:0.32rem;
+             }
+             .yuan:nth-of-type(3){
+                 right:0.26rem;
+             }
+          }
+          .bian{
+              width:0.05rem;
+              height:0.59rem;
+              position: absolute;
+//            background: red;
+              right:-0.04rem;
+              top:0.13rem;
+              .topyuan{
+                  width:0.06rem;
+                  height:0.06rem;
+                  background: #fff;
+                  position: absolute;
+                  top:0;
+                  left:-0.02rem;
+                  border-radius: 50%;
+              }
+              .middle{
+                  width:0.02rem;
+                  height:0.53rem;
+                  background: #fff;
+                  position:absolute;
+                  top:0.02rem;
+                  left:0rem;
+              }
+              .bottomyuan{
+                  width:0.06rem;
+                  height:0.06rem;
+                  background: #fff;
+                  position: absolute;
+                  left:-0.02rem;
+                  border-radius: 50%;
+                  bottom:0;
+              }
+              
+          }
+          .blue{
+              background:#29a6dc;
+              border:0.02rem solid #fff;
+          }
+        }
+    }
+}
+//top
+.new{
+   width: 100%;
+   height:2.72rem;
+   background:url($image+'/3/remendatu.png');
+   background-size:cover;
+   margin-top:0.15rem;
+   
+   .newleft{
+        width: 50%;
+        height:2.72rem;
+        overflow: hidden;
+        float: left;
+          background:rgba(0,0,0,0.3);
+        .newleft1{
+             width:100%;
+             height:0.83rem;
+             text-align: center;
+             line-height:1.2rem;
+             font-size: 0.45rem;
+             color:#d9d8d9;                    
+             }
+       .newleft2{
+             width:100%;
+             height:0.24rem;
+              margin-top:0.1rem;
+              margin-bottom:0.1rem; 
+             }             
+             #newleft21{
+                  width:3.6rem;
+                  height:0.24rem;
+                  text-align: center;
+                  line-height:0.24rem;
+                  font-size:0.1rem!important;
+                  color:#d9d8d9 ;
+                }  
+              .newleft3{
+                  width:0.28rem;
+                  height:0.28rem;
+                  margin:0 auto;
+                  
+                  background:url($image+"/3/remenicon.png");
+                  background-size:cover;    
+                         
+              } 
+              .newleft4{ 
+                   width:100%;
+                   height:0.21rem;
+                   text-align:center;
+                   line-height:0.21;
+                   font-size:0.12rem;
+                   color:#d9d8d9 ; 
+                   margin-top:0.1rem;
+                   margin-bottom:0.1rem;              
+                   }             
+            .newleft6,.newleft5{ 
+                   width:100%;
+                   height:0.21rem;
+                   text-align:center;
+                   line-height:0.21;
+                   font-size:0.1rem;
+                   color:#d9d8d9 ; 
+                   margin-top:0.1rem;
+                   margin-bottom:0.1rem;              
+                   }             
+             
+   }
+   .newright{
+         width: 50%;
+         height:2.72rem;
+         overflow: hidden;
+         background:rgba(0,0,0,0.3);
+       
+        float: left;
+      .newright1{
+          width: 100%;
+          height:0.95rem;
+         
+          .newright11{
+//           display: block;
+            font-weight: bold;
+            font-size: 0.40rem;
+            margin-top:0.58rem;
+            float: left;
+            color:#fff;
+         }
+          .newright12{
+          display:block;
+          font-size:0.24rem;
+          text-align: center;
+          line-height:1.7rem; 
+           color:#D9D8D9; 
+         }
+       
+      }
+       .newright2{
+          width: 100%;
+          height:0.57rem;
+         
+         
+         .newright21{
+            width: 0.81rem;
+           height:0.3rem; 
+            font-weight: bold;
+            font-size: 0.45rem;
+            margin-top:0.28rem;
+            margin-left:0.02rem;
+            
+            color:#fff;
+         }
+         .newright22{
+         
+          font-size:0.24rem;
+          text-align: center;
+          margin-top:-0.17rem;
+          float: right;
+  
+           color:#D9D8D9; 
+         }
+      }
+      .newright3{
+          width: 100%;
+          height:0.57rem;
+         
+         
+         .newright31{
+            width: 0.81rem;
+           height:0.3rem; 
+            font-weight: bold;
+            font-size: 0.40rem;
+            margin-top:0.28rem;
+            margin-left:0.02rem;
+            
+            color:#fff;
+         }
+         .newright32{
+         
+          font-size:0.24rem;
+          text-align: center;
+          margin-top:-0.19rem;
+          float: right;
+  
+           color:#D9D8D9; 
+         }
+      }
+   }
+}
