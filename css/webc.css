@@ -138,14 +138,14 @@ body {
   .mc-cen .cen-top {
     width: 2rem;
     height: 2rem;
-    background: #000;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
     margin-top: 0.85rem;
-    border: 0.1rem solid #ededed;
-    border-radius: 50%; }
+    border-radius: 50%;
+    background: url(../image/4/user.png) no-repeat;
+    background-size: cover; }
   .mc-cen .cen-cen {
     width: 100%;
     height: 2rem;
@@ -180,17 +180,311 @@ body {
       width: 90%;
       height: auto;
       border-radius: 0.2rem;
-      border: 0.02px solid #000;
-      margin-left: 5%; }
+      margin-left: 5%;
+      border: 0.02rem solid #eaeaea;
+      box-shadow: 0rem 0rem 1rem #eaeaea; }
       .mc-cen .cen-bom ul li {
         width: 100%;
         height: 1rem;
-        border-bottom: 1px dashed #000; }
+        border-bottom: 1px dashed #000;
+        position: relative; }
         .mc-cen .cen-bom ul li .cb-left {
-          width: 45%;
+          width: 65%;
           height: 100%;
           float: left; }
+          .mc-cen .cen-bom ul li .cb-left .cb-img {
+            width: 0.35rem;
+            height: 0.35rem;
+            position: absolute;
+            top: 0.33rem;
+            left: 0.33rem;
+            background: url(../image/me/1.png) no-repeat;
+            background-size: cover; }
+          .mc-cen .cen-bom ul li .cb-left .cb-img2 {
+            background: url(../image/me/2.png) no-repeat;
+            background-size: cover; }
+          .mc-cen .cen-bom ul li .cb-left .cb-img3 {
+            background: url(../image/me/3.png) no-repeat;
+            background-size: cover; }
+          .mc-cen .cen-bom ul li .cb-left .cb-img4 {
+            background: url(../image/me/4.png) no-repeat;
+            background-size: cover; }
+          .mc-cen .cen-bom ul li .cb-left .cb-img5 {
+            background: url(../image/me/5.png) no-repeat;
+            background-size: cover; }
+          .mc-cen .cen-bom ul li .cb-left .cb-img6 {
+            background: url(../image/me/6.png) no-repeat;
+            background-size: cover; }
+          .mc-cen .cen-bom ul li .cb-left .cb-img7 {
+            background: url(../image/me/7.png) no-repeat;
+            background-size: cover; }
+          .mc-cen .cen-bom ul li .cb-left .cb-img8 {
+            background: url(../image/me/8.png) no-repeat;
+            background-size: cover; }
+          .mc-cen .cen-bom ul li .cb-left .cb-zi {
+            width: 60%;
+            height: 0.67rem;
+            position: absolute;
+            top: 0.1rem;
+            left: 0.9rem; }
+            .mc-cen .cen-bom ul li .cb-left .cb-zi span {
+              font-size: 0.25rem;
+              color: #333; }
+            .mc-cen .cen-bom ul li .cb-left .cb-zi p {
+              font-size: 0.16rem;
+              color: #666; }
         .mc-cen .cen-bom ul li .cb-right {
-          width: 45%;
+          width: 30%;
           height: 100%;
           float: right; }
+          .mc-cen .cen-bom ul li .cb-right span {
+            position: absolute;
+            top: 0.33rem;
+            right: 0.7rem; }
+          .mc-cen .cen-bom ul li .cb-right a {
+            display: block;
+            position: absolute;
+            top: 0.33rem;
+            right: 0.33rem;
+            color: #6cc2e7; }
+          .mc-cen .cen-bom ul li .cb-right .cb-r {
+            position: absolute;
+            top: 0.33rem;
+            right: 0.33rem;
+            width: 1rem;
+            height: 0.4rem;
+            border: 0.03rem solid #e1e7ff;
+            border-radius: 0.5rem;
+            background: #3a91fd; }
+            .mc-cen .cen-bom ul li .cb-right .cb-r .cb-r1 {
+              width: 0.3rem;
+              height: 0.3rem;
+              border: 0.03rem solid #e1e7ff;
+              border-radius: 50%;
+              background: #fff;
+              position: absolute;
+              top: 0.02rem;
+              right: 0.02rem; }
+              .mc-cen .cen-bom ul li .cb-right .cb-r .cb-r1 .cb-r2 {
+                width: 0.08rem;
+                height: 0.08rem;
+                border-radius: 50%;
+                background: #2de7cb;
+                position: absolute;
+                top: 0.08rem;
+                left: 0.08rem; }
+      .mc-cen .cen-bom ul .cen-bb {
+        border-bottom: 0px dashed #000; }
+  .mc-cen .cen-bom1 {
+    top: 1.2rem; }
+
+.mc-foot {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0; }
+  .mc-foot .mf-l {
+    width: 33%;
+    height: 100%;
+    float: left;
+    border-right: 0.3%rem solid #717171;
+    background: #151c2b; }
+    .mc-foot .mf-l span {
+      display: block;
+      height: 0.5rem;
+      width: 100%rem;
+      background: #fff;
+      text-align: center; }
+    .mc-foot .mf-l a {
+      display: block;
+      width: 100%;
+      height: 0.5rem;
+      font-size: 0.24rem;
+      color: #6d6d6e;
+      text-align: center;
+      line-height: 0.5rem; }
+    .mc-foot .mf-l a:hover {
+      color: #fff; }
+  .mc-foot .mf-c {
+    width: 33%;
+    height: 100%;
+    float: left;
+    border-right: 0.3%rem solid #717171;
+    background: #151c2b; }
+    .mc-foot .mf-c span {
+      display: block;
+      height: 0.5rem;
+      width: 100%rem;
+      background: #fff;
+      text-align: center; }
+    .mc-foot .mf-c a {
+      display: block;
+      width: 100%;
+      height: 0.5rem;
+      font-size: 0.24rem;
+      color: #6d6d6e;
+      text-align: center;
+      line-height: 0.5rem; }
+    .mc-foot .mf-c a:hover {
+      color: #fff; }
+  .mc-foot .mf-r {
+    width: 33%;
+    height: 100%;
+    float: left;
+    border-right: 0.3%rem solid #717171;
+    background: #151c2b; }
+    .mc-foot .mf-r span {
+      display: block;
+      height: 0.5rem;
+      width: 100%rem;
+      background: #fff;
+      text-align: center; }
+    .mc-foot .mf-r a {
+      display: block;
+      width: 100%;
+      height: 0.5rem;
+      font-size: 0.24rem;
+      color: #6d6d6e;
+      text-align: center;
+      line-height: 0.5rem; }
+    .mc-foot .mf-r a:hover {
+      color: #fff; }
+
+.cb-f {
+  width: 5.7rem;
+  height: 0.7rem;
+  border-radius: 1rem;
+  background: #28dd8b;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 12rem; }
+  .cb-f span {
+    display: block;
+    text-align: center;
+    line-height: 0.7rem;
+    color: #fff; }
+  .cb-f .cb-y {
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0.5rem; }
+  .cb-f .cb-y1 {
+    left: -4rem; }
+
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(159, 159, 159, 0.5); }
+  .box .cen-tan {
+    width: 5.2rem;
+    height: 6.2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3.2rem;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    background: #fff; }
+    .box .cen-tan .tan-top {
+      width: 100%;
+      height: 1rem;
+      background: #29dcbc; }
+    .box .cen-tan .tan-cen li {
+      width: 90%;
+      height: 0.8rem;
+      margin-left: 5%;
+      border-bottom: 0.01rem dashed #000;
+      margin-top: 0.2rem;
+      position: relative; }
+      .box .cen-tan .tan-cen li .cb-left {
+        width: 80%; }
+        .box .cen-tan .tan-cen li .cb-left p {
+          margin-top: -0.1rem; }
+      .box .cen-tan .tan-cen li .cb-right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 0.2rem;
+        width: 10%; }
+        .box .cen-tan .tan-cen li .cb-right span {
+          display: block;
+          width: 0.5rem;
+          height: 0.5rem;
+          border: 1px solid #000;
+          border-radius: 50%;
+          margin-top: 0.1rem; }
+    .box .cen-tan .tan-bom {
+      width: 100%;
+      height: 1rem;
+      position: relative; }
+      .box .cen-tan .tan-bom .cb-f1 {
+        width: 2rem;
+        height: 0.5rem;
+        border-radius: 1rem;
+        background: #28dd8b;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0.5rem; }
+        .box .cen-tan .tan-bom .cb-f1 span {
+          width: 2rem;
+          height: 0.5rem;
+          display: block;
+          text-align: center;
+          line-height: 0.5rem;
+          color: #fff; }
+        .box .cen-tan .tan-bom .cb-f1 .cb-y {
+          width: 0.1rem;
+          height: 0.1rem;
+          border-radius: 50%;
+          background: #fff;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          right: 0.12rem; }
+        .box .cen-tan .tan-bom .cb-f1 .cb-y1 {
+          left: -1.5rem; }
+      .box .cen-tan .tan-bom .cb-f2 {
+        width: 2rem;
+        height: 0.5rem;
+        border-radius: 1rem;
+        background: #28dd8b;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 0.5rem; }
+        .box .cen-tan .tan-bom .cb-f2 span {
+          width: 2rem;
+          height: 0.5rem;
+          display: block;
+          text-align: center;
+          line-height: 0.5rem;
+          color: #fff; }
+        .box .cen-tan .tan-bom .cb-f2 .cb-y {
+          width: 0.1rem;
+          height: 0.1rem;
+          border-radius: 50%;
+          background: #fff;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          right: 0.12rem; }
+        .box .cen-tan .tan-bom .cb-f2 .cb-y1 {
+          left: -1.5rem; }
