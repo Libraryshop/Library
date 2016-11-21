@@ -157,7 +157,7 @@ a {
   height: 0.8rem;
   background: transparent;
   float: left;
-  margin: 0.1rem 0 0 0.9rem;
+  margin: 0.3rem 0 0 0.9rem;
   border-radius: 0.5rem;
 }
 
@@ -240,7 +240,7 @@ a {
   background: #fff;
   border-radius: 0.2rem;
   box-shadow: 0 0 0.26rem rgba(41, 166, 220, 0.5);
-  margin: 0.3rem auto;
+  margin: 0.26rem auto;
 }
 
 #list-inner .list:after {
@@ -432,6 +432,7 @@ a {
   text-align: center;
   font-size: 0.18rem;
   line-height: 1.95;
+  color: #383838;
 }
 
 .footer .footer-circle {

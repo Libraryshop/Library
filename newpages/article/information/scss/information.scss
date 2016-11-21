@@ -109,7 +109,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 /*内容   End*/
 /*页脚*/
 #footer {
-    @include whb(100%,3.8rem,#141C2D);
+    @include whb(100%,3.9rem,#141C2D);
     position: absolute;
     bottom: 0;
     .foot-info {

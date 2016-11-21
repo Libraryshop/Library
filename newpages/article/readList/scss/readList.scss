@@ -73,7 +73,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 #list-nav {
     @include whb(6rem,0.8rem,#2C3744);
     float: left;
-    margin: 0.1rem 0 0 0.9rem;
+    margin: 0.3rem 0 0 0.9rem;
     border-radius: 0.5rem;
     &:after {
         @include clearfix;

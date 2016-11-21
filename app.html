@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="text">
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<!--基本引入文件-->
 		<script src="https://cdn.bootcss.com/angular.js/1.5.8/angular.min.js"></script>
 		<script src="https://cdn.bootcss.com/angular.js/1.5.8/angular-route.min.js"></script>
 		<script src="https://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>    	<!--基本引入文件-->
@@ -17,10 +19,23 @@
 		<link rel="stylesheet" href="bookcity/bc4/bc4.css" />
 		<link rel="stylesheet" href="bookcity/bc5/bc5.css" />
 		<link rel="stylesheet" href="bookcity/bc6/bc6.css" />
+		<!--newpages css-->
+		<link rel="stylesheet" href="newpages/article/comment/comment.css" />
+		<link rel="stylesheet" href="newpages/article/contents/contents.css" />
+		<link rel="stylesheet" href="newpages/article/copy/copy.css" />
+		<link rel="stylesheet" href="newpages/article/information/information.css" />
+		<link rel="stylesheet" href="newpages/article/mode/mode.css" />
+		<link rel="stylesheet" href="newpages/article/reading/reading.css" />
+		<link rel="stylesheet" href="newpages/article/readList/readList.css" />
+		<link rel="stylesheet" href="newpages/article/share/share.css" />
+		<link rel="stylesheet" href="newpages/navigation/navigation.css" />
+
 	</head>
-	<body >
+
+	<body>
 		<ng-view></ng-view>
 	</body>
 	<script src="app.js"></script>
 	<script src="config.js"></script>
+	
 </html>
