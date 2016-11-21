@@ -52,7 +52,8 @@ $image:'../image';
              bottom:0;
              right:0;
              margin:auto; 
-            
+            display: block;
+            color:#fff;
              span:nth-of-type(1){
                  display:block;
                  font-size:0.24rem;
@@ -124,6 +125,16 @@ $image:'../image';
              }
           }
         }
+    }
+    .bcsearch{
+        width:0.46rem;
+        height:0.46rem;
+        display: block;
+        background: url($image+'/3/search.png');
+        background-size:cover;
+        position: absolute;
+        right:0.24rem;
+        bottom:0.3rem;
     }
 }
 //top
