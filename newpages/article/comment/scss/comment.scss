@@ -73,7 +73,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 #list-nav {
     @include whb(6rem,0.8rem,transparent);
     float: left;
-    margin: 0.1rem 0 0 0.9rem;
+    margin: 0.3rem 0 0 0.9rem;
     border-radius: 0.5rem;
     &:after {
         @include clearfix;
@@ -125,7 +125,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
         @include whb(6.86rem,1.9rem,#fff);
         border-radius: 0.2rem;
         box-shadow: 0 0 0.26rem rgba(41,166,220,0.5);
-        margin: 0.3rem auto;
+        margin: 0.26rem auto;
         &:after {
             @include clearfix;
         }
@@ -243,6 +243,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
         text-align: center;
         font-size: 0.18rem;
         line-height: 1.95;
+        color: #383838;
     }
     .footer-circle {
         @include whb(0.1rem,0.1rem,#C4C4C4);

@@ -74,11 +74,22 @@ body,html{
         font-size:0.22rem;
         color:#c4c4c4;
         line-height: 0.55rem;
-        background-image:url($image+"fdj.png") ;
-        background-size:contain ;
-        background-repeat:no-repeat ;
+//      background-image:url($image+"fdj.png") ;
+//      background-size:contain ;
+//      background-repeat:no-repeat ;
+    }
+    a{  
+         width: 0.55rem;
+         height: 0.55rem;
+         background-size:contain ;
+         background-repeat:no-repeat ;        
+         background-image:url($image+"fdj.png") ;
+         position: absolute;
+         bottom: 0.2rem;
+         left: 1rem;
     }
 }
+
 
 .B2title{
     width: 100%;

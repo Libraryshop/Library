@@ -306,7 +306,7 @@ body {
 /*新闻头部*/
 #new-nav {
   width: 100%;
-  height: 1rem;
+  height: 1.4rem;
   background: #29A6DC;
 }
 
@@ -322,7 +322,7 @@ body {
   background: transparent;
   position: absolute;
   left: 0.2rem;
-  top: 0.25rem;
+  top: 0.45rem;
 }
 
 #new-nav .arrow {
@@ -338,7 +338,7 @@ body {
   background: transparent;
   position: absolute;
   right: 0.2rem;
-  top: 0.25rem;
+  top: 0.45rem;
 }
 
 #new-nav .download:after {
