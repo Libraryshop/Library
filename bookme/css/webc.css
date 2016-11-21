@@ -144,7 +144,12 @@ body {
       background-image: url(../../image/me/m1.png);
       background-size: cover;
       bottom: 0.2rem;
-      left: 0.25rem; }
+      left: 0.25rem;
+      z-index: 10; }
+      .mc-head .C5header .return a {
+        display: block;
+        width: 0.52rem;
+        height: 0.51rem; }
     .mc-head .C5header .return1 {
       background-image: url(../../image/me/m3.png);
       background-size: cover; }
@@ -156,6 +161,10 @@ body {
       position: absolute;
       right: 0.38rem;
       bottom: 0.2rem; }
+      .mc-head .C5header .yuyin a {
+        display: block;
+        width: 0.52rem;
+        height: 0.51rem; }
     .mc-head .C5header .tip {
       position: absolute;
       position: absolute;
