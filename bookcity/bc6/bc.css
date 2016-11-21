@@ -178,11 +178,11 @@ body, html {
   transform: scale(0.6);
 }
 
-.C6nav .navIn .list:nth-of-type(2) .boxbg {
+.C6nav .navIn .list:nth-child(2) .boxbg {
   background-image: url("../../bookshelf/images/c5box.png");
 }
 
-.C6nav .navIn .list:nth-of-type(2) .boxbg p:nth-of-type(2) {
+.C6nav .navIn .list:nth-child(2) .boxbg p:nth-of-type(2) {
   margin-left: -0.2rem;
 }
 

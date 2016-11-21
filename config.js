@@ -18,7 +18,6 @@ app.config(
 		  templateUrl:"bookshelf/searchFilter/searchFilter.html",	//搜寻过滤
 //		  controller:"loginCtrl"
 		  })
-<<<<<<< HEAD
 		  .when("/bc1",{											
 		  templateUrl:"bookcity/bc1/bc1.html",						//bc1
 //		  controller:"loginCtrl"
@@ -43,9 +42,6 @@ app.config(
 		  templateUrl:"bookcity/bc6/bc6.html",						//bc6
 //		  controller:"loginCtrl"
 		  })
-		}]
-		 );
-=======
 		  .when("/comment",{
 		  	templateUrl:"newpages/article/comment/comment.html",
 		  })
@@ -73,4 +69,4 @@ app.config(
 		  
 		}]);
 		 
->>>>>>> ab06c824d79788bbcec43391522115d596836459
+
