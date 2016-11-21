@@ -75,7 +75,7 @@ body{
             width: 0.34rem;
             height: 0.03rem;
             background-image:url(../../image/me/m4.png);
-            background-size:contain ;
+            background-size:cover ;
              @include left-right;
              margin-top: 0.02rem;
         }
@@ -603,8 +603,8 @@ body{
 	       height:6.2rem;
            @include left-right;
            top:3.2rem;
-           border:1px solid #000;
-           border-radius:0.5rem;
+
+           border-radius:0.2rem;
            background:#fff;
              overflow:hidden;
 	       .tan-top{
@@ -802,7 +802,8 @@ body{
   }
   .cen-tan2{
      z-index:4;
-     height:4.5rem;
+     height:4rem;
+     margin-top:2.5rem;
      .tan-top{
           .web-img{
                background:url(../../image/me/c4.png) no-repeat;
@@ -848,7 +849,7 @@ body{
   .cen-tan3{
      z-index:6;
      height:4.5rem;
-
+     margin-top:1.5rem;
      .tan-cen .web-x{
          border:0;
      }
@@ -882,6 +883,8 @@ body{
   .cen-tan4{
       z-index:8;
        height:4.5rem;
+     margin-top:1.5rem;
+
        .tan-cen li{
            border:0;
            .web-aa{
@@ -893,6 +896,10 @@ body{
                float:left;
                margin-left:1rem;
                margin-top:0.7rem;
+               background:url(../../image/me/nan.png) no-repeat;
+               background-size:0.5rem 0.5rem;
+               background-position:center;
+
            }
            .web-bb{
                width:0.8rem;
@@ -903,7 +910,10 @@ body{
                margin-right:1rem;
                float:right;
                margin-top:0.7rem;
-
+                background-image:url(../../image/me/nv1.png);
+               background-repeat:no-repeat;
+               background-size:0.5rem 0.5rem;
+               background-position:center;
 
            }
        }
