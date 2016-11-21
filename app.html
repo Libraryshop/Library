@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="text">
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<script src="https://cdn.bootcss.com/angular.js/1.5.8/angular.min.js"></script>
+		<script src="https://cdn.bootcss.com/angular.js/1.5.8/angular-route.min.js"></script>
+		<script src="https://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>    <!--基本引入文件-->
+		<link rel="stylesheet" href="css/base.css" />									<!--公用css文件-->
+		<link rel="stylesheet" href="bookshelf/bookShelf/bookShelf.css" />
+		<link rel="stylesheet" href="bookshelf/searchView/searchView.css" />
+		<link rel="stylesheet" href="bookshelf/searchList/searchList.css" />
+		<link rel="stylesheet" href="bookshelf/searchFilter/searchFilter.css" />
 	</head>
-	<body>
+	<body >
+		<ng-view></ng-view>
 	</body>
+	<script src="app.js"></script>
+	<script src="config.js"></script>
 </html>
