@@ -52,7 +52,7 @@ body, html {
   left: 0;
 }
 
-.B1header .title span {
+.B1header .title a {
   width: 0.44rem;
   height: 0.44rem;
   position: absolute;
