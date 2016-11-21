@@ -70,6 +70,7 @@ $map:(
         @include clearfix;
     }
     .back {
+        display:block;
         @include whb(0.5rem,0.5rem,transparent);
         @include left-top(0.2rem,0.45rem);
     }

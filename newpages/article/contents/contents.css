@@ -217,9 +217,9 @@ a {
 /*页脚*/
 #footer {
   width: 100%;
-  height: 2.4rem;
+  height: 3.4rem;
   background: #141C2D;
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
 
@@ -309,6 +309,7 @@ a {
 }
 
 #footer .status .content .content-img {
+  display: block;
   width: 0.6rem;
   height: 0.6rem;
   background: transparent;
@@ -328,6 +329,7 @@ a {
 }
 
 #footer .status .set .set-img {
+  display: block;
   width: 0.6rem;
   height: 0.6rem;
   background: transparent;
@@ -343,6 +345,7 @@ a {
 }
 
 #footer .status .light .light-img {
+  display: block;
   width: 0.6rem;
   height: 0.6rem;
   background: transparent;

@@ -103,8 +103,8 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 /*内容   End*/
 /*页脚*/
 #footer {
-    @include whb(100%,2.4rem,#141C2D);
-    position: fixed;
+    @include whb(100%,3.4rem,#141C2D);
+    position: absolute;
     bottom: 0;
     .foot-info {
         @include whb(95%,1rem,transparent);
@@ -160,6 +160,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
         .content {
             text-align: center;
             .content-img {
+                display:block;
                 @include whb(0.6rem,0.6rem,transparent);
                 @include background(url('../../images/6/status_03.png'),no-repeat,cover,0 0);
                 margin: 0.1rem auto;
@@ -171,6 +172,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
         .set {
             text-align: center;
             .set-img {
+                display:block;
                 @include whb(0.6rem,0.6rem,transparent);
                 @include background(url('../../images/6/status_05.png'),no-repeat,cover,0 0);
                 margin: 0.1rem auto;
@@ -179,6 +181,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
         .light {
             text-align: center;
             .light-img {
+                display:block;
                 @include whb(0.6rem,0.6rem,transparent);
                 @include background(url('../../images/6/status_07.png'),no-repeat,cover,0 0);
                 margin: 0.1rem auto;
