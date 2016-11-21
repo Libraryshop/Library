@@ -1,0 +1,204 @@
+* {
+    position: relative;
+}
+@mixin center {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*清除浮动带的影响*/
+@mixin clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*背景图片循环*/
+$animal-list: A,arrow,bi,bi-hong,chizi,cuo-xuan,di-shui,jiashuqian-daohang,jindu,jindu条,mulu,rili,shaodeng,shezhi,taiyang,time,top-shui,xiazai,yan-bai,yan-hong,youbai,yuan,yueliang;
+
+@each $animal in $animal-list {
+    .#{$animal}-icon {
+        background-image: url('../image/6/#{$animal}.png');
+        background-position: no-repeat;
+    }
+}
+
+$background-list:arrow,add,load;
+$map:(
+"arrow":url('../image/6/arrow.png') no-repeat 0 0 cover,
+"add":url('../image/6/jiashuqian-daohang.png') no-repeat 0 0 cover,
+"load":url('../image/6/xiazai.png') no-repeat 0 0 cover
+);
+
+@each $v in map_keys($map){
+    $l:map_get($map,$v);
+    #new-nav .tp.#{$v}{
+        background:nth($l,1);
+        background-repeat:nth($l,2);
+        background-position:nth($l,3);
+        background-size:nth($l,4);
+    }
+}
+/*宽高背景色*/
+@mixin whb($w, $h, $b) {
+    width: $w;
+    height: $h;
+    background: $b;
+}
+/*left-top*/
+@mixin left-top($left, $top) {
+    position: absolute;
+    left: $left;
+    top: $top;
+}
+/*right-top*/
+@mixin right-top($right, $top) {
+    position: absolute;
+    right: $right;
+    top: $top;
+}
+/*新闻头部*/
+#new-nav {
+    width: 100%;
+    height: 1.4rem;
+    background: #29A6DC;
+    position: relative;
+    &:after {
+        @include clearfix;
+    }
+    .back {
+        @include whb(0.5rem,0.5rem,transparent);
+        @include left-top(0.2rem,0.5rem);
+    }
+    .arrow {
+        background-image: url('../image/6/arrow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0;
+    }
+    .title{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        color:#FFF;
+        text-align: center;
+        .title1{
+            width: 100%;
+            line-height: 1.4rem;
+            font-size: 0.4rem;
+            float: left;
+        }
+        .title2{
+            width: 100%;
+            position: absolute;
+            font-size: 0.12rem;
+            color:rgba(255,255,255,0.7);
+            text-align: center;
+            top:1rem;
+            left: 0;
+        }
+    }
+
+}
+.biji{
+    position: absolute;
+    top:1.4rem;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:90%;
+    height:7rem;
+.time{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:100%;
+    height:0.5rem;
+    .rili{
+        width:0.6rem;
+        height: 0.55rem;
+        background: url(../image/6/rili.png);
+        float: left;
+    }
+    .shijian{
+        float: left;
+        padding-left: 0.1rem;
+        line-height: 0.55rem;
+        color: #9b9b9b;
+    }
+}
+.context{
+    position: absolute;
+    top:0.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:100%;
+    height:3rem;
+    border: 0.02rem solid #dfdfdf;
+}
+#bianji{
+    position: absolute;
+    top:4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:100%;
+    height:1rem;
+    border: 0.02rem solid #dfdfdf;
+    color: #9b9b9b;
+}
+.cb-f{
+    position: absolute;
+    width:1.75rem;
+    height:0.7rem;
+    border-radius:1rem;
+    background:#29dcbc;
+    top:5.5rem;
+    left:0.8rem;
+    span{
+          display:block;
+          text-align: center;
+          line-height: 0.35rem;
+          color:#fff;
+    }
+    .cb-y{
+         width:0.1rem;
+         height:0.1rem;
+         border-radius:50%;
+         background:#fff;
+//       right:0.5rem;
+    }
+    .cb-y1{
+         left:-4rem;  
+    }
+}
+.cb-f1{
+    width:1.75rem;
+    height:0.7rem;
+    border-radius:1rem;
+    background:#28dd8b;
+    top:5.5rem;
+    left:3.8rem;
+    span{
+          display:block;
+          text-align: center;
+          line-height: 0.35rem;
+          color:#fff;
+    }
+    .cb-y1{
+         width:0.1rem;
+         height:0.1rem;
+         border-radius:50%;
+         background:#fff;
+//       right:0.5rem;
+    }
+    .cb-y11{
+         left:-4rem;  
+    }
+}
+}
