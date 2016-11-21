@@ -1,0 +1,94 @@
+
+/*去掉标签的默认的样式*/
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, form, input, a, textarea, dl, dt, table, td, tr, li, dd {
+  margin: 0;
+  padding: 0; }
+
+ul, li, tr, td, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #fff; }
+
+* {
+  font-family: "微软雅黑","宋体","sans-serif"; }
+
+img {
+  border: none; }
+
+html {
+  font-size: 100px; }
+
+body {
+  font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 102.4px; } }
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px; } }
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 106.66667px; } }
+
+@media screen and (min-width: 510px) {
+  html {
+    font-size: 68px; } }
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 213.33333px; } }
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 192px; } }
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 85.33333px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box; }
+
+body {
+  background: #F5F7F7;
+  overflow: hidden; }
+
+@font-face {
+  font-family: 'iconfont';
+  /* project id："184196" */
+  src: url("../../font/iconfont.eot");
+  src: url("../../font/iconfontt9.eot?#iefix") format("embedded-opentype"), url("../../font/iconfont.woff") format("woff"), url("../../font/iconfont.ttf") format("truetype"), url("../../font/iconfont.svg#iconfont") format("svg"); }
