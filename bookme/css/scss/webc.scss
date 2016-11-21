@@ -110,6 +110,11 @@ body{
 	    border-radius:50%;
 	    background:url(../../image/4/user.png) no-repeat;
         background-size:cover;
+        a{
+            display:block;
+             width:2rem;
+             height:2rem;
+        }
 	}
 	.cen-cen{
 	    width:100%;
