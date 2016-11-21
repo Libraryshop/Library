@@ -26,20 +26,20 @@ app.config(
 		  templateUrl:"bookcity/bc2/bc2.html",						//bc2
 //		  controller:"loginCtrl"
 		  })
-		     .when("/bc3",{
-		  templateUrl:"bookcity/bc3/bc3.html",						//bc2
+		  .when("/bc3",{
+		  templateUrl:"bookcity/bc3/bc3.html",						//bc3
 //		  controller:"loginCtrl"
 		  })
-		       .when("/bc4",{
-		  templateUrl:"bookcity/bc4/bc4.html",						//bc2
+		  .when("/bc4",{
+		  templateUrl:"bookcity/bc4/bc4.html",						//bc4
 //		  controller:"loginCtrl"
 		  })
-		         .when("/bc5",{
-		  templateUrl:"bookcity/bc5/bc5.html",						//bc2
+		  .when("/bc5",{
+		  templateUrl:"bookcity/bc5/bc5.html",						//bc5
 //		  controller:"loginCtrl"
 		  })
-		           .when("/bc6",{
-		  templateUrl:"bookcity/bc6/bc6.html",						//bc2
+		  .when("/bc6",{
+		  templateUrl:"bookcity/bc6/bc6.html",						//bc6
 //		  controller:"loginCtrl"
 		  })
 		}]
