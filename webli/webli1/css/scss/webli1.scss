@@ -1,0 +1,220 @@
+
+$image:'../image';
+
+.A-head1{
+   width: 100%;
+   height:1.4rem;
+   background:#2BA6DC;
+   position: relative;
+     .headd{     
+        position: absolute;
+        left:0.26rem;
+        top:0.35rem;
+        width:0.42rem;
+        height:0.42rem; 
+        background:url($image+'/2/arrow.png');
+        background-size:cover ;
+        float: left; 
+         }
+     .headdz{
+        position: absolute;
+        left:1rem;
+        top:0rem;
+        width:5.5rem;
+        height:1.2rem;   
+        text-align: center;
+        line-height: 1.2rem;
+        font-size:18px;
+        color: #FFFFFF;
+        font: left;
+        }
+    
+  }
+ .A-logo{
+     width:100%;
+     height:3.57rem;
+     background:#2BA6DC;
+     text-align: center;
+     line-height:3.57rem;
+     font-size:22px;
+     color:#FFFFFF;
+ }
+.A-zm{
+   width:100%;
+   height:3.02rem; 
+   background:#F2F2F2;
+  .zm1{
+   width: 100%;
+   height: 2.02rem;
+   text-align: center;
+   line-height:3.02rem;
+   font-size:0.24rem;
+   color:#3B4786;
+  }
+  .zz{
+      width: 100%;
+      height: 1rem;
+      text-align: right;
+      margin-top:-0.22rem;
+      padding-right:0.2rem;
+      font-size:8px;
+      color:#3B4786;  
+  }
+}
+.A-qq{
+   width:6.13rem;
+   height:0.88rem;
+   margin:0 auto;
+   border-radius:25px;
+   background:#FFFFFF;
+   margin-bottom:0.32rem ;
+   .qq1{
+     width:0.6rem;
+     height:0.6rem;
+     background:url($image+'/1/user.png');
+     background-size:cover ;
+     margin-left:0.45rem;
+     margin-top:0.19rem;
+     margin-right:0.3rem;
+     float: left;    
+   }
+   
+   input{
+      width:4rem;
+      height: 0.88rem;
+      float: left;
+      border:none;
+      outline: none;
+      background: none;
+      font-size:0.4rem;
+      color:#DBDBDB;
+   }
+}
+.A-qb{
+   width:6.13rem;
+   height:0.88rem;
+   margin:0 auto;
+   border-radius:25px;
+   background:#FFFFFF;
+   margin-bottom:0.32rem ;
+   .qb1{
+     width:0.6rem;
+     height:0.6rem;
+     background:url($image+'/1/password.png');
+     background-size:cover ;
+     margin-left:0.45rem;
+     margin-top:0.19rem;
+     margin-right:0.3rem;
+     float: left;    
+   }
+   input{
+      width:4rem;
+      height: 0.88rem;
+      float: left;
+      border:none;
+      outline: none;
+      background: none;
+      font-size:0.4rem;
+      color:#DBDBDB;
+   }
+}
+.A-zw{
+   width:100%;
+   height:0.22rem;
+   margin-bottom:0.95rem;
+   .zwz{
+       width: 5.18rem;
+       height:0.22rem;
+    
+       margin:0 auto;
+       .zwzl{
+           width:1.44rem;
+           height: 0.22rem;
+           float: left;
+           .zwzlt{
+               width:0.27rem;
+               height: 0.27rem;
+               background:url($image+'/1/yaoshi.png');
+               background-size:cover;
+               float: left;
+               margin-right: 0.2rem;
+           }
+           .zwzlz{
+              width:1.6rem;
+              height:0.22rem;
+              font-size:0.14rem;
+             
+              text-align: center;  
+                         
+              line-height:0.22rem;
+             a{
+                 display: block;
+                  width:1.6rem;
+              height:0.22rem;
+              font-size:0.14rem;
+              color:#DBDBDB; 
+             }
+           }
+       }
+       .zwzr{
+           width:1.44rem;
+           height: 0.22rem;
+           float: right;
+           .zwzrt{
+              width:0.27rem;
+               height: 0.27rem;
+               background:url($image+'/1/yaoshi-05.png');
+               background-size:cover;
+               float: left;
+               margin-right: 0.2rem;
+           }
+           .zwzrz{
+              width:1.6rem;
+              height:0.22rem;
+              font-size:0.14rem;
+              
+              text-align: center;             
+              line-height:0.22rem;
+             a{
+                   display: block;
+                  width:1.6rem;
+                  height:0.22rem;
+                  font-size:0.14rem;
+                  color:#DBDBDB; 
+             }
+           }
+       }
+   }
+}
+.A-lj{
+    width:5.62rem;
+    height:0.8rem;
+    background:red;
+    margin:0 auto;
+    border-radius:25px;
+    padding-top:0.35rem ;
+    background:#3DBFFD;
+    .lj1{
+       width:0.06rem;
+       height:0.06rem;    
+       background:#F5F7F7;
+       margin-left:0.3rem; 
+       float: left;     
+       }
+     .lj2{
+       width:4.52rem;
+       height:0.4rem;     
+       float: left;
+       text-align: center;
+       line-height:0.4;
+       color: #F5F7F7;
+       
+     }
+      .lj3{
+       width:0.06rem;
+       height:0.06rem;    
+       background:#F5F7F7;
+       margin-right:0.3rem; 
+       float: right;     
+       }
+}
