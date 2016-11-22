@@ -85,10 +85,10 @@ app.config(
 		  	templateUrl:"Page/sjxq/sjxq.html",
 		  })
 		    .when("/bookmark2",{
-		  	templateUrl:"newpages/bookmark2/bookmark2.html",
+		  	templateUrl:"newpages/bookmark2/bookmark.html",
 		  })
 		      .when("/Notesmanagement2",{
-		  	templateUrl:"newpages/Notesmanagement2/Notesmanagement2.html",
+		  	templateUrl:"newpages/Notesmanagement2/Notesmanagement.html",
 		  })
 		  
 		  
