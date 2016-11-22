@@ -59,6 +59,8 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 0.4rem;
+  display:block;
+  background:none;
 }
 
 #page .book-info {
