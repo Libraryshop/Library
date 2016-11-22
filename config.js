@@ -85,6 +85,7 @@ app.config(
 		  	templateUrl:"Page/sjxq/sjxq.html",
 		  })
 		  
+		  
 		}]);
 		 
 
