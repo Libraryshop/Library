@@ -99,9 +99,7 @@ app.config(
 		  .when("/sjxq",{
 		  	templateUrl:"Page/sjxq/sjxq.html",
 		  })
-<<<<<<< HEAD
 		 
-=======
 		    .when("/bookmark2",{
 		  	templateUrl:"newpages/bookmark2/bookmark.html",
 		  })
@@ -110,7 +108,7 @@ app.config(
 		  })
 		  
 		  
->>>>>>> 32d6d4da6055a51f025e06114da25bc7d58743ec
+
 		}]);
 		 
 
