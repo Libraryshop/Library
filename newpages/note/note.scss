@@ -60,37 +60,40 @@ $map:(
     top: $top;
 }
 /*新闻头部*/
-#new-nav {
+.new-nav5 {
     width: 100%;
     height: 1.4rem;
     background: #29A6DC;
     position: relative;
+    a{
+        display: block;
+    }
     &:after {
         @include clearfix;
     }
-    .back {
+    .back5 {
         @include whb(0.5rem,0.5rem,transparent);
         @include left-top(0.2rem,0.5rem);
     }
-    .arrow {
+    .arrow5{
         background-image: url('../image/6/arrow.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 0;
     }
-    .title{
+    .title5{
         width: 100%;
         height: 100%;
         position: relative;
         color:#FFF;
         text-align: center;
-        .title1{
+        .title15{
             width: 100%;
             line-height: 1.4rem;
             font-size: 0.4rem;
             float: left;
         }
-        .title2{
+        .title25{
             width: 100%;
             position: absolute;
             font-size: 0.12rem;
@@ -102,7 +105,7 @@ $map:(
     }
 
 }
-.biji{
+.biji5{
     position: absolute;
     top:1.4rem;
 
@@ -111,27 +114,27 @@ $map:(
     margin: auto;
     width:90%;
     height:7rem;
-.time{
+.time5{
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
     width:100%;
     height:0.5rem;
-    .rili{
+    .rili5{
         width:0.6rem;
         height: 0.55rem;
         background: url(../image/6/rili.png);
         float: left;
     }
-    .shijian{
+    .shijian5{
         float: left;
         padding-left: 0.1rem;
         line-height: 0.55rem;
         color: #9b9b9b;
     }
 }
-.context{
+.context5{
     position: absolute;
     top:0.5rem;
     left: 0;
@@ -141,7 +144,7 @@ $map:(
     height:3rem;
     border: 0.02rem solid #dfdfdf;
 }
-#bianji{
+#bianji5{
     position: absolute;
     top:4rem;
     left: 0;
@@ -152,7 +155,7 @@ $map:(
     border: 0.02rem solid #dfdfdf;
     color: #9b9b9b;
 }
-.cb-f{
+.cb-f5{
     position: absolute;
     width:1.75rem;
     height:0.7rem;
@@ -166,18 +169,18 @@ $map:(
           line-height: 0.35rem;
           color:#fff;
     }
-    .cb-y{
+    .cb-y5{
          width:0.1rem;
          height:0.1rem;
          border-radius:50%;
          background:#fff;
 //       right:0.5rem;
     }
-    .cb-y1{
+    .cb-y15{
          left:-4rem;  
     }
 }
-.cb-f1{
+.cb-f15{
     width:1.75rem;
     height:0.7rem;
     border-radius:1rem;
@@ -190,14 +193,14 @@ $map:(
           line-height: 0.35rem;
           color:#fff;
     }
-    .cb-y1{
+    .cb-y15{
          width:0.1rem;
          height:0.1rem;
          border-radius:50%;
          background:#fff;
 //       right:0.5rem;
     }
-    .cb-y11{
+    .cb-y115{
          left:-4rem;  
     }
 }

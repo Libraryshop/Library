@@ -70,6 +70,7 @@ $map:(
     right: $right;
     top: $top;
 }
+
 .zhezhao{
     position: absolute;
     top: 0;
@@ -78,6 +79,7 @@ $map:(
     height: 13.34rem;
     background:rgba(0,0,0,0.5);
     z-index: 999;
+    display: none;
     /*上下居中的混合宏*/
 @mixin top-bottom {
     position: absolute;
@@ -182,7 +184,7 @@ $map:(
 //  }
 }
 /*新闻头部*/
-#new-nav {
+.new-nav1 {
     width: 100%;
     height: 1.4rem;
     background: #29A6DC;
@@ -190,29 +192,29 @@ $map:(
     &:after {
         @include clearfix;
     }
-    .back {
+    .back1 {
         @include whb(0.5rem,0.5rem,transparent);
         @include left-top(0.2rem,0.5rem);
     }
-    .arrow {
+    .arrow1 {
         background-image: url('../image/6/arrow.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 0;
     }
-    .title{
+    .title1{
         width: 100%;
         height: 100%;
         position: relative;
         color:#FFF;
         text-align: center;
-        .title1{
+        .title11{
             width: 100%;
             line-height: 1.4rem;
             font-size: 0.4rem;
             float: left;
         }
-        .title2{
+        .title21{
             width: 100%;
             position: absolute;
             font-size: 0.12rem;
@@ -254,6 +256,17 @@ $map:(
     height:3rem;
     border: 0.02rem solid #dfdfdf;
     color: #999999;
+    .Fpl{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+        height: 3rem;
+        border: none;
+//      background: ;
+    }
 }
 
 
