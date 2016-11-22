@@ -1,4 +1,12 @@
-$(function(){
+ app.directive('myUl',[function(){
+		return{
+			restrict:'A',
+			transclude:true,
+	        replace:true,
+			template:'<div><div ng-transclude></div></div>',
+	        link:function($scope,el){
+	        	
+	        
     function webc(cl){
     $(cl).on("click",function(){
         $(".box").css("display","block")
@@ -53,4 +61,9 @@ $(function(){
          $(".box").css("display","none")
           return false;
     })
-})
+
+	        	
+	        }
+		}
+	}])
+

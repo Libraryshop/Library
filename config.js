@@ -106,6 +106,34 @@ app.config(
 		      .when("/Notesmanagement2",{
 		  	templateUrl:"newpages/Notesmanagement2/Notesmanagement.html",
 		  })
+          .when('/webc',{
+    			templateUrl:'bookme/webc/webc.html',
+    			
+    		})
+            .when('/webc1',{
+                templateUrl:'bookme/webc1/webc1.html',
+                
+            })
+            .when('/webc2',{
+                templateUrl:'bookme/webc2/webc2.html',
+                
+            })
+            .when('/webc3',{
+                templateUrl:'bookme/webc3/webc3.html',
+                
+            })
+            .when('/webc4',{
+                templateUrl:'bookme/webc4/webc4.html',
+                
+            })
+            .when('/webc5',{
+                templateUrl:'bookme/webc5/webc5.html',
+                
+            })
+            .when('/webc6',{
+                templateUrl:'bookme/webc6/webc6.html',
+                
+            })
 		  
 		  
 
