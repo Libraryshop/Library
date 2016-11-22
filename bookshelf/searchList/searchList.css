@@ -81,6 +81,8 @@ body, html {
   float: left;
   box-shadow: 0 0 20px 0 #efefef;
   position: relative;
+  display:block;
+  background:none;
 }
 
 .B3main .box .left {

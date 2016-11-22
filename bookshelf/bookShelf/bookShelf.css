@@ -125,6 +125,8 @@ body, html {
   height: 4rem;
   position: relative;
   overflow: hidden;
+  display:block;
+  background:none;
 }
 
 .B1releases .box .book {
