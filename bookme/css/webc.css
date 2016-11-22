@@ -679,9 +679,11 @@ body {
             width: 0.25rem;
             height: 0.25rem;
             border-radius: 50%;
-            background: #50e2c8;
+            background: #fff;
             margin-top: 0.1rem;
             margin-left: 0.1rem; }
+          .box .cen-tan .tan-cen li .cb-right span .web-q:hover {
+            background: #50e2c8; }
     .box .cen-tan .tan-bom {
       width: 100%;
       height: 1rem;
@@ -860,18 +862,31 @@ body {
         float: left;
         margin-left: 1rem;
         margin-top: 0.7rem;
-        background: url(../../image/me/nan.png) no-repeat;
+        background-image: url(../../image/me/nan.png);
+        background-repeat: no-repeat;
+        background-size: 0.5rem 0.5rem;
+        background-position: center; }
+      .box .cen-tan4 .tan-cen li .web-aa:hover {
+        background: #29dcbc;
+        background-image: url(../../image/me/nan1.png);
+        background-repeat: no-repeat;
         background-size: 0.5rem 0.5rem;
         background-position: center; }
       .box .cen-tan4 .tan-cen li .web-bb {
         width: 0.8rem;
         height: 0.8rem;
         border-radius: 50%;
-        background: #29dcbc;
+        background: #fff;
         box-shadow: 0rem 0rem 0.02rem #eaeaea;
         margin-right: 1rem;
         float: right;
         margin-top: 0.7rem;
+        background-image: url(../../image/me/nv.png);
+        background-repeat: no-repeat;
+        background-size: 0.5rem 0.5rem;
+        background-position: center; }
+      .box .cen-tan4 .tan-cen li .web-bb:hover {
+        background: #29dcbc;
         background-image: url(../../image/me/nv1.png);
         background-repeat: no-repeat;
         background-size: 0.5rem 0.5rem;
