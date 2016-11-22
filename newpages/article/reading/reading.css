@@ -152,7 +152,7 @@ a {
 /*left-bottom*/
 /*背景图片*/
 /*页头*/
-.con-header {
+.reading-con-header {
   width: 93%;
   height: auto;
   background: #FFE9B0;
@@ -163,24 +163,24 @@ a {
   z-index: 33;
 }
 
-.con-header:after {
+.reading-con-header:after {
   content: "";
   display: block;
   clear: both;
 }
 
-.con-header div {
+.reading-con-header div {
   float: left;
 }
 
-.con-header .l-line {
+.reading-con-header .l-line {
   width: 5%;
   height: 0.05rem;
   background: #635C4A;
   margin-top: 0.18rem;
 }
 
-.con-header .info {
+.reading-con-header .info {
   width: 21%;
   height: auto;
   background: transparent;
@@ -189,7 +189,7 @@ a {
   margin-right: 0.15rem;
 }
 
-.con-header .r-line {
+.reading-con-header .r-line {
   width: 69%;
   height: 0.05rem;
   background: #635C4A;
@@ -198,20 +198,20 @@ a {
 
 /*页头  End*/
 /*内容*/
-#content-inner {
+#reading-content-inner {
   width: 100%;
-  height: 13.5rem;
+  height: 13rem;
   background: #FFE9B0;
   overflow: hidden;
 }
 
-#content-inner .inner h1 {
+#reading-content-inner .inner h1 {
   font-size: 20px;
   margin: 0.699rem 0 0 0.3rem;
   font-weight: 600;
 }
 
-#content-inner .inner .inner-info {
+#reading-content-inner .inner .inner-info {
   text-indent: 2em;
   margin: 0.1rem 0.22rem 0 0.32rem;
   white-space: pre-line;
@@ -219,13 +219,13 @@ a {
   font-size: 14px;
 }
 
-#content-inner .inner .inner-info p {
+#reading-content-inner .inner .inner-info p {
   margin-bottom: -0.1rem;
 }
 
 /*内容   End*/
 /*页脚*/
-#footer {
+#reading-footer {
   width: 100%;
   height: 0.96rem;
   background: #FFE9B0;
@@ -233,31 +233,31 @@ a {
   bottom: 0;
 }
 
-#footer .foot-info {
+#reading-footer .foot-info {
   width: 90rem;
   height: 1.2rem;
   background: transparent;
   margin: auto;
 }
 
-#footer .foot-info:after {
+#reading-footer .foot-info:after {
   content: "";
   display: block;
   clear: both;
 }
 
-#footer .foot-info li {
+#reading-footer .foot-info li {
   font-weight: 400;
   float: left;
   line-height: 3;
 }
 
-#footer .foot-info li a {
+#reading-footer .foot-info li a {
   color: #393229;
   font-weight: 500;
 }
 
-#footer .foot-info .progress {
+#reading-footer .foot-info .progress {
   width: 6.5%;
   height: 100%;
   background: transparent;
@@ -265,7 +265,7 @@ a {
   padding-left: 0.26rem;
 }
 
-#footer .foot-info .number {
+#reading-footer .foot-info .number {
   text-align: right;
   margin-left: 0.2rem;
 }

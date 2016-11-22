@@ -70,7 +70,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
     background-position: $position;
 }
 /*页头*/
-.con-header {
+.reading-con-header {
     @include whb(93%,auto,#FFE9B0);
     position: absolute;
     left: 0.3rem;
@@ -100,8 +100,8 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 }
 /*页头  End*/
 /*内容*/
-#content-inner {
-    @include whb(100%,13.5rem,#FFE9B0);
+#reading-content-inner {
+    @include whb(100%,13rem,#FFE9B0);
     overflow: hidden;
     .inner {
         h1 {
@@ -123,7 +123,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 }
 /*内容   End*/
 /*页脚*/
-#footer {
+#reading-footer {
     @include whb(100%,0.96rem,#FFE9B0);
     position: fixed;
     bottom: 0;

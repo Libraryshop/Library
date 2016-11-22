@@ -151,20 +151,20 @@ a {
 /*right-top*/
 /*背景图片*/
 /*内容*/
-#content-inner {
+#Contents-content-inner {
   width: 100%;
-  height: 13rem;
+  height: 11.8rem;
   background: #FFE9B0;
   overflow: hidden;
 }
 
-#content-inner .inner h1 {
+#Contents-content-inner .inner h1 {
   font-size: 20px;
   margin: 0.26rem 0 0 0.3rem;
   font-weight: 600;
 }
 
-#content-inner .inner .inner-info {
+#Contents-content-inner .inner .inner-info {
   text-indent: 2em;
   margin: 0 0.22rem 0 0.32rem;
   white-space: pre-line;
@@ -172,11 +172,11 @@ a {
   font-size: 14px;
 }
 
-#content-inner .inner .inner-info p {
+#Contents-content-inner .inner .inner-info p {
   margin-bottom: -0.15rem;
 }
 
-#content-inner .book-label {
+#Contents-content-inner .book-label {
   width: 1.21rem;
   height: 0.8rem;
   background: transparent;
@@ -194,7 +194,7 @@ a {
   top: -3rem;
 }
 
-#content-inner .moon {
+#Contents-content-inner .moon {
   width: 0.59rem;
   height: 0.63rem;
   background: transparent;
@@ -215,57 +215,57 @@ a {
 
 /*内容   End*/
 /*页脚*/
-#footer {
+#Contents-footer {
   width: 100%;
-  height: 3.4rem;
+  height: 2.4rem;
   background: #141C2D;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
-#footer .foot-info {
+#Contents-footer .foot-info {
   width: 95%;
   height: 1rem;
   background: transparent;
   margin: 0 auto;
 }
 
-#footer .foot-info:after {
+#Contents-footer .foot-info:after {
   content: "";
   display: block;
   clear: both;
 }
 
-#footer .foot-info li {
+#Contents-footer .foot-info li {
   float: left;
   text-align: center;
 }
 
-#footer .foot-info li a {
+#Contents-footer .foot-info li a {
   color: #BCBCBC;
 }
 
-#footer .foot-info li:nth-child(1),
-#footer .foot-info li:nth-child(3) {
+#Contents-footer .foot-info li:nth-child(1),
+#Contents-footer .foot-info li:nth-child(3) {
   width: 15%;
   height: 1rem;
   background: transparent;
   line-height: 1rem;
 }
 
-#footer .foot-info li:nth-child(1) a,
-#footer .foot-info li:nth-child(3) a {
+#Contents-footer .foot-info li:nth-child(1) a,
+#Contents-footer .foot-info li:nth-child(3) a {
   text-align: right;
 }
 
-#footer .foot-info li:nth-child(2) {
+#Contents-footer .foot-info li:nth-child(2) {
   width: 70%;
   height: 1rem;
   background: transparent;
   text-align: center;
 }
 
-#footer .foot-info li:nth-child(2) a {
+#Contents-footer .foot-info li:nth-child(2) a {
   display: block;
   width: 4.67rem;
   height: 0.24rem;
@@ -277,20 +277,20 @@ a {
   background-position: 0 0;
 }
 
-#footer .status {
+#Contents-footer .status {
   width: 95%;
   height: 100%;
   background: transparent;
   margin: auto;
 }
 
-#footer .status:after {
+#Contents-footer .status:after {
   content: "";
   display: block;
   clear: both;
 }
 
-#footer .status li {
+#Contents-footer .status li {
   float: left;
   width: 33.3333%;
   height: 100%;
@@ -299,16 +299,16 @@ a {
   line-height: 100%;
 }
 
-#footer .status li a {
+#Contents-footer .status li a {
   color: #e6e6e6;
   font-weight: 400;
 }
 
-#footer .status .content {
+#Contents-footer .status .content {
   text-align: center;
 }
 
-#footer .status .content .content-img {
+#Contents-footer .status .content .content-img {
   display: block;
   width: 0.6rem;
   height: 0.6rem;
@@ -320,15 +320,15 @@ a {
   margin: 0.1rem auto;
 }
 
-#footer .status .content .content-inner {
+#Contents-footer .status .content .content-inner {
   text-align: center;
 }
 
-#footer .status .set {
+#Contents-footer .status .set {
   text-align: center;
 }
 
-#footer .status .set .set-img {
+#Contents-footer .status .set .set-img {
   display: block;
   width: 0.6rem;
   height: 0.6rem;
@@ -340,11 +340,11 @@ a {
   margin: 0.1rem auto;
 }
 
-#footer .status .light {
+#Contents-footer .status .light {
   text-align: center;
 }
 
-#footer .status .light .light-img {
+#Contents-footer .status .light .light-img {
   display: block;
   width: 0.6rem;
   height: 0.6rem;
