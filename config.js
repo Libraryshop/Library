@@ -42,6 +42,9 @@ app.config(
 		  .when("/share",{
 		  	templateUrl:"newpages/article/share/share.html",
 		  })
+		  .when("/share",{
+		  	templateUrl:"Page/sjxq/sjxq.html",
+		  })
 		  
 		}]);
 		 
