@@ -144,7 +144,12 @@ body {
       background-image: url(../../image/me/m1.png);
       background-size: cover;
       bottom: 0.2rem;
-      left: 0.25rem; }
+      left: 0.25rem;
+      z-index: 10; }
+      .mc-head .C5header .return a {
+        display: block;
+        width: 0.52rem;
+        height: 0.51rem; }
     .mc-head .C5header .return1 {
       background-image: url(../../image/me/m3.png);
       background-size: cover; }
@@ -156,6 +161,10 @@ body {
       position: absolute;
       right: 0.38rem;
       bottom: 0.2rem; }
+      .mc-head .C5header .yuyin a {
+        display: block;
+        width: 0.52rem;
+        height: 0.51rem; }
     .mc-head .C5header .tip {
       position: absolute;
       position: absolute;
@@ -200,6 +209,10 @@ body {
     border-radius: 50%;
     background: url(../../image/4/user.png) no-repeat;
     background-size: cover; }
+    .mc-cen .cen-top a {
+      display: block;
+      width: 2rem;
+      height: 2rem; }
   .mc-cen .cen-cen {
     width: 100%;
     height: 2rem;
@@ -583,7 +596,8 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background: rgba(159, 159, 159, 0.5); }
+  background: rgba(159, 159, 159, 0.5);
+  display: none; }
   .box .cen-tan {
     width: 5.2rem;
     height: 6.2rem;

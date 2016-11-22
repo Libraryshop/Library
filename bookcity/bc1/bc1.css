@@ -266,6 +266,7 @@ body {
   height: 2.55rem;
   background: url("../image/3/diyu.png");
   background-size: cover;
+  display: block;
 }
 
 .cn .di .tu-list .name, .cn .bali .tu-list .name {

@@ -269,6 +269,7 @@ body {
   background: #151c2b;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
 
 #footer .list-icon {

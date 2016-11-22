@@ -1,4 +1,4 @@
-@import url("base.css");
+
 body{
 	overflow: visible;
 	background: #fff;
@@ -113,6 +113,9 @@ body{
 	background-position: 0.2rem 0.05rem;
 	background-size:0.5rem ;
 }
+.mulu li a{
+	color:#000;
+}
 .ljyd{
 	width:2.7rem;
 	height:0.7rem;
@@ -210,6 +213,7 @@ body{
 	float:left;
 }
 .ckqb{
+	display: block;
 	width:2.22rem;
 	height:0.39rem;
 	margin-left:auto;
@@ -281,17 +285,35 @@ body{
 	left:2.6rem;
 	bottom:-8rem;	
 }
+.ckqb3{
+	display: block;
+	width:2.22rem;
+	height:0.39rem;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	line-height: 0.39rem;
+	background: #29a6dc;
+	border-radius:30px;
+	color:#fff;
+	margin-top:1.3rem;
+	/*position:absolute;
+	left:2.6rem;*/
+	/*top:0.1rem;*/
+	/*bottom:-0.4rem;*/	
+}
 /*相似书籍*/
 .xssj{
 	width:5rem;
 	height:0.8rem;
 	margin:0.3rem 0.5rem;
-	margin-top:2rem;	
+	margin-top:0rem;	
 }
 .xssj img{
 	margin-top:5px;
 	height:0.7rem;
 	float:left;
+	margin-top:0rem;
 }
 .xss img{
 	width:2.14rem;
