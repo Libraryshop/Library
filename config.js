@@ -88,7 +88,7 @@ app.config(
 		  	templateUrl:"Page/fail/fail.html",
 		  })
 		  .when("/note",{
-		  	templateUrl:"Page/note/note.html",
+		  	templateUrl:"newpages/note/note.html",
 		  })
 		  .when("/Notesmanagement",{
 		  	templateUrl:"Page/Notes management/Notesmanagement.html",
@@ -99,7 +99,18 @@ app.config(
 		  .when("/sjxq",{
 		  	templateUrl:"Page/sjxq/sjxq.html",
 		  })
+<<<<<<< HEAD
 		 
+=======
+		    .when("/bookmark2",{
+		  	templateUrl:"newpages/bookmark2/bookmark.html",
+		  })
+		      .when("/Notesmanagement2",{
+		  	templateUrl:"newpages/Notesmanagement2/Notesmanagement.html",
+		  })
+		  
+		  
+>>>>>>> 32d6d4da6055a51f025e06114da25bc7d58743ec
 		}]);
 		 
 
