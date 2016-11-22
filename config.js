@@ -91,7 +91,7 @@ app.config(
 		  	templateUrl:"newpages/note/note.html",
 		  })
 		  .when("/Notesmanagement",{
-		  	templateUrl:"Page/Notes management/Notesmanagement.html",
+		  	templateUrl:"Page/Notesmanagement/Notesmanagement.html",
 		  })
 		  .when("/success",{
 		  	templateUrl:"Page/success/success.html",
