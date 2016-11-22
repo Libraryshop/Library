@@ -81,7 +81,7 @@ app.config(
 		  .when("/success",{
 		  	templateUrl:"Page/success/success.html",
 		  })
-		  .when("/share",{
+		  .when("/sjxq",{
 		  	templateUrl:"Page/sjxq/sjxq.html",
 		  })
 		  
