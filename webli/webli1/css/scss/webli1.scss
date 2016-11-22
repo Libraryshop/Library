@@ -10,11 +10,15 @@ $image:'../image';
         position: absolute;
         left:0.26rem;
         top:0.35rem;
-        width:0.42rem;
+        
+        float: left;
+        a{
+            display: block;
+            width:0.42rem;
         height:0.42rem; 
         background:url($image+'/2/arrow.png');
         background-size:cover ;
-        float: left; 
+        } 
          }
      .headdz{
         position: absolute;

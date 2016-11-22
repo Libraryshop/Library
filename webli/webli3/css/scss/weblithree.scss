@@ -9,15 +9,19 @@ body{
    height:1.2rem;
    background:#2BA6DC;
      .headd{     
-         position: absolute;
+        position: absolute;
         left:0.26rem;
         top:0.35rem;
-        width:0.42rem;
-        height:0.42rem; 
-        background:url($image+'/2/arrow.png');
-        background-size:cover ;
+       
         float: left; 
-         }
+          a{
+            display: block;
+             width:0.42rem;
+              height:0.42rem; 
+              background:url($image+'/2/arrow.png');
+            background-size:cover ;
+          }
+        }
      .headdz{
         position: absolute;
         left:1rem;
