@@ -73,7 +73,7 @@ app.config(
 		  	templateUrl:"Page/fail/fail.html",
 		  })
 		  .when("/note",{
-		  	templateUrl:"Page/note/note.html",
+		  	templateUrl:"newpages/note/note.html",
 		  })
 		  .when("/Notesmanagement",{
 		  	templateUrl:"Page/Notes management/Notesmanagement.html",
