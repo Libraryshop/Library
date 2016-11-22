@@ -57,11 +57,12 @@
 </html>
 <script>
 					$(".Fpl").on("keyup", function(e) {
-					if (e.keyCode === 8) {
-						$("zhezhao").css("display","block")
+						console.log(1)
+					if (e.keyCode === 13) {
+						$(".zhezhao").css("display","block")
 					}
 				})
-					$("Fover").on("click",function(){
-						$("zhezhao").css("display","none")
+					$(".Fover").on("click",function(){
+						$(".zhezhao").css("display","none")
 					})
 </script>
