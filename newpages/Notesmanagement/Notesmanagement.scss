@@ -20,12 +20,12 @@ body{
     height: 100%;
     overflow: auto;
 }
-#Ftop{
+.Ftop4{
     width:100%;
     height:1.4rem;
     background:#29a6dc;
     position:relative;
-    .baolist{
+    .baolist4{
         width:5.72rem;
         height:0.8rem;
         background:#2a3441;
@@ -46,7 +46,7 @@ body{
             text-align: center;
             font-size:14px;
 //          border-radius: 0.4rem;
-          .bk{
+          .bk4{
              width:1.66rem;
              height: 0.66rem;
 //           background:blue;
@@ -72,14 +72,14 @@ body{
              } 
              
           }
-          .bian{
+          .bian4{
               width:0.05rem;
               height:0.59rem;
               position: absolute;
 //            background: red;
               right:-0.04rem;
               top:0.13rem;
-              .topyuan{
+              .topyuan4{
                   width:0.06rem;
                   height:0.06rem;
                   background: #fff;
@@ -88,7 +88,7 @@ body{
                   left:-0.02rem;
                   border-radius: 50%;
               }
-              .middle{
+              .middle4{
                   width:0.02rem;
                   height:0.53rem;
                   background: #fff;
@@ -96,7 +96,7 @@ body{
                   top:0.02rem;
                   left:0rem;
               }
-              .bottomyuan{
+              .bottomyuan4{
                   width:0.06rem;
                   height:0.06rem;
                   background: #fff;
@@ -107,10 +107,10 @@ body{
               }
               
           }
-          .blue{
+          .blue4{
               background:#29a6dc;
               border:0.02rem solid #fff;
-              .yuan{
+              .yuan4{
                  width:0.03rem;
                  height:0.03rem;
                  position: absolute;
@@ -131,7 +131,7 @@ body{
         }
     }
 }
-.Fjilu{
+.Fjilu4{
     width:100%;
     height:0.5rem;
     background: #e5e5e5;
@@ -143,36 +143,36 @@ body{
         font-size: 0.14rem;
     }
 }
-.box{
+.box4{
     width:100%;
     height:5rem;
     overflow: hidden;
 }
-.sqnr{
+.sqnr4{
     width:100%;
     height:2.1rem;  
     margin:0.3rem 0.5rem;
     position: relative;
     border-bottom: 1px dashed #b8b8b8;
 }
-.sqnr img{
+.sqnr4 img{
     margin-top:0.1rem;
     margin-left:- 0.1rem ;
     float:left;
 }
-.sqnr{
+.sqnr4{
     float:left;
 }
-.sqnr h3{
+.sqnr4 h3{
     font-weight:bold;
     font-size:0.28rem;
 }
-.sqnr p{
+.sqnr4 p{
     font-size:0.24rem;
 }
-.sqnr .pingjia{
+.sqnr4 .pingjia4{
     margin-left: 1rem;
-    width:6rem;
+    width:5.2rem;
     height:1rem;
     background: #9ae1ff;
     position: relative;
@@ -193,7 +193,7 @@ body{
     }
 }
 
-.sqsj{
+.sqsj4{
     width:3rem;
     background-image:url(../image/3/shijian.png);
     background-repeat:no-repeat;
@@ -201,7 +201,7 @@ body{
     padding-left:0.5rem;
     font-size:12px; 
 }
-.yan{
+.yan4{
     width:3rem;
     background-image:url(../image/6/yan-hong.png);
     background-repeat:no-repeat;
@@ -212,24 +212,11 @@ body{
     right:-0.2rem;
     bottom:0.05rem; 
 }
-.sqnr span{
+.sqnr4 span{
     margin-left:-2rem;
 }
 
-.ckqb2{
-    width:2.22rem;
-    height:0.39rem;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
-    line-height: 0.39rem;
-    background: #29a6dc;
-    border-radius:30px;
-    color:#fff;
-    position:absolute;
-    left:2.6rem;
-    bottom:-6.3rem; 
-}
+
 //.Fshuqian{
 //  width:100%;
 //  
@@ -280,13 +267,16 @@ body{
 //      
 //  }
 //}
-#Ffooter{
+.Ffooter4{
     width:100%;
     height: 1rem;
     background: #151c2b;
     position: fixed;
     bottom:0;
-    .all{
+    a{
+        display: block;
+    }
+    .all4{
         width:20%;
         height:0.5rem;
         background: #f4f4f4;

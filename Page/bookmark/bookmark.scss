@@ -61,37 +61,40 @@ $map:(
     right: $right;
     top: $top;
 }
-#new-nav {
+.Fnew-nav {
     width: 100%;
     height: 1.4rem;
     background: #29A6DC;
     position: relative;
+    a{
+        display: block;
+    }
     &:after {
         @include clearfix;
     }
-    .back {
+    .Fback {
         @include whb(0.5rem,0.5rem,transparent);
         @include left-top(0.2rem,0.5rem);
     }
-    .arrow {
+    .Farrow {
         background-image: url('../image/6/arrow.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 0;
     }
-    .title{
+    .Ftitle{
         width: 100%;
         height: 100%;
         position: relative;
         color:#FFF;
         text-align: center;
-        .title1{
+        .Ftitle1{
             width: 100%;
             line-height: 1.4rem;
             font-size: 0.4rem;
             float: left;
         }
-        .title2{
+        .Ftitle2{
             width: 100%;
             position: absolute;
             font-size: 0.12rem;
@@ -115,33 +118,33 @@ $map:(
         font-size: 0.14rem;
     }
 }
-.box{
+.Fbox{
     width:100%;
     height:5rem;
     overflow: hidden;
 }
-.sqnr{
+.Fsqnr{
     width:100%;
     height:1.1rem;  
     margin:0.3rem 0.5rem;
     position: relative;
     border-bottom: 1px dashed #b8b8b8;
 }
-.sqnr img{
+.Fsqnr img{
     margin-top:0.1rem;
     float:left;
 }
-.sqnr{
+.Fsqnr{
     float:left;
 }
-.sqnr h3{
+.Fsqnr h3{
     font-weight:bold;
     font-size:0.28rem;
 }
-.sqnr p{
+.Fsqnr p{
     font-size:0.2rem;
 }
-.sqsj{
+.Fsqsj{
     width:3rem;
     background-image:url(../image/3/shijian.png);
     background-repeat:no-repeat;
@@ -149,7 +152,7 @@ $map:(
     padding-left:0.5rem;
     font-size:12px; 
 }
-.yan{
+.Fyan{
     width:3rem;
     background-image:url(../image/6/yan-hong.png);
     background-repeat:no-repeat;
@@ -160,11 +163,11 @@ $map:(
     right:-0.2rem;
     bottom:0.05rem; 
 }
-.sqnr span{
+.Fsqnr span{
     margin-left:-2rem;
 }
 
-.ckqb2{
+.Fckqb2{
     width:2.22rem;
     height:0.39rem;
     margin-left:auto;
@@ -178,13 +181,13 @@ $map:(
     left:2.6rem;
     bottom:-6.3rem; 
 }
-#Ffooter{
+.Ffooter{
     width:100%;
     height:1rem;
     background: #151c2b;
     position: fixed;
     bottom: 0;
-    .all{
+    .Fall{
         background: #f4f4f4;
         position: absolute;
         left: 40%;
