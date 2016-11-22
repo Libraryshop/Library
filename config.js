@@ -84,6 +84,12 @@ app.config(
 		  .when("/sjxq",{
 		  	templateUrl:"Page/sjxq/sjxq.html",
 		  })
+		    .when("/bookmark2",{
+		  	templateUrl:"newpages/bookmark2/bookmark2.html",
+		  })
+		      .when("/Notesmanagement2",{
+		  	templateUrl:"newpages/Notesmanagement2/Notesmanagement2.html",
+		  })
 		  
 		  
 		}]);
