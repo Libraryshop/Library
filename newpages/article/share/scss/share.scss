@@ -70,7 +70,7 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
     background-position: $position;
 }
 /*页头*/
-.con-header {
+.share-con-header {
     @include whb(93%,auto,#FFE9B0);
     position: absolute;
     left: 0.3rem;
@@ -100,8 +100,8 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 }
 /*页头  End*/
 /*内容*/
-#content-inner {
-    @include whb(100%,13.5rem,#FFE9B0);
+#share-content-inner {
+    @include whb(100%,13rem,#FFE9B0);
     overflow: hidden;
     .inner {
         h1 {
@@ -122,8 +122,9 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
     }
 }
 /*内容   End*/
+
 /*copy*/
-#copy {
+#share-copy {
     @include whb(5.00rem,0.69rem,#282828);
     @include center;
     border: 1px solid transparent;
@@ -168,7 +169,7 @@ p#direct {
         height: 0.24rem;
         position: absolute;
         left: 2.36rem;
-        top: 0.96rem;
+        top: 1.1rem;
     }
     span.di-shui {
         display: block;
@@ -177,12 +178,12 @@ p#direct {
         height: 0.24rem;
         position: absolute;
         left: 5.1rem;
-        top: 1.8rem;
+        top: 2.1rem;
     }
 }
 /*copy End*/
 /*页脚*/
-#footer {
+#share-footer {
     @include whb(100%,0.96rem,#FFE9B0);
     position: fixed;
     bottom: 0;

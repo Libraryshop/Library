@@ -152,20 +152,20 @@ a {
 /*left-bottom*/
 /*背景图片*/
 /*内容*/
-#content-inner {
+#information-content-inner {
   width: 100%;
-  height: 13rem;
+  height: 11.8rem;
   background: #FFE9B0;
   overflow: hidden;
 }
 
-#content-inner .inner h1 {
+#information-content-inner .information-inner h1 {
   font-size: 20px;
   margin: 0.26rem 0 0 0.3rem;
   font-weight: 600;
 }
 
-#content-inner .inner .inner-info {
+#information-content-inner .information-inner .inner-info {
   text-indent: 2em;
   margin: 0 0.22rem 0 0.32rem;
   white-space: pre-line;
@@ -173,11 +173,11 @@ a {
   font-size: 14px;
 }
 
-#content-inner .inner .inner-info p {
+#information-content-inner .information-inner .inner-info p {
   margin-bottom: -0.15rem;
 }
 
-#content-inner .book-label {
+#information-content-inner .book-label {
   width: 1.21rem;
   height: 0.8rem;
   background: transparent;
@@ -195,7 +195,7 @@ a {
   top: -3rem;
 }
 
-#content-inner .moon {
+#information-content-inner .moon {
   width: 0.59rem;
   height: 0.63rem;
   background: transparent;
@@ -210,56 +210,56 @@ a {
   bottom: 0;
   margin: auto;
   left: -6.69rem;
-  bottom: -4.2rem;
+  bottom: -3.2rem;
   z-index: 10;
 }
 
 /*内容   End*/
 /*页脚*/
-#footer {
+#information-footer {
   width: 100%;
   height: 3.9rem;
   background: #141C2D;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
-#footer .foot-info {
+#information-footer .foot-info {
   width: 95%;
   height: 0.8rem;
   background: transparent;
   margin: 0 auto;
 }
 
-#footer .foot-info:after {
+#information-footer .foot-info:after {
   content: "";
   display: block;
   clear: both;
 }
 
-#footer .foot-info li {
+#information-footer .foot-info li {
   float: left;
   text-align: center;
 }
 
-#footer .foot-info li a {
+#information-footer .foot-info li a {
   color: #BCBCBC;
 }
 
-#footer .foot-info li:nth-child(1),
-#footer .foot-info li:nth-child(4) {
+#information-footer .foot-info li:nth-child(1),
+#information-footer .foot-info li:nth-child(4) {
   width: 15%;
   height: 0.8rem;
   background: transparent;
   line-height: 0.8rem;
 }
 
-#footer .foot-info li:nth-child(1) a,
-#footer .foot-info li:nth-child(4) a {
+#information-footer .foot-info li:nth-child(1) a,
+#information-footer .foot-info li:nth-child(4) a {
   text-align: right;
 }
 
-#footer .foot-info li:nth-child(2) {
+#information-footer .foot-info li:nth-child(2) {
   width: 0.3rem;
   height: 0.8rem;
   background: transparent;
@@ -267,7 +267,7 @@ a {
   margin-left: -0.05rem;
 }
 
-#footer .foot-info li:nth-child(2) a {
+#information-footer .foot-info li:nth-child(2) a {
   display: block;
   width: 0.3rem;
   height: 0.21rem;
@@ -279,7 +279,7 @@ a {
   background-position: 0 0;
 }
 
-#footer .foot-info li:nth-child(3) {
+#information-footer .foot-info li:nth-child(3) {
   width: 5rem;
   height: 0.8rem;
   background: transparent;
@@ -287,7 +287,7 @@ a {
   margin-left: 0.086rem;
 }
 
-#footer .foot-info li:nth-child(3) div.line {
+#information-footer .foot-info li:nth-child(3) div.line {
   display: block;
   width: 4.67rem;
   height: 0.12rem;
@@ -299,7 +299,7 @@ a {
   background-position: 0 0;
 }
 
-#footer .foot-info li:nth-child(3) a {
+#information-footer .foot-info li:nth-child(3) a {
   display: block;
   width: 0.18rem;
   height: 0.18rem;
@@ -314,11 +314,11 @@ a {
   bottom: 0.3rem;
 }
 
-#footer .foot-info li:nth-child(4) {
+#information-footer .foot-info li:nth-child(4) {
   width: 10%;
 }
 
-#footer ul:nth-child(2) li:nth-child(2) {
+#information-footer ul:nth-child(2) li:nth-child(2) {
   width: 0.3rem;
   height: 0.8rem;
   background: transparent;
@@ -326,7 +326,7 @@ a {
   margin-left: -0.05rem;
 }
 
-#footer ul:nth-child(2) li:nth-child(2) a {
+#information-footer ul:nth-child(2) li:nth-child(2) a {
   margin-top: 0.26rem;
   margin-left: 0.10rem;
   width: 0.3rem;
@@ -337,7 +337,7 @@ a {
   background-position: 0 0;
 }
 
-#footer ul:nth-child(2) li:nth-child(3) {
+#information-footer ul:nth-child(2) li:nth-child(3) {
   width: 5rem;
   height: 0.8rem;
   background: transparent;
@@ -345,7 +345,7 @@ a {
   margin-left: 0.086rem;
 }
 
-#footer ul:nth-child(2) li:nth-child(3) div.line {
+#information-footer ul:nth-child(2) li:nth-child(3) div.line {
   display: block;
   width: 4.67rem;
   height: 0.12rem;
@@ -357,7 +357,7 @@ a {
   background-position: 0 0;
 }
 
-#footer ul:nth-child(2) li:nth-child(3) a {
+#information-footer ul:nth-child(2) li:nth-child(3) a {
   display: block;
   width: 0.18rem;
   height: 0.18rem;
@@ -372,7 +372,7 @@ a {
   bottom: 0.3rem;
 }
 
-#footer .status {
+#information-footer .status {
   width: 95%;
   height: 100%;
   background: transparent;
@@ -380,17 +380,17 @@ a {
   overflow: hidden;
 }
 
-#footer .status a {
+#information-footer .status a {
   color: #e6e6e6;
 }
 
-#footer .status:after {
+#information-footer .status:after {
   content: "";
   display: block;
   clear: both;
 }
 
-#footer .status dt {
+#information-footer .status dt {
   float: left;
   width: 10%;
   height: 100%;
@@ -399,33 +399,33 @@ a {
   margin-top: 0.1rem;
 }
 
-#footer .status dd {
+#information-footer .status dd {
   float: left;
   width: 87.2%;
   height: 100%;
   background: transparent;
 }
 
-#footer .status dd ul {
+#information-footer .status dd ul {
   width: 100%;
   height: 100%;
   background: transparent;
 }
 
-#footer .status dd ul:after {
+#information-footer .status dd ul:after {
   content: "";
   display: block;
   clear: both;
 }
 
-#footer .status dd li {
+#information-footer .status dd li {
   float: left;
   width: 12.5%;
   height: 100%;
   background: transparent;
 }
 
-#footer .status dd li .bj {
+#information-footer .status dd li .bj {
   position: absolute;
   left: 0;
   top: 0;
@@ -435,7 +435,7 @@ a {
   top: -3rem;
 }
 
-#footer .status dd li a {
+#information-footer .status dd li a {
   font-size: 0.12rem;
   color: #E6E6E6;
   white-space: nowrap;
@@ -444,49 +444,49 @@ a {
   top: 0.8rem;
 }
 
-#footer .status dd li:nth-child(1) .bj {
+#information-footer .status dd li:nth-child(1) .bj {
   width: 60%;
   height: 12%;
   background: #FCF3DB;
 }
 
-#footer .status dd li:nth-child(2) .bj {
+#information-footer .status dd li:nth-child(2) .bj {
   width: 60%;
   height: 12%;
   background: #FFE9B0;
 }
 
-#footer .status dd li:nth-child(3) .bj {
+#information-footer .status dd li:nth-child(3) .bj {
   width: 60%;
   height: 12%;
   background: #D8A764;
 }
 
-#footer .status dd li:nth-child(4) .bj {
+#information-footer .status dd li:nth-child(4) .bj {
   width: 60%;
   height: 12%;
   background: #3B76AC;
 }
 
-#footer .status dd li:nth-child(5) .bj {
+#information-footer .status dd li:nth-child(5) .bj {
   width: 60%;
   height: 12%;
   background: #21858E;
 }
 
-#footer .status dd li:nth-child(6) .bj {
+#information-footer .status dd li:nth-child(6) .bj {
   width: 60%;
   height: 12%;
   background: #F4C5D4;
 }
 
-#footer .status dd li:nth-child(7) .bj {
+#information-footer .status dd li:nth-child(7) .bj {
   width: 60%;
   height: 12%;
   background: #79D146;
 }
 
-#footer .status dd li:nth-child(8) .bj {
+#information-footer .status dd li:nth-child(8) .bj {
   text-align: center;
   width: 60%;
   height: 12%;

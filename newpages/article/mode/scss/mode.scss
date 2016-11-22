@@ -70,8 +70,8 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
     background-position: $position;
 }
 /*内容*/
-#content-inner {
-    @include whb(100%,13rem,#FFE9B0);
+#mode-content-inner {
+    @include whb(100%,11.8rem,#FFE9B0);
     overflow: hidden;
     .inner {
         h1 {
@@ -108,9 +108,9 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 }
 /*内容   End*/
 /*页脚*/
-#footer {
-    @include whb(100%,3.28rem,#141C2D);
-    position: absolute;
+#mode-footer {
+    @include whb(100%,2.28rem,#141C2D);
+    position: fixed;
     bottom: 0;
     .foot-info {
         @include whb(100%,0.8rem,transparent);

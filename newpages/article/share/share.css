@@ -152,7 +152,7 @@ a {
 /*left-bottom*/
 /*背景图片*/
 /*页头*/
-.con-header {
+.share-con-header {
   width: 93%;
   height: auto;
   background: #FFE9B0;
@@ -163,24 +163,24 @@ a {
   z-index: 33;
 }
 
-.con-header:after {
+.share-con-header:after {
   content: "";
   display: block;
   clear: both;
 }
 
-.con-header div {
+.share-con-header div {
   float: left;
 }
 
-.con-header .l-line {
+.share-con-header .l-line {
   width: 5%;
   height: 0.05rem;
   background: #635C4A;
   margin-top: 0.18rem;
 }
 
-.con-header .info {
+.share-con-header .info {
   width: 21%;
   height: auto;
   background: transparent;
@@ -189,7 +189,7 @@ a {
   margin-right: 0.15rem;
 }
 
-.con-header .r-line {
+.share-con-header .r-line {
   width: 69%;
   height: 0.05rem;
   background: #635C4A;
@@ -198,20 +198,20 @@ a {
 
 /*页头  End*/
 /*内容*/
-#content-inner {
+#share-content-inner {
   width: 100%;
-  height: 13.5rem;
+  height: 13rem;
   background: #FFE9B0;
   overflow: hidden;
 }
 
-#content-inner .inner h1 {
+#share-content-inner .inner h1 {
   font-size: 20px;
   margin: 0.699rem 0 0 0.3rem;
   font-weight: 600;
 }
 
-#content-inner .inner .inner-info {
+#share-content-inner .inner .inner-info {
   text-indent: 2em;
   margin: 0.1rem 0.22rem 0 0.32rem;
   white-space: pre-line;
@@ -219,13 +219,13 @@ a {
   font-size: 14px;
 }
 
-#content-inner .inner .inner-info p {
+#share-content-inner .inner .inner-info p {
   margin-bottom: -0.1rem;
 }
 
 /*内容   End*/
 /*copy*/
-#copy {
+#share-copy {
   width: 5rem;
   height: 0.69rem;
   background: #282828;
@@ -241,13 +241,13 @@ a {
   z-index: 99;
 }
 
-#copy:after {
+#share-copy:after {
   content: "";
   display: block;
   clear: both;
 }
 
-#copy div {
+#share-copy div {
   float: left;
   width: 20%;
   height: 100%;
@@ -257,16 +257,16 @@ a {
   border-right: 1px solid #202020;
 }
 
-#copy div a {
+#share-copy div a {
   color: #F3F3F3;
   font-size: 14px;
 }
 
-#copy div.dictionary {
+#share-copy div.dictionary {
   border-right: none;
 }
 
-#copy span.delta {
+#share-copy span.delta {
   display: block;
   width: 0;
   height: 0;
@@ -297,7 +297,7 @@ p#direct span.top-shui {
   height: 0.24rem;
   position: absolute;
   left: 2.36rem;
-  top: 0.96rem;
+  top: 1.1rem;
 }
 
 p#direct span.di-shui {
@@ -310,12 +310,12 @@ p#direct span.di-shui {
   height: 0.24rem;
   position: absolute;
   left: 5.1rem;
-  top: 1.8rem;
+  top: 2.1rem;
 }
 
 /*copy End*/
 /*页脚*/
-#footer {
+#share-footer {
   width: 100%;
   height: 0.96rem;
   background: #FFE9B0;
@@ -323,31 +323,31 @@ p#direct span.di-shui {
   bottom: 0;
 }
 
-#footer .foot-info {
+#share-footer .foot-info {
   width: 90rem;
   height: 1.2rem;
   background: transparent;
   margin: auto;
 }
 
-#footer .foot-info:after {
+#share-footer .foot-info:after {
   content: "";
   display: block;
   clear: both;
 }
 
-#footer .foot-info li {
+#share-footer .foot-info li {
   font-weight: 400;
   float: left;
   line-height: 3;
 }
 
-#footer .foot-info li a {
+#share-footer .foot-info li a {
   color: #393229;
   font-weight: 500;
 }
 
-#footer .foot-info .progress {
+#share-footer .foot-info .progress {
   width: 6.5%;
   height: 100%;
   background: transparent;
@@ -355,7 +355,7 @@ p#direct span.di-shui {
   padding-left: 0.26rem;
 }
 
-#footer .foot-info .number {
+#share-footer .foot-info .number {
   text-align: right;
   margin-left: 0.2rem;
 }

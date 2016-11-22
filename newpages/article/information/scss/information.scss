@@ -70,10 +70,10 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
     background-position: $position;
 }
 /*内容*/
-#content-inner {
-    @include whb(100%,13rem,#FFE9B0);
+#information-content-inner {
+    @include whb(100%,11.8rem,#FFE9B0);
     overflow: hidden;
-    .inner {
+    .information-inner {
         h1 {
             font-size: 20px;
             margin: 0.26rem 0 0 0.3rem;
@@ -102,15 +102,15 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
         @include background(url('../../images/6/yueliang.png'),no-repeat,cover,0 0);
         @include center;
         left: -6.69rem;
-        bottom: -4.2rem;
+        bottom: -3.2rem;
         z-index: 10;
     }
 }
 /*内容   End*/
 /*页脚*/
-#footer {
+#information-footer {
     @include whb(100%,3.9rem,#141C2D);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     .foot-info {
         @include whb(95%,0.8rem,transparent);

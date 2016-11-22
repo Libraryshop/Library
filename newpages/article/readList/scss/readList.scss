@@ -146,10 +146,10 @@ $map: ( "arrow":url('../image/6/arrow.png') no-repeat 0 0 cover, "add":url('../i
 /*列表导航   End*/
 /*列表*/
 #list-inner {
-    @include whb(100%,13rem,#fff);
+    @include whb(100%,11.9rem,#fff);
     overflow: hidden;
     .list {
-        @include whb(100%,13rem,transparent);
+        @include whb(100%,11.9rem,transparent);
         &:after {
             @include clearfix;
         }
