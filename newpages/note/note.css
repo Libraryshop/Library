@@ -167,6 +167,8 @@
   margin: auto;
   width: 90%;
   height: 7rem; }
+  .biji5 a {
+    display: block; }
   .biji5 .time5 {
     position: absolute;
     left: 0;
