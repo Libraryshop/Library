@@ -66,6 +66,24 @@ app.config(
 		  .when("/share",{
 		  	templateUrl:"newpages/article/share/share.html",
 		  })
+		  .when("/bookmark",{
+		  	templateUrl:"Page/bookmark/bookmark.html",
+		  })
+		  .when("/fail",{
+		  	templateUrl:"Page/fail/fail.html",
+		  })
+		  .when("/note",{
+		  	templateUrl:"Page/note/note.html",
+		  })
+		  .when("/Notesmanagement",{
+		  	templateUrl:"Page/Notes management/Notesmanagement.html",
+		  })
+		  .when("/success",{
+		  	templateUrl:"Page/success/success.html",
+		  })
+		  .when("/share",{
+		  	templateUrl:"Page/sjxq/sjxq.html",
+		  })
 		  
 		}]);
 		 

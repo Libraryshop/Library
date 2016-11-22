@@ -46,6 +46,12 @@ body{
         background-size:cover;
         bottom: 0.2rem;
         left: 0.25rem;
+        z-index:10;
+        a{
+           display:block;
+           width:0.52rem;
+           height:0.51rem;
+        }
     }
     .return1{
         background-image:url(../../image/me/m3.png);
@@ -59,6 +65,11 @@ body{
         position: absolute;
         right: 0.38rem;
         bottom: 0.2rem;
+        a{
+           display:block;
+           width:0.52rem;
+           height:0.51rem; 
+        }
     }
 
     .tip{
@@ -99,6 +110,11 @@ body{
 	    border-radius:50%;
 	    background:url(../../image/4/user.png) no-repeat;
         background-size:cover;
+        a{
+            display:block;
+             width:2rem;
+             height:2rem;
+        }
 	}
 	.cen-cen{
 	    width:100%;
