@@ -1,7 +1,7 @@
 app.config(
 		 ["$routeProvider",
 		 function($routeProvider){
-		  $routeProvider											
+		  $routeProvider	
 		  .when("/bookShelf",{
 		  templateUrl:"bookshelf/bookShelf/bookShelf.html",			//书架的链接
 //		  controller:"loginCtrl"
@@ -81,7 +81,7 @@ app.config(
 		  .when("/success",{
 		  	templateUrl:"Page/success/success.html",
 		  })
-		  .when("/share",{
+		  .when("/sjxq",{
 		  	templateUrl:"Page/sjxq/sjxq.html",
 		  })
 		  
