@@ -2,6 +2,20 @@ app.config(
    ["$routeProvider",
 	function($routeProvider) {
 		$routeProvider
+		  .when('/',{											//登录
+    			templateUrl:'webli/webli/webli.html',			
+    		})
+    		.when('/zhuce',{
+    			templateUrl:'webli/webli2/webli2.html',				//注册
+    			
+    		}).when('/zhaomima',{								//密码
+    			templateUrl:'webli/webli3/webli3.html',
+    			
+    		})
+    		.when('/xiugai',{									//修改
+    			templateUrl:'webli/webli1/webli1.html',
+    			
+    		})
 			.when("/bookShelf", {
 				templateUrl: "bookshelf/bookShelf/bookShelf.html", //书架的链接
 				//		  controller:"loginCtrl"
