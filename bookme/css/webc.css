@@ -306,18 +306,25 @@ body {
           height: 100%;
           float: right; }
           .mc-cen .cen-bom ul li .cb-right span {
+            
             position: absolute;
             top: 0.33rem;
             right: 0.7rem; }
           .mc-cen .cen-bom ul li .cb-right a {
             display: block;
+              
             position: absolute;
             top: 0.2rem;
             right: 0rem;
             color: #6cc2e7;
             border: 0; }
           .mc-cen .cen-bom ul li .cb-right .ce-a {
+              width:100%;
+              
             color: #666; }
+.mc-cen .cen-bom ul li .cb-right .web-kk{
+        right: 0.6rem;
+}
           .mc-cen .cen-bom ul li .cb-right .cb-r {
             position: absolute;
             top: 0.33rem;
