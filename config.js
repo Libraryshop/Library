@@ -89,8 +89,8 @@ app.config(
 			.when("/note", {
 				templateUrl: "newpages/note/note.html",
 			})
-			.when("/Notesmanagement", {
-				templateUrl: "Page/Notesmanagement/Notesmanagement.html",
+			.when("/Notes", {
+				templateUrl: "Page/Notes/Notes.html",
 			})
 			.when("/success", {
 				templateUrl: "Page/success/success.html",
@@ -101,8 +101,8 @@ app.config(
 			.when("/bookmark2", {
 				templateUrl: "newpages/bookmark2/bookmark.html",
 			})
-			.when("/Notesmanagement2", {
-				templateUrl: "newpages/Notesmanagement2/Notesmanagement.html",
+			.when("/Notes2", {
+				templateUrl: "newpages/Notes2/Notes2.html",
 			}) 
             .when('/webc',{
     			templateUrl:'bookme/webc/webc.html',
